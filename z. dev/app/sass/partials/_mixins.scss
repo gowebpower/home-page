@@ -1,0 +1,114 @@
+//----------------------------------------------------
+
+// template custom mixin with default-value | default value will be used if there is no argument assigned.
+// @include example1; or example1(50px);
+
+@mixin example1($variable: default-value) {
+  width: $variable;
+  background: image-url("#{$variable}.#{$variable-2}");   // to escape syntax. 
+}
+
+@mixin example2($variable) {
+  width: $variable;   
+  
+}
+
+//----------------------------------------------------
+
+// General Icon Sprites */
+
+//$icon-spacing: 10px; doesnt work if layout is smart
+$icon-layout: smart;
+$icon-sprite-dimensions: true; // get img width and height.
+@import "icon/*.png"; //  grab all png files and create sprite img
+@include all-icon-sprites; // add each class (file-name) and put dimention and background position
+.icon-sprite { @include inline-block; }
+
+
+// use img as background 
+/*
+@include: image("path/to/image");
+ automatically detect width and height*/
+
+@mixin image($image) {
+  
+    background: image-url($image) no-repeat;
+    width: image-width($image); height: image-height($image); 
+    
+}
+
+
+// Position
+
+/* Usage
+  @include absolute(top 0 left 1em);
+*/
+
+@mixin position($position, $args) {
+  @each $o in top right bottom left {
+        $i: index($args, $o);
+ 
+    @if $i and $i + 1 <= length($args) and type-of(nth($args, $i + 1)) == number  {
+          #{$o}: nth($args, $i + 1);
+    }
+  }
+ 
+  position: $position;
+}
+ 
+@mixin absolute($args) {
+        @include position( absolute, $args);
+}
+ 
+@mixin fixed($args) {
+        @include position( fixed, $args);
+}
+ 
+@mixin relative($args) {
+        @include position( relative, $args);
+}
+
+
+ 
+// Global Breakpoint
+
+/*.someclass {
+  @include breakpoint(small)
+}*/
+
+/* all the variables inside of breakpotins came from boostrap */
+$breakpoints: (
+  'small'  : ( max-width:  $screen-xs-max ),
+  'medium' : ( max-width:  $screen-sm-max ),
+  'large'  : ( max-width: $screen-md-max )
+);
+ 
+@mixin breakpoint($name) {
+  // If the key exists in the map
+  @if map-has-key($breakpoints, $name) {
+    // Prints a media query based on the value
+    /*inspect returns whole value as it avoids css error cus it excepts css value.*/
+    @media #{inspect(map-get($breakpoints, $name))} {
+      @content;
+    }
+  }
+
+  // If the key doesn't exist in the map
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+  }
+}
+
+
+
+// Custom Breakpoint
+
+/*.someclass {
+  @include size(500px) { width: 60%; }
+}*/
+
+@mixin breakpoint-s($point) {
+  @media (max-width: $point) { @content; }  
+}
+

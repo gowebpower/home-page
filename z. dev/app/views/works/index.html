@@ -1,0 +1,67 @@
+<div class="container">
+
+    <div class="row">
+         
+        <div class="col-md-12">
+             <div class="l-main-container">
+                <div class="center">
+                    <h1 class="font-title-xxl font-white margin-bottom-20">Showing <span class=" ">#{{ currentFilter }}{{ currentFilter == '' ? 'All Works' : '' }}</span></h1>
+                    
+                    <div class="btn-group margin-bottom-30" ng-model="currentFilter" bs-radio-group>
+                        <label class="btn c-work-filter active"><input type="radio" value="" ng-click="filterSetting($event)">All</label>
+                        <label class="btn c-work-filter"><input type="radio" value="Front Page" ng-click="filterSetting($event)">Front Page</label>
+                        <label class="btn c-work-filter"><input type="radio" value="Dashboard" ng-click="filterSetting($event)"> Dashboard</label>
+                        <label class="btn c-work-filter"><input type="radio" value="Mockup" ng-click="filterSetting($event)"> Mockup</label>
+                        
+                    </div>
+
+                </div>
+
+
+             <!--    <div class="row">
+                     
+                    <div class="col-xs-6 col-sm-4 col-md-3 slide-top c-my-works" ng-repeat='list in allWorks | filter: currentFilter'>
+                        <a href="javascript:void(0)" ng-click="gotoList(list.id)">
+                            <div class="c-my-works__img" ng-style="{'background': getThumnail(list.id)}"></div>
+                            <div class="c-my-works__info">
+                                <div class="c-my-works__info-title">{{list.title}}</div>
+                                <div class="c-my-works__info-category">{{list.category}}</div>
+
+                            </div>
+                        </a>
+
+
+                    </div>  
+
+                </div>  
+  -->
+
+                <ul class="c-my-works center">
+                    <li ng-repeat='list in allWorks | filter: currentFilter' class="slide-top">
+                        <a href="javascript:void(0)" ng-click="gotoList(list.id)">
+                            <div class="c-my-works__img" ng-style="{'background-image': getThumnailListing(list.id)}"></div>
+                            <div class="c-my-works__info">
+                                <div class="c-my-works__info-title">{{list.title}}</div>
+                                <div class="c-my-works__info-category">{{list.category}}</div>
+
+                            </div>
+                        </a>
+                    </li>
+                     
+
+
+                </ul>
+
+             </div> <!-- l-main-container -->
+
+           
+        </div> <!-- col -->
+
+    </div> <!-- row -->
+
+</div><!-- container -->
+
+
+
+
+ 

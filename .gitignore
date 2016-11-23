@@ -1,0 +1,12 @@
+archive
+_ayzenburg.src
+/landing/full/_designer-assets
+/landing/full/node_modules
+*.zip
+bk.20140915
+/landing/mobile/vendor
+node_modules
+*.DS_Store
+_designAssets_
+.sass-cache
+bower_components

@@ -1,0 +1,5 @@
+hammer.min.js is required for angular-hammer.js
+
+more info
+
+https://github.com/monospaced/angular-hammer

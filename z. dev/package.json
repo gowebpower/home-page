@@ -1,0 +1,25 @@
+{
+  "name": "gruntProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt-concurrent": "^2.0.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compass": "^1.0.3",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-filerev": "^2.3.1",
+    "grunt-newer": "^1.1.1",
+    "grunt-ng-annotate": "^1.0.1",
+    "jit-grunt": "^0.9.1",
+    "jshint-stylish": "^2.0.1",
+    "time-grunt": "^1.2.1"
+  }
+}
