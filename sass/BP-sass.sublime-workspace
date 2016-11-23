@@ -1,0 +1,914 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"bor",
+				"border-top-color"
+			],
+			[
+				"watchlist",
+				"watchlist"
+			],
+			[
+				"watch",
+				"watchlist"
+			],
+			[
+				"get",
+				"getOrdersTotal"
+			],
+			[
+				"custom",
+				"customderID"
+			],
+			[
+				"cust",
+				"customers"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"conto",
+				"controller"
+			],
+			[
+				"lo",
+				"toLowerCase"
+			],
+			[
+				"jq",
+				"jQuery"
+			],
+			[
+				"cla",
+				"claimed"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"border",
+				"border-bottom-style"
+			],
+			[
+				"pri",
+				"primary-color"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"insta",
+				"instanceof"
+			],
+			[
+				"con",
+				"constructor"
+			],
+			[
+				"radius",
+				"border-radius"
+			],
+			[
+				"list-tyle",
+				"list-style-type"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"link",
+				"link-color-hover"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"radi",
+				"border-radius"
+			],
+			[
+				"listy",
+				"list-style"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"border-ra",
+				"border-bottom-right-radius"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "partials/_mixins.scss",
+			"settings":
+			{
+				"buffer_size": 2602,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/_modules.scss",
+			"settings":
+			{
+				"buffer_size": 28286,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/_animation.scss",
+			"settings":
+			{
+				"buffer_size": 23871,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 2240,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/Boostrap/bootstrap/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 31278,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/_base.scss",
+			"settings":
+			{
+				"buffer_size": 8205,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.scss",
+			"settings":
+			{
+				"buffer_size": 466,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 53.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/project/web/wp/_testJs/advance/BP/app/sass/partials/_modules.scss",
+		"/C/project/web/wp/_testJs/advance/BP/app/build/css/app.css",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/isPrime.html",
+		"/C/project/web/wp/_testJs/test.html",
+		"/C/project/web/wp/_testJs/advance/BP/app/views/about-me/backup-10152015.html",
+		"/C/project/web/wp/_brainStorm/js/app.js",
+		"/C/project/web/wp/_testJs/advance/BP/app/index.html",
+		"/C/project/web/wp/_testJs/advance/BP/app/views/home/index.html",
+		"/C/project/web/wp/_testJs/advance/BP/app/views/works/index.html",
+		"/C/project/web/wp/_testJs/advance/BP/app/views/about-me/index.html",
+		"/C/project/web/wp/_irin2/weddings_front.php",
+		"/C/project/web/wp/_irin2/wedding.php",
+		"/C/project/web/wp/_irin2/portrait.php",
+		"/C/project/web/wp/_irin2/kids.php",
+		"/C/project/web/wp/_irin2/family.php",
+		"/C/project/web/wp/_irin2/engage.php",
+		"/C/project/web/wp/_irin2/dol.php",
+		"/C/project/web/wp/_irin2/babies_front.php",
+		"/C/project/web/wp/_irin2/babies_b.php",
+		"/C/project/web/wp/_irin2/address.php",
+		"/C/project/web/wp/_irin2/100il.php",
+		"/C/project/web/wp/_irin2/introduce_pictures.php",
+		"/C/project/web/wp/_irin2/introduce_profile.php",
+		"/C/project/web/wp/_irin2/inc/fullscreen_bar.php",
+		"/C/project/web/wp/_irin2/index.php",
+		"/C/project/web/wp/_irin2/inc/footer.php",
+		"/C/project/web/wp/_irin2/inc/menu.php",
+		"/C/project/web/wp/_irin2/index_main.php",
+		"/C/project/web/wp/_irin2/inc/welcome.php",
+		"/C/project/web/wp/_irin2/inc/fade_open.php",
+		"/C/project/web/wp/_irin2/css/common.css",
+		"/C/Users/Ban park/Google Drive/0. Projects/0. HTML Static/Friendbuy/sign-up.html",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/views/home/index.html",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/index.html",
+		"/C/Users/Ban park/Desktop/slider/index.html",
+		"/C/Users/Ban park/Desktop/slider/js/app.js",
+		"/C/Users/Ban park/Desktop/chapter 1/step-5/app/scripts/directives/stk-watchlist-panel.js",
+		"/C/Users/Ban park/Desktop/chapter 1/step-5/app/views/watchlist.html",
+		"/C/Users/Ban park/Desktop/chapter 1/step-5/app/scripts/controllers/main.js",
+		"/C/Users/Ban park/Desktop/chapter 1/step-5/app/scripts/controllers/dashboard.js",
+		"/C/Users/Ban park/Desktop/chapter 1/step-5/app/scripts/services/watchlist-service.js",
+		"/C/Users/Ban park/Desktop/chapter 1/step-5/app/scripts/services/company-service.js",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/js/services/company.js",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/ajax/customers.json",
+		"/C/Users/Ban park/Desktop/chapter 1/step-5/app/views/templates/watchlist-panel.html",
+		"/C/Users/Ban park/Desktop/chapter 1/step-5/app/views/templates/addlist-modal.html",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/js/directives/front.js",
+		"/C/Users/Ban park/Desktop/chapter 1/step-2/app/scripts/services/watchlist-service.js",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/Gruntfile.js",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/views/orders/index.html",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/views/customers/index.html",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/build/css/app.css",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/partials/_base.scss",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/partials/_animation.scss",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/app.scss",
+		"/C/Users/Ban park/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/project/web/wp/_testJs/advance/test-weather/app/views/weather/index.html",
+		"/C/project/web/wp/_testJs/advance/test-weather/app/js/directives/front.js",
+		"/C/project/web/wp/_testJs/advance/test-weather/app/directives/search-result.html",
+		"/C/project/web/wp/_testJs/advance/test-weather/app/directives/weather-result.html",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/vendor/AngularMotion/_angular-motion.scss",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/vendor/AngularMotion/angular-motion.min.css",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/js/_directives/front.js",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/vendor/bootstrap/_variables.scss",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/partials/_mixins.scss",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/vendor/_bootstrap.scss",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/partials/_variables.scss",
+		"/C/Users/Ban park/Desktop/assets/javascripts/bootstrap.js",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/style.scss",
+		"/C/Users/Ban park/Desktop/stylesheets/_bootstrap-compass.scss",
+		"/C/Users/Ban park/Desktop/stylesheets/_bootstrap-mincer.scss",
+		"/C/Users/Ban park/Desktop/stylesheets/_bootstrap-sprockets.scss",
+		"/C/Users/Ban park/Desktop/stylesheets/_bootstrap.scss",
+		"/C/Users/Ban park/Desktop/stylesheets/bootstrap/mixins/_panels.scss",
+		"/C/Users/Ban park/Desktop/stylesheets/bootstrap/mixins/_grid.scss",
+		"/C/Users/Ban park/Desktop/stylesheets/bootstrap/mixins/_alerts.scss",
+		"/C/project/web/wp/_testJs/advance/scss/style.scss",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch08/js/utilities.js",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch08/membership - Copy.html",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch07/words - Copy.html",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch07/random - Copy.html",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch06/employee - Copy.html",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch08/events - Copy.html",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch09/advance-js-test.html",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch10/js/register.js",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch10/js/utilities.js",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch10/register.html",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/advance/js_prototype4.html",
+		"/C/project/web/wp/_testJs/advance/test2/app/js/controllers/front.js",
+		"/C/project/web/wp/_begreat/www.begreat.co/about.html",
+		"/C/project/web/wp/_testJs/advance/test1/app/ajax/customers.js",
+		"/C/Users/Ban park/Desktop/.htaccess",
+		"/C/project/web/wp/_testJs/advance/js_prototype4.html",
+		"/C/project/web/wp/_testJs/advance/js/custom/module.js",
+		"/C/Users/Ban park/Desktop/repos/git-basics/index.html",
+		"/C/Users/Ban park/Documents/나루토 (NARUTO) 640화/d.smi",
+		"/C/Users/Ban park/Documents/나루토 (NARUTO) 640화/1.smi",
+		"/C/Users/Ban park/Documents/나루토 639화/[SOFCJ-Raws] NARUTO - 639 (TX 1280x720 x264 AAC).smi",
+		"/C/project/web/wp/_testJs/advance/js/custom/module2.js",
+		"/C/project/web/wp/_testJs/advance/js/custom.min.js",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/advance/js/custom.min.js",
+		"/C/Users/Ban park/.gitconfig",
+		"/C/Users/Ban park/Desktop/refer.php",
+		"/C/project/web/wp/_begreat/www.begreat.co/index.html",
+		"/C/project/web/bgp/trunk/begreat.co/app/application_www/views/pop/index.php",
+		"/C/project/web/wp/_testJs/advance/test1/app/js/controllers/front.js",
+		"/C/project/web/wp/_testJs/advance/test1/app/ajax/customers.json",
+		"/C/project/web/wp/_testJs/advance/test1/app/views/home/index.html",
+		"/C/project/web/wp/_testJs/advance/test1/app/ajax/customers.jason",
+		"/C/project/web/wp/_testJs/advance/test2/app/js/services/weatherService.js",
+		"/C/project/web/wp/_testJs/advance/test1/app/js/_services/customerOrderFactory.js",
+		"/C/project/web/wp/_testJs/advance/test2/app/js/services/watchlist-service.js",
+		"/C/project/web/wp/_testJs/advance/test1/app/js/_services/order.js",
+		"/C/project/web/wp/_testJs/advance/test1/app/js/_services/dddd.js",
+		"/C/project/web/wp/_testJs/advance/test1/app/js/_directives/front.js",
+		"/C/project/web/wp/_testJs/advance/test1/app/js/directives/front.js",
+		"/C/project/web/wp/_testJs/advance/test1/app/js/app.js",
+		"/C/project/web/wp/_testJs/advance/test1/app/js/services/weatherService.js",
+		"/C/project/web/wp/_testJs/advance/test1/app/js/services/watchlist-service.js",
+		"/C/project/web/wp/_testJs/advance/test1/app/directives/weather-result.html",
+		"/C/project/web/wp/_testJs/advance/test1/app/directives/search-result.html",
+		"/C/project/web/wp/_testJs/advance/test2/app/js/directives/front.js",
+		"/C/project/web/wp/_testJs/advance/test2/Gruntfile.js",
+		"/C/project/web/wp/_testJs/advance/test2/app/directives/search-result.html",
+		"/C/project/web/wp/_testJs/advance/test2/app/js/controller/front.js",
+		"/C/project/web/wp/_testJs/advance/test2/app/js/directive/front.js",
+		"/C/project/web/wp/_testJs/advance/test2/app/js/app.js",
+		"/C/project/web/wp/_testJs/advance/test2/app/pages/main.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"-50",
+			"c-about-me_menu",
+			"transform",
+			"c-about-me_exp__title",
+			"font-sub margin-bottom-30",
+			"animate",
+			"exp",
+			"delay",
+			"li",
+			"disk",
+			"blur",
+			"c-about-me_sec2__detail--exp",
+			"c-about-me_sec2__detail--1",
+			"c-about-me_sec2__detail-UI-exit",
+			"<div class=\"c-about-me_sec2__detail-UI-exit\" ng-click=\"showDetail('')\">X</div>",
+			"c-about-me_hero__detail",
+			"scroll",
+			"m-slider__img-wrapper2",
+			"m-slider",
+			"about-me",
+			"100wh",
+			"100h",
+			"m-slider__img-wrapper",
+			"absolute",
+			"slide-left",
+			"c-about-me_hero",
+			"absolute",
+			"animate",
+			"c-about-me_hero__icon",
+			"border",
+			"c-about-me_hero__btn",
+			"c-about-me_sec2__detail",
+			"z-index",
+			"c-about-me_hero__a-fadeIn",
+			"@include animation",
+			"border",
+			"primary-color",
+			"c-about-me_hero--2",
+			"c-about-me_hero",
+			"m-slider__UI-arrow__icon",
+			"m-slider-modal__UI-arrow",
+			"inline",
+			"ul",
+			"switch",
+			"m-preloader__content-wrapper-inner",
+			"fixed",
+			"header",
+			"first",
+			"high",
+			"la",
+			"background-i",
+			"c-about-me_hero__text-wrapper",
+			"overflow",
+			"c-about-me_sec2__detail-wrapper",
+			"c-about-me_hero__scroll-down__text",
+			"break",
+			"c-about-me_hero__logo",
+			"c-about-me_hero__quote2",
+			"font-title-m",
+			"http://gowebpower.com/",
+			"c-about-me_hero__text-wrapper-inner",
+			"inline-block",
+			"displa",
+			"c-about-me_hero__scroll-down",
+			"position",
+			"c-about-me_hero ng-scope",
+			"background",
+			"last",
+			"110%",
+			"130%",
+			"menu",
+			"position",
+			"slide",
+			"m-works",
+			"fade",
+			"url",
+			"m-work-thumbnails__loading",
+			"bg_home-main",
+			"c-main-hero",
+			"title",
+			"fixed",
+			"label",
+			"box",
+			"icon-arrow-back",
+			"m-video-bg",
+			"m-slider",
+			".c-header",
+			"c-my-works__img",
+			"<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n   <tr>\n       <td height=\"15\"></td>\n    </tr>\n</table>",
+			"<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n   <tr>\n       <td height=\"10\"></td>\n	</tr>\n</table>",
+			"welcome",
+			".welcome",
+			"inherit",
+			"icon-arrow-back",
+			"c-header",
+			"c-header__menu-ul",
+			"slide-top",
+			"move",
+			"easingTimingFunction",
+			"bouncyTimingFunction",
+			"aj-fadeIn_ng-move-active",
+			"span",
+			"breakpoint-s",
+			"max-height",
+			"red",
+			"ng-hide",
+			"m-slider-modal__UI",
+			"modal",
+			"m-slider__animation",
+			"m-work-thumbnails",
+			"\ndisplay",
+			"display",
+			"radis",
+			"margin-bottom-5",
+			"visible",
+			"inline",
+			"align",
+			"c-my-works",
+			"inherit",
+			"c-footer",
+			"35",
+			"box-shadow",
+			"border",
+			"c-header__menu-ul",
+			"brand-primary",
+			"wide",
+			"wiode3",
+			"c-main-hero__quote"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"c-header__icon-bar",
+			"s_Watchlist",
+			"appConfig.app",
+			"settings2",
+			"$.hoho",
+			"OffsetTimeStamp",
+			"1285 Muscle",
+			"http://iluv.clickbooth.com/?E=rN%2fkVRYyVI90q9VU0HHtk2%2bBcOFZ49Be&s1=ff33",
+			"http://iluv.clickbooth.com/?E=UBnNn9gjUAqrtVDhJlHi2G%2bBcOFZ49Be&s1=4ff3",
+			"$this",
+			"Neuro Max",
+			"button-2nd",
+			"button-primary",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=ZDlbcpYXEsvjO6cpjRQ6s2%2bBcOFZ49Be&s1=834df')?>",
+			"",
+			"$primary-color",
+			"src=\"../images/",
+			"../../../../",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=ZDlbcpYXEssr9McLg5aZvW%2bBcOFZ49Be&s1=onw3')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=ZDlbcpYXEsvjO6cpjRQ6s2%2bBcOFZ49Be&s1=834df')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=UBnNn9gjUArh601K2vKWQ2%2bBcOFZ49Be&s1=8f3')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://affiliate.mediaclicktrker.com/rd/r.php?sid=1164&pub=380775&c1=&c2=&c3=')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=Dlaw30S4VLvB1Cc5jMelA2%2bBcOFZ49Be&s1=934jdf')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=%2bzClYuTMukMUyKnGpBI4t2%2bBcOFZ49Be&s1=834jdf')?>",
+			"p5",
+			"p4",
+			"multi-links",
+			"p1-1",
+			"p4",
+			"p1-1",
+			"ddddddddddddd",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=834hefd')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=Dlaw30S4VLsQHT8zkrbV5G%2bBcOFZ49Be&s1=efhe3')?>",
+			"Pro-Long",
+			"http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=834hefd",
+			"http://iluv.clickbooth.com/?E=Dlaw30S4VLsQHT8zkrbV5G%2bBcOFZ49Be&s1=efhe3",
+			"Meta Boost",
+			"No2 Blast",
+			"http://iluv.clickbooth.com/?E=rN%2fkVRYyVI%2fvDHmAYRs6rm%2bBcOFZ49Be&s1=8rug",
+			"http://iluv.clickbooth.com/?E=Dlaw30S4VLsQHT8zkrbV5G%2bBcOFZ49Be&s1=8ju",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=ZYtHBsWkaLhyrjCr08F5D2%2bBcOFZ49Be&s1=b9eu')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=b8cj')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=b8cj')?>\n",
+			"XMR ProSeries",
+			"http://iluv.clickbooth.com/?E=rN%2fkVRYyVI9qi3kySQK%2fy2%2bBcOFZ49Be&s1=n6",
+			"http://iluv.clickbooth.com/?E=9mwYjmaEnqIxCy5GcaGDzm%2bBcOFZ49Be&s1=0j",
+			"1285 Muscle",
+			"bbbb",
+			"1285 Muscle",
+			"http://iluv.clickbooth.com/?E=ZYtHBsWkaLhyrjCr08F5D2%2bBcOFZ49Be&s1=b9eu",
+			"http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=b8cj",
+			"",
+			"item2",
+			"item1",
+			"<a href=\"##2\" target=\"_blank\" class=\"link2\">Item-2</a>",
+			"<a href=\"##1\" target=\"_blank\" class=\"link2\">Item-2</a>",
+			"Item-2",
+			"<a href=\"##1\" target=\"_blank\" class=\"link1\">Item-1</a>",
+			"<a href=\"##1\" target=\"_blank\" class=\"link1\"> Item-1</a>",
+			"<a href=\"##\" target=\"_blank\" class=\"link1\"> Item-1</a>",
+			"Item-1",
+			"Item 1",
+			"'",
+			"submit-btn2",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=IrPxVRbcGD6mL1nBdBlgvW%2bBcOFZ49Be&s1=84x')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=b88')?>",
+			"http://iluv.clickbooth.com/?E=CbFbmmHrxqq6A7cOVhmjCG%2bBcOFZ49Be&s1=nqe3",
+			"XMR Pro Series",
+			"http://iluv.clickbooth.com/?E=CbFbmmHrxqqn5nfaqxodp2%2bBcOFZ49Be&s1=",
+			"Pro-Long",
+			"bbbb",
+			"Testo XTRM",
+			"http://iluv.clickbooth.com/?E=IrPxVRbcGD6mL1nBdBlgvW%2bBcOFZ49Be&s1=84x",
+			"http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=b88",
+			"Pro-Long",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://affiliate.mediaclicktrker.com/rd/r.php?sid=1164&pub=380775&c1=gga&c2=&c3=')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=8dh3')?>",
+			"1285 Muscle",
+			"Pro-Long",
+			"product2",
+			"link2",
+			"link11",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=8dh3')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://affiliate.mediaclicktrker.com/rd/r.php?sid=1164&pub=380775&c1=gga&c2=&c3=')?>",
+			"http://affiliate.mediaclicktrker.com/rd/r.php?sid=1164&pub=380775&c1=gga&c2=&c3=",
+			"1285 Muscle",
+			"http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=8dh3",
+			"Pro-Long",
+			"dddddddddd",
+			"aaaa",
+			"http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=b88",
+			"http://iluv.clickbooth.com/?E=IrPxVRbcGD6mL1nBdBlgvW%2bBcOFZ49Be&s1=84x",
+			"Testo XTRM",
+			"Pro-Long",
+			"April",
+			"http://iluv.clickbooth.com/?E=ZDlbcpYXEsub0Q5BlNozSm%2bBcOFZ49Be&s1=42f",
+			"Xanogen",
+			"http://iluv.clickbooth.com/?E=CbFbmmHrxqphKVORDwIMNm%2bBcOFZ49Be&s1=5cv2",
+			"Nitro XL",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=%2bzClYuTMukMWz8VSRWPy9m%2bBcOFZ49Be&s1=4x99')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://affiliate.phreshclickinit.com/rd/r.php?sid=1567&pub=180320&c1=&c2=&c3=')?>",
+			"http://iluv.clickbooth.com/?E=%2bzClYuTMukMWz8VSRWPy9m%2bBcOFZ49Be&s1=4x99",
+			"Enduros",
+			"http://affiliate.phreshclickinit.com/rd/r.php?sid=1567&pub=180320&c1=&c2=&c3=",
+			"Xtreme NO",
+			"http://iluv.clickbooth.com/?E=UBnNn9gjUArqnRh2Cw6dFG%2bBcOFZ49Be&s1=",
+			"Xtreme NO",
+			"http://affiliate.phreshclickinit.com/rd/r.php?sid=1567&pub=180320&c1=&c2=&c3=",
+			"",
+			"pay",
+			"pay-mobile1.php",
+			"pay-mobile1",
+			"http://affiliate.mediaclicktrker.com/rd/r.php?sid=1158&pub=380775&c1=&c2=&c3=",
+			"http://affiliate.mediaclicktrker.com/rd/r.php?sid=1159&pub=380775&c1=&c2=&c3=",
+			"Extreme Antler",
+			"Maximum Shred",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode(\"",
+			"http://www.menshealthviews.com/refer.php?to=<?php echo base64_encode(\"http://iluv.clickbooth.com/?E=UBnNn9gjUApwVuWy9MJHHW%2bBcOFZ49Be&s1=ca\")?>",
+			"Testo Force",
+			"Xength X1",
+			"http://www.menshealthviews.com/refer.php?to=<?php echo base64_encode(\"http://iluv.clickbooth.com/?E=UBnNn9gjUApwVuWy9MJHHW%2bBcOFZ49Be&s1=ca\")?>",
+			"http://www.menshealthviews.com/refer.php?to=<?php echo base64_encode(\"http://iluv.clickbooth.com/?E=as7OnM0pCrbP5hAx%2bRZqZW%2bBcOFZ49Be&s1=ca\")?>",
+			"http://www.menshealthviews.com/refer.php?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=UBnNn9gjUApwVuWy9MJHHW%2bBcOFZ49Be&s1=ca')?>",
+			"http://www.menshealthviews.com/refer.php?to=<?php echo base64_encode(\"http://iluv.clickbooth.com/?E=as7OnM0pCrbP5hAx%2bRZqZW%2bBcOFZ49Be&s1=ca\")?>",
+			"http://www.menshealthviews.com/refer.php?to=<?php echo base64_encode(\"http://iluv.clickbooth.com/?E=%2bzClYuTMukNX5RCJvP37VW%2bBcOFZ49Be&s1=gr\")?>",
+			"http://www.menshealthviews.com/refer.php?to=<?php echo base64_encode(\"http://iluv.clickbooth.com/?E=Dlaw30S4VLt0rBRSLQ2U52%2bBcOFZ49Be&s1=gr\")?>",
+			"",
+			"javascript:void(0)"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "partials/_mixins.scss",
+					"settings":
+					{
+						"buffer_size": 2602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								865,
+								865
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 840.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "partials/_modules.scss",
+					"settings":
+					{
+						"buffer_size": 28286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1039,
+								1038
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "partials/_animation.scss",
+					"settings":
+					{
+						"buffer_size": 23871,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8684,
+								8684
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7350.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "partials/_variables.scss",
+					"settings":
+					{
+						"buffer_size": 2240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1514,
+								1514
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "vendor/Boostrap/bootstrap/_variables.scss",
+					"settings":
+					{
+						"buffer_size": 31278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								609,
+								609
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3780.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "partials/_base.scss",
+					"settings":
+					{
+						"buffer_size": 8205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1096,
+								1098
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 179.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app.scss",
+					"settings":
+					{
+						"buffer_size": 466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								466,
+								466
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"begreat.co/app/application_www/views/static/about.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/project/begreatco1-events.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true
+}

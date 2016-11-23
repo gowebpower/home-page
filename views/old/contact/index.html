@@ -1,0 +1,117 @@
+<div class="container">
+
+    <div class="row">
+         
+        <div class="col-md-12">
+             <div class="l-main-container font-white center">
+
+                <h1 class="font-title-xxxl margin-bottom-10">Contact Me</h1>
+                
+                <div class="hidden-xs font-title-m margin-bottom-20">
+                    If you have any questions about <span class="font-sub">{ me || anything || job offer }</span>, please feel free to contact me.
+                </div>
+
+                <div class="visible-xs font-title-s margin-bottom-20">
+                    If you have any questions about <span class="font-sub">{ me || anything || job offer }</span>, please feel free to contact me.
+                </div>
+
+                <div class="font-title-s margin-bottom-30 m-message-box">
+                    I am currently <span class="link-color">looking for a full time job</span> (Living in Los Angeles). Thank you
+                </div>
+
+
+
+                <form class="l-limited-shell-l center" name='contactForm' novalidate ng-hide="isFormSent">
+
+                    <div class="form-group">
+<!-- 
+                        <input type="text" class="form-control input-lg" id="subject" placeholder="Subject" ng-model="contact.subject" required>
+ -->
+                   <!--      <select class="form-control input-lg" name="category">
+                            <option>select</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                                     -->                 
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" class="form-control input-lg" ng-class="{ 'has-error': contactForm.name.$invalid && contactForm.name.$touched  }" name="name" placeholder="Your Name" ng-model="contact.name" ng-minlength="3" ng-maxlength="15" required>
+                        
+                        <div ng-messages="contactForm.name.$error" ng-show="contactForm.name.$touched">
+                            <div ng-messages-include="/views/contact/messages.html"></div>
+                        </div>
+                 
+                    </div>
+
+                    <div class="form-group">
+                        
+                        <input type="email" class="form-control input-lg" ng-class="{ 'has-error': contactForm.email.$invalid && contactForm.email.$touched  }" name="email" placeholder="Your Email" ng-model="contact.email" required>
+
+                        <div ng-messages="contactForm.email.$error" ng-show="contactForm.email.$touched">
+                            <div ng-messages-include="/views/contact/messages.html"></div>
+                            <p ng-message="email">This needs to be a valid email</p>
+                        </div>
+                 
+                    </div>
+
+                    <div class="form-group">
+                        
+                        <input type="number" class="form-control input-lg" ng-class="{ 'has-error': contactForm.phone.$invalid && contactForm.phone.$touched  }" name="phone" placeholder="Your Phone Number(Optional)" ng-model="contact.phone" ng-minlength="10" ng-maxlength="10">
+
+                        <!-- <span class="help-block" ng-show="contactForm.phone.$error.required || contactForm.phone.$error.number">Valid phone number is required</span> -->
+
+                        <div ng-messages="contactForm.phone.$error" ng-show="contactForm.phone.$touched">
+                            
+                            <p ng-message="number">Valid phone number is required</p>
+                            <p ng-message="( minlength || maxlength ) && contactForm.phone.$dirty">Phone number should be 10 digits</p>
+
+                        </div>
+
+         <!--                <input type="number" class="form-control" ng-minlength="10" ng-maxlength="10"  id="inputPhone" name="phone" placeholder="Phone" ng-model="user.phone" ng-required="true">
+                        <span class="help-block" ng-show="registration.phone.$error.required || registration.phone.$error.number">Valid phone number is required</span>
+                        <span class="help-block" ng-show="((registration.phone.$error.minlength || registration.phone.$error.maxlength) && registration.phone.$dirty) ">phone number should be 10 digits</span> -->
+                     
+                    </div>
+
+                    <div class="form-group">
+                        
+                        <textarea class="form-control" ng-class="{ 'has-error': contactForm.comment.$invalid && contactForm.comment.$touched  }"  rows="4" name="comment" placeholder="Commment" ng-model="contact.comment" ng-minlength="10" required></textarea>
+
+                        <div ng-messages="contactForm.comment.$error" ng-show="contactForm.comment.$touched">
+                            <p ng-message="required">This field is required.</p>
+                            <p ng-message="minlength">This field must contain more than 10 keywords.</p>
+                        </div>
+                 
+                    </div>
+
+                    <div class="margin-bottom-30"></div>
+
+
+                    <div class="margin-bottom-10 slide-top" ng-show='contactForm.$valid'>Everything looks good to send.</div> 
+                    <div class="font-red margin-bottom-10 slide-top" ng-show='showMessageHelper' ng-hide='contactForm.$valid'>{{ messageHelper }}</div>
+
+                    <button type='submit' ng-click='submitForm()' class="button-3nd button__xxl button__wide">Send</button>
+                  
+                </form>
+
+                <div class="m-message-box m-message-box--black slide-top" ng-show="isFormSent"><span class="font-title-s">Your message has been sent successfully.</br>Thank you.</span></div>
+                
+                
+
+                
+
+             </div>
+
+           
+        </div> <!-- col -->
+
+    </div> <!-- row -->
+
+</div><!-- container -->
+
+
+
+
+ 

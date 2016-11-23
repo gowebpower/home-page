@@ -1,0 +1,1706 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"aa",
+				"angular"
+			],
+			[
+				"marin",
+				"margin-right"
+			],
+			[
+				"watchlist",
+				"watchlist"
+			],
+			[
+				"watch",
+				"watchlist"
+			],
+			[
+				"get",
+				"getOrdersTotal"
+			],
+			[
+				"custom",
+				"customderID"
+			],
+			[
+				"cust",
+				"customers"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"conto",
+				"controller"
+			],
+			[
+				"lo",
+				"toLowerCase"
+			],
+			[
+				"jq",
+				"jQuery"
+			],
+			[
+				"cla",
+				"claimed"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"border",
+				"border-bottom-style"
+			],
+			[
+				"pri",
+				"primary-color"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"insta",
+				"instanceof"
+			],
+			[
+				"con",
+				"constructor"
+			],
+			[
+				"radius",
+				"border-radius"
+			],
+			[
+				"list-tyle",
+				"list-style-type"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"link",
+				"link-color-hover"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"radi",
+				"border-radius"
+			],
+			[
+				"listy",
+				"list-style"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"border-ra",
+				"border-bottom-right-radius"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/project/web/wp/_testJs/advance/BP/app/js/controllers/front.js",
+			"settings":
+			{
+				"buffer_size": 16169,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/project/web/wp/_testJs/advance/BP/app/js/services/f_carousel.js",
+			"settings":
+			{
+				"buffer_size": 3713,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/project/web/wp/_testJs/advance/BP/app/js/services/f_isMobile.js",
+			"settings":
+			{
+				"buffer_size": 1069,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/project/web/wp/_testJs/advance/BP/app/views/about-me/index.html",
+			"settings":
+			{
+				"buffer_size": 22652,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/project/web/wp/_testJs/advance/BP/app/js/services/f_aboutExperience.js",
+			"settings":
+			{
+				"buffer_size": 991,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/project/web/wp/_testJs/advance/BP/app/views/works/detail.html",
+			"settings":
+			{
+				"buffer_size": 3342,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/project/web/wp/_testJs/advance/BP/app/index.html",
+			"settings":
+			{
+				"buffer_size": 9590,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/project/web/wp/_testJs/advance/BP/app/views/contact/send-email.php",
+			"settings":
+			{
+				"buffer_size": 772,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/project/web/wp/_testJs/advance/BP/app/views/about-me/old-backup.html",
+			"settings":
+			{
+				"buffer_size": 10656,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/project/web/wp/_testJs/advance/BP/app/views/home/index.html",
+			"settings":
+			{
+				"buffer_size": 994,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 3 files for \"ng-style\"\n\n0 matches across 0 files\n\n\nSearching 3527 files for \"ng-style\"\n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\index.html:\n   58  \n   59                      <div class=\"m-preloader__graph\">\n   60:                         <div class=\"m-preloader__graph-loaded\" ng-style=\"{   }\"></div>\n   61                      </div>\n   62  \n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\sass\\vendor\\Boostrap\\bootstrap\\_theme.scss:\n  267  \n  268  // Mixin for generating new styles\n  269: @mixin panel-heading-styles($color) {\n  270    @include gradient-vertical($start-color: $color, $end-color: darken($color, 5%));\n  271  }\n  272  \n  273  // Apply the mixin to the panel headings only\n  274: .panel-default > .panel-heading   { @include panel-heading-styles($panel-default-heading-bg); }\n  275: .panel-primary > .panel-heading   { @include panel-heading-styles($panel-primary-heading-bg); }\n  276: .panel-success > .panel-heading   { @include panel-heading-styles($panel-success-heading-bg); }\n  277: .panel-info > .panel-heading      { @include panel-heading-styles($panel-info-heading-bg); }\n  278: .panel-warning > .panel-heading   { @include panel-heading-styles($panel-warning-heading-bg); }\n  279: .panel-danger > .panel-heading    { @include panel-heading-styles($panel-danger-heading-bg); }\n  280  \n  281  \n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\views\\works\\detail.html:\n   23                  \n   24                  <ul class=\"m-work-thumbnails\">\n   25:                     <li ng-repeat=\"list in imageGallery\" ng-style=\"{'background': getThumnailDetail.background(list.thumbnail) }\" ng-click=\"toggleImageGallery($index)\">\n   26  \n   27                          <img isrc=\"list.thumbnail\" onloadimg=\"list.callback(list)\" loading>\n   ..\n   31                  </ul>\n   32                  \n   33:                 <!-- ng-style=\"{'background': getThumnailDetail.background(list.thumbnail) }\" -->\n   34  \n   35  \n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\views\\works\\index.html:\n   23                      <div class=\"col-xs-6 col-sm-4 col-md-3 slide-top c-my-works\" ng-repeat='list in allWorks | filter: currentFilter'>\n   24                          <a href=\"javascript:void(0)\" ng-click=\"gotoList(list.id)\">\n   25:                             <div class=\"c-my-works__img\" ng-style=\"{'background': getThumnail(list.id)}\"></div>\n   26                              <div class=\"c-my-works__info\">\n   27                                  <div class=\"c-my-works__info-title\">{{list.title}}</div>\n   ..\n   40                      <li ng-repeat='list in allWorks | filter: currentFilter' class=\"slide-top\">\n   41                          <a href=\"javascript:void(0)\" ng-click=\"gotoList(list.id)\">\n   42:                             <div class=\"c-my-works__img\" ng-style=\"{'background-image': getThumnailListing(list.id)}\"></div>\n   43                              <div class=\"c-my-works__info\">\n   44                                  <div class=\"c-my-works__info-title\">{{list.title}}</div>\n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\bower_components\\angular\\angular.js:\n 25917            Currently selected: {{ {selected_color:myColor} }}\n 25918            <div style=\"border:solid 1px black; height:20px\"\n 25919:                ng-style=\"{'background-color':myColor.name}\">\n 25920            </div>\n 25921          </div>\n .....\n 27577          <input type=\"button\" value=\"clear\" ng-click=\"myStyle={}\">\n 27578          <br/>\n 27579:         <span ng-style=\"myStyle\">Sample Text</span>\n 27580          <pre>myStyle={{myStyle}}</pre>\n 27581       </file>\n .....\n 27588         var colorSpan = element(by.css('span'));\n 27589  \n 27590:        it('should check ng-style', function() {\n 27591           expect(colorSpan.getCssValue('color')).toBe('rgba(0, 0, 0, 1)');\n 27592           element(by.css('input[value=\\'set color\\']')).click();\n\n15 matches across 5 files\n\n\nSearching 3527 files for \"ng-style\"\n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\index.html:\n   57  \n   58                          <div class=\"m-preloader__graph\">\n   59:                             <div class=\"m-preloader__graph-loaded\" ng-style=\"{'width': preloadLoaded }\"></div>\n   60                          </div>\n   61  \n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\sass\\BP-JS.sublime-workspace:\n  169  		},\n  170  		{\n  171: 			\"contents\": \"Searching 3 files for \\\"ng-style\\\"\\n\\n0 matches across 0 files\\n\\n\\nSearching 3527 files for \\\"ng-style\\\"\\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\app\\\\index.html:\\n   58  \\n   59                      <div class=\\\"m-preloader__graph\\\">\\n   60:                         <div class=\\\"m-preloader__graph-loaded\\\" ng-style=\\\"{   }\\\"></div>\\n   61                      </div>\\n   62  \\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\app\\\\sass\\\\vendor\\\\Boostrap\\\\bootstrap\\\\_theme.scss:\\n  267  \\n  268  // Mixin for generating new styles\\n  269: @mixin panel-heading-styles($color) {\\n  270    @include gradient-vertical($start-color: $color, $end-color: darken($color, 5%));\\n  271  }\\n  272  \\n  273  // Apply the mixin to the panel headings only\\n  274: .panel-default > .panel-heading   { @include panel-heading-styles($panel-default-heading-bg); }\\n  275: .panel-primary > .panel-heading   { @include panel-heading-styles($panel-primary-heading-bg); }\\n  276: .panel-success > .panel-heading   { @include panel-heading-styles($panel-success-heading-bg); }\\n  277: .panel-info > .panel-heading      { @include panel-heading-styles($panel-info-heading-bg); }\\n  278: .panel-warning > .panel-heading   { @include panel-heading-styles($panel-warning-heading-bg); }\\n  279: .panel-danger > .panel-heading    { @include panel-heading-styles($panel-danger-heading-bg); }\\n  280  \\n  281  \\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\app\\\\views\\\\works\\\\detail.html:\\n   23                  \\n   24                  <ul class=\\\"m-work-thumbnails\\\">\\n   25:                     <li ng-repeat=\\\"list in imageGallery\\\" ng-style=\\\"{'background': getThumnailDetail.background(list.thumbnail) }\\\" ng-click=\\\"toggleImageGallery($index)\\\">\\n   26  \\n   27                          <img isrc=\\\"list.thumbnail\\\" onloadimg=\\\"list.callback(list)\\\" loading>\\n   ..\\n   31                  </ul>\\n   32                  \\n   33:                 <!-- ng-style=\\\"{'background': getThumnailDetail.background(list.thumbnail) }\\\" -->\\n   34  \\n   35  \\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\app\\\\views\\\\works\\\\index.html:\\n   23                      <div class=\\\"col-xs-6 col-sm-4 col-md-3 slide-top c-my-works\\\" ng-repeat='list in allWorks | filter: currentFilter'>\\n   24                          <a href=\\\"javascript:void(0)\\\" ng-click=\\\"gotoList(list.id)\\\">\\n   25:                             <div class=\\\"c-my-works__img\\\" ng-style=\\\"{'background': getThumnail(list.id)}\\\"></div>\\n   26                              <div class=\\\"c-my-works__info\\\">\\n   27                                  <div class=\\\"c-my-works__info-title\\\">{{list.title}}</div>\\n   ..\\n   40                      <li ng-repeat='list in allWorks | filter: currentFilter' class=\\\"slide-top\\\">\\n   41                          <a href=\\\"javascript:void(0)\\\" ng-click=\\\"gotoList(list.id)\\\">\\n   42:                             <div class=\\\"c-my-works__img\\\" ng-style=\\\"{'background-image': getThumnailListing(list.id)}\\\"></div>\\n   43                              <div class=\\\"c-my-works__info\\\">\\n   44                                  <div class=\\\"c-my-works__info-title\\\">{{list.title}}</div>\\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\bower_components\\\\angular\\\\angular.js:\\n 25917            Currently selected: {{ {selected_color:myColor} }}\\n 25918            <div style=\\\"border:solid 1px black; height:20px\\\"\\n 25919:                ng-style=\\\"{'background-color':myColor.name}\\\">\\n 25920            </div>\\n 25921          </div>\\n .....\\n 27577          <input type=\\\"button\\\" value=\\\"clear\\\" ng-click=\\\"myStyle={}\\\">\\n 27578          <br/>\\n 27579:         <span ng-style=\\\"myStyle\\\">Sample Text</span>\\n 27580          <pre>myStyle={{myStyle}}</pre>\\n 27581       </file>\\n .....\\n 27588         var colorSpan = element(by.css('span'));\\n 27589  \\n 27590:        it('should check ng-style', function() {\\n 27591           expect(colorSpan.getCssValue('color')).toBe('rgba(0, 0, 0, 1)');\\n 27592           element(by.css('input[value=\\\\'set color\\\\']')).click();\\n\\n15 matches across 5 files\\n\",\n  172  			\"settings\":\n  173  			{\n  ...\n  436  			\"watch\",\n  437  			\"preloadLoaded\",\n  438: 			\"ng-style\",\n  439  			\"image\",\n  440  			\"$\",\n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\sass\\vendor\\Boostrap\\bootstrap\\_theme.scss:\n  267  \n  268  // Mixin for generating new styles\n  269: @mixin panel-heading-styles($color) {\n  270    @include gradient-vertical($start-color: $color, $end-color: darken($color, 5%));\n  271  }\n  272  \n  273  // Apply the mixin to the panel headings only\n  274: .panel-default > .panel-heading   { @include panel-heading-styles($panel-default-heading-bg); }\n  275: .panel-primary > .panel-heading   { @include panel-heading-styles($panel-primary-heading-bg); }\n  276: .panel-success > .panel-heading   { @include panel-heading-styles($panel-success-heading-bg); }\n  277: .panel-info > .panel-heading      { @include panel-heading-styles($panel-info-heading-bg); }\n  278: .panel-warning > .panel-heading   { @include panel-heading-styles($panel-warning-heading-bg); }\n  279: .panel-danger > .panel-heading    { @include panel-heading-styles($panel-danger-heading-bg); }\n  280  \n  281  \n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\views\\works\\detail.html:\n   23                  \n   24                  <ul class=\"m-work-thumbnails\">\n   25:                     <li ng-repeat=\"list in imageGallery\" ng-style=\"{'background': getThumnailDetail.background(list.thumbnail) }\" ng-click=\"toggleImageGallery($index)\">\n   26  \n   27                          <img isrc=\"list.thumbnail\" onloadimg=\"list.callback(list)\" loading>\n   ..\n   31                  </ul>\n   32                  \n   33:                 <!-- ng-style=\"{'background': getThumnailDetail.background(list.thumbnail) }\" -->\n   34  \n   35  \n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\views\\works\\index.html:\n   23                      <div class=\"col-xs-6 col-sm-4 col-md-3 slide-top c-my-works\" ng-repeat='list in allWorks | filter: currentFilter'>\n   24                          <a href=\"javascript:void(0)\" ng-click=\"gotoList(list.id)\">\n   25:                             <div class=\"c-my-works__img\" ng-style=\"{'background': getThumnail(list.id)}\"></div>\n   26                              <div class=\"c-my-works__info\">\n   27                                  <div class=\"c-my-works__info-title\">{{list.title}}</div>\n   ..\n   40                      <li ng-repeat='list in allWorks | filter: currentFilter' class=\"slide-top\">\n   41                          <a href=\"javascript:void(0)\" ng-click=\"gotoList(list.id)\">\n   42:                             <div class=\"c-my-works__img\" ng-style=\"{'background-image': getThumnailListing(list.id)}\"></div>\n   43                              <div class=\"c-my-works__info\">\n   44                                  <div class=\"c-my-works__info-title\">{{list.title}}</div>\n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\bower_components\\angular\\angular.js:\n 25917            Currently selected: {{ {selected_color:myColor} }}\n 25918            <div style=\"border:solid 1px black; height:20px\"\n 25919:                ng-style=\"{'background-color':myColor.name}\">\n 25920            </div>\n 25921          </div>\n .....\n 27577          <input type=\"button\" value=\"clear\" ng-click=\"myStyle={}\">\n 27578          <br/>\n 27579:         <span ng-style=\"myStyle\">Sample Text</span>\n 27580          <pre>myStyle={{myStyle}}</pre>\n 27581       </file>\n .....\n 27588         var colorSpan = element(by.css('span'));\n 27589  \n 27590:        it('should check ng-style', function() {\n 27591           expect(colorSpan.getCssValue('color')).toBe('rgba(0, 0, 0, 1)');\n 27592           element(by.css('input[value=\\'set color\\']')).click();\n\n33 matches across 6 files\n\n\nSearching 3527 files for \"ng-class\"\n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\index.html:\n   47   \n   48  <!-- Load MainCtrl -->\n   49: <body ng-app=\"BP\" ng-controller=\"mainCtrl\" ng-class = '{ stopScroll: headerMenu == \"active\", aboutMe: currentPage == \"/about-me\" }' ng-cloak >\n   50      \n   51          <div class=\"m-preloader toggle m-preloader__animation-delay\" ng-hide=\"!isPreloadLoading\">\n   ..\n   68          </div>\n   69  \n   70:         <div class=\"c-global-background\" ng-class = '{ aboutMe: currentPage == \"/about-me\" }'></div>\n   71              \n   72:         <header class=\"c-header\" ng-class = '{ menuOpened: headerMenu == \"active\" }'>\n   73              <a href=\"#/\" ng-click=\"isHeaderMenuOpen()\"><div class=\"c-header__logo icon-logo_header\"></div></a>\n   74              \n   75              <a href=\"\" ng-click=\"showHeadrMenu()\" style=\"display:inline-block; width: 40px; height: 30px;\">\n   76:                 <div class=\"c-header__icon\" ng-class=\"headerMenu\" >\n   77                      <div class=\"c-header__icon-bar\"></div>\n   78                      <div class=\"c-header__icon-bar\"></div>\n   ..\n   91                                  <ul class=\"c-header__menu-ul\">\n   92                                      <li>\n   93:                                         <a href=\"#/\" ng-class = '{ active: currentPage == \"/\" }' ng-click=\"showHeadrMenu()\">Home Page</a>\n   94                                          <div class=\"c-header__menu-li-explain\">The Hero Section</div>\n   95                                      </li>\n   96  \n   97                                      <li>\n   98:                                         <a href=\"#/works\" ng-class = '{ active: currentPage == \"/works\" }' ng-click=\"showHeadrMenu()\">My Works</a>\n   99                                          <div class=\"c-header__menu-li-explain\">Various Front-end Works</div>\n  100                                      </li>\n  101  \n  102                                      <li>\n  103:                                         <a href=\"#/about-me\" ng-class = '{ active: currentPage == \"/about-me\" }' ng-click=\"showHeadrMenu()\" ng-mouseover=\"explainMenu('about-me')\">About Me</a>\n  104                                          <div class=\"c-header__menu-li-explain\">My Resume & Skills</div>\n  105                                      </li>\n  106  \n  107                                      <li>\n  108:                                         <a href=\"#/about-this-site\" ng-class = '{ active: currentPage == \"/about-this-site\" }' ng-click=\"showHeadrMenu()\" ng-mouseover=\"explainMenu('about-this-site')\">About This Site</a>\n  109                                          <div class=\"c-header__menu-li-explain\">How This Site is Built</div>\n  110                                      </li>\n  111  \n  112                                      <li>\n  113:                                         <a href=\"#/contact\" ng-class = '{ active: currentPage == \"/contact\" }' ng-click=\"showHeadrMenu()\">Contact me</a>\n  114                                          <div class=\"c-header__menu-li-explain\">Any Questions or Comments?</div>\n  115                                      </li>\n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\views\\about-me\\index.html:\n    2  <div class=\"c-about-me_menu\">\n    3      <ul>\n    4:         <li><a href=\"\" ng-click=\"setCurrent(0)\" ng-class=\"\">Intro</a></li>\n    5          <li><a href=\"\" ng-click=\"setCurrent(1)\">Summary</a></li>\n    6          <li><a href=\"\" ng-click=\"setCurrent(2)\">Skills</a></li>\n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\views\\contact\\index.html:\n   38                      <div class=\"form-group\">\n   39  \n   40:                         <input type=\"text\" class=\"form-control input-lg\" ng-class=\"{ 'has-error': contactForm.name.$invalid && contactForm.name.$touched  }\" name=\"name\" placeholder=\"Your Name\" ng-model=\"contact.name\" ng-minlength=\"3\" ng-maxlength=\"15\" required>\n   41                          \n   42                          <div ng-messages=\"contactForm.name.$error\" ng-show=\"contactForm.name.$touched\">\n   ..\n   48                      <div class=\"form-group\">\n   49                          \n   50:                         <input type=\"email\" class=\"form-control input-lg\" ng-class=\"{ 'has-error': contactForm.email.$invalid && contactForm.email.$touched  }\" name=\"email\" placeholder=\"Your Email\" ng-model=\"contact.email\" required>\n   51  \n   52                          <div ng-messages=\"contactForm.email.$error\" ng-show=\"contactForm.email.$touched\">\n   ..\n   59                      <div class=\"form-group\">\n   60                          \n   61:                         <input type=\"number\" class=\"form-control input-lg\" ng-class=\"{ 'has-error': contactForm.phone.$invalid && contactForm.phone.$touched  }\" name=\"phone\" placeholder=\"Your Phone Number(Optional)\" ng-model=\"contact.phone\" ng-minlength=\"10\" ng-maxlength=\"10\">\n   62  \n   63                          <!-- <span class=\"help-block\" ng-show=\"contactForm.phone.$error.required || contactForm.phone.$error.number\">Valid phone number is required</span> -->\n   ..\n   78                      <div class=\"form-group\">\n   79                          \n   80:                         <textarea class=\"form-control\" ng-class=\"{ 'has-error': contactForm.comment.$invalid && contactForm.comment.$touched  }\"  rows=\"4\" name=\"comment\" placeholder=\"Commment\" ng-model=\"contact.comment\" ng-minlength=\"10\" required></textarea>\n   81  \n   82                          <div ng-messages=\"contactForm.comment.$error\" ng-show=\"contactForm.comment.$touched\">\n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\views\\works\\detail.html:\n   65              <div class=\"wrapper\">\n   66                  <ul class=\"m-slider__nav-dots\">\n   67:                     <li class=\"m-slider__nav-dot\" ng-repeat=\"list in imageGallery\" ng-class=\"{ 'active': isCurrentSlideIndex($index) }\" ng-click=\"setCurrentSlideIndex($index)\"></li>\n   68                  </ul>\n   69              </div>\n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\bower_components\\angular\\angular.js:\n 19182               <th>\n 19183                 <a href=\"\" ng-click=\"order('name')\">Name</a>\n 19184:                <span class=\"sortorder\" ng-show=\"predicate === 'name'\" ng-class=\"{reverse:reverse}\"></span>\n 19185               </th>\n 19186               <th>\n 19187                 <a href=\"\" ng-click=\"order('phone')\">Phone Number</a>\n 19188:                <span class=\"sortorder\" ng-show=\"predicate === 'phone'\" ng-class=\"{reverse:reverse}\"></span>\n 19189               </th>\n 19190               <th>\n 19191                 <a href=\"\" ng-click=\"order('age')\">Age</a>\n 19192:                <span class=\"sortorder\" ng-show=\"predicate === 'age'\" ng-class=\"{reverse:reverse}\"></span>\n 19193               </th>\n 19194             </tr>\n .....\n 22535     <example>\n 22536       <file name=\"index.html\">\n 22537:        <p ng-class=\"{strike: deleted, bold: important, 'has-error': error}\">Map Syntax Example</p>\n 22538         <label>\n 22539            <input type=\"checkbox\" ng-model=\"deleted\">\n .....\n 22549         </label>\n 22550         <hr>\n 22551:        <p ng-class=\"style\">Using String Syntax</p>\n 22552         <input type=\"text\" ng-model=\"style\"\n 22553                placeholder=\"Type: bold strike red\" aria-label=\"Type: bold strike red\">\n 22554         <hr>\n 22555:        <p ng-class=\"[style1, style2, style3]\">Using Array Syntax</p>\n 22556         <input ng-model=\"style1\"\n 22557                placeholder=\"Type: bold, strike or red\" aria-label=\"Type: bold, strike or red\"><br>\n .....\n 22561                placeholder=\"Type: bold, strike or red\" aria-label=\"Type: bold, strike or red 3\"><br>\n 22562         <hr>\n 22563:        <p ng-class=\"[style4, {orange: warning}]\">Using Array and Map Syntax</p>\n 22564         <input ng-model=\"style4\" placeholder=\"Type: bold, strike\" aria-label=\"Type: bold, strike\"><br>\n 22565         <label><input type=\"checkbox\" ng-model=\"warning\"> warning (apply \"orange\" class)</label>\n .....\n 22631        <input id=\"clearbtn\" type=\"button\" value=\"clear\" ng-click=\"myVar=''\">\n 22632        <br>\n 22633:       <span class=\"base-class\" ng-class=\"myVar\">Sample Text</span>\n 22634       </file>\n 22635       <file name=\"style.css\">\n .....\n 22645       </file>\n 22646       <file name=\"protractor.js\" type=\"protractor\">\n 22647:        it('should check ng-class', function() {\n 22648           expect(element(by.css('.base-class')).getAttribute('class')).not.\n 22649             toMatch(/my-class/);\n .....\n 22694          <ol ng-init=\"names=['John', 'Mary', 'Cate', 'Suz']\">\n 22695            <li ng-repeat=\"name in names\">\n 22696:            <span ng-class-odd=\"'odd'\" ng-class-even=\"'even'\">\n 22697               {{name}}\n 22698             </span>\n .....\n 22709       </file>\n 22710       <file name=\"protractor.js\" type=\"protractor\">\n 22711:        it('should check ng-class-odd and ng-class-even', function() {\n 22712           expect(element(by.repeater('name in names').row(0).column('name')).getAttribute('class')).\n 22713             toMatch(/odd/);\n .....\n 22742          <ol ng-init=\"names=['John', 'Mary', 'Cate', 'Suz']\">\n 22743            <li ng-repeat=\"name in names\">\n 22744:            <span ng-class-odd=\"'odd'\" ng-class-even=\"'even'\">\n 22745               {{name}} &nbsp; &nbsp; &nbsp;\n 22746             </span>\n .....\n 22757       </file>\n 22758       <file name=\"protractor.js\" type=\"protractor\">\n 22759:        it('should check ng-class-odd and ng-class-even', function() {\n 22760           expect(element(by.repeater('name in names').row(0).column('name')).getAttribute('class')).\n 22761             toMatch(/odd/);\n\n32 matches across 5 files\n\n\nSearching 3527 files for \"ng-show\"\n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\index.html:\n   81              </a>\n   82              \n   83:             <div class=\"c-header__menu c-header__menu-animation\" ng-show=\"headerMenu == 'active'\" >\n   84              \n   85                  <div class=\"container\">\n   ..\n  117                                  </ul>\n  118  \n  119:                                 <div class=\"center font-white\" ng-show=\"headerMenu == 'active'\">\n  120                                      Designed & Developed by <a href=\"#/about-me\">Ban Park</a> on 2015\n  121                                      <div class=\"margin-bottom-10\"></div>\n  ...\n  161          </div> -->\n  162  \n  163:         <!-- <div class=\"m-video-bg\" ng-show='currentPage == \"/\" || currentPage == \"/about-me\"'>\n  164  \n  165              <div class=\"m-video-bg__overay j-video-bg\"></div>\n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\sass\\BP-JS.sublime-workspace:\n  193  		},\n  194  		{\n  195: 			\"contents\": \"Searching 3 files for \\\"ng-style\\\"\\n\\n0 matches across 0 files\\n\\n\\nSearching 3527 files for \\\"ng-style\\\"\\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\app\\\\index.html:\\n   58  \\n   59                      <div class=\\\"m-preloader__graph\\\">\\n   60:                         <div class=\\\"m-preloader__graph-loaded\\\" ng-style=\\\"{   }\\\"></div>\\n   61                      </div>\\n   62  \\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\app\\\\sass\\\\vendor\\\\Boostrap\\\\bootstrap\\\\_theme.scss:\\n  267  \\n  268  // Mixin for generating new styles\\n  269: @mixin panel-heading-styles($color) {\\n  270    @include gradient-vertical($start-color: $color, $end-color: darken($color, 5%));\\n  271  }\\n  272  \\n  273  // Apply the mixin to the panel headings only\\n  274: .panel-default > .panel-heading   { @include panel-heading-styles($panel-default-heading-bg); }\\n  275: .panel-primary > .panel-heading   { @include panel-heading-styles($panel-primary-heading-bg); }\\n  276: .panel-success > .panel-heading   { @include panel-heading-styles($panel-success-heading-bg); }\\n  277: .panel-info > .panel-heading      { @include panel-heading-styles($panel-info-heading-bg); }\\n  278: .panel-warning > .panel-heading   { @include panel-heading-styles($panel-warning-heading-bg); }\\n  279: .panel-danger > .panel-heading    { @include panel-heading-styles($panel-danger-heading-bg); }\\n  280  \\n  281  \\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\app\\\\views\\\\works\\\\detail.html:\\n   23                  \\n   24                  <ul class=\\\"m-work-thumbnails\\\">\\n   25:                     <li ng-repeat=\\\"list in imageGallery\\\" ng-style=\\\"{'background': getThumnailDetail.background(list.thumbnail) }\\\" ng-click=\\\"toggleImageGallery($index)\\\">\\n   26  \\n   27                          <img isrc=\\\"list.thumbnail\\\" onloadimg=\\\"list.callback(list)\\\" loading>\\n   ..\\n   31                  </ul>\\n   32                  \\n   33:                 <!-- ng-style=\\\"{'background': getThumnailDetail.background(list.thumbnail) }\\\" -->\\n   34  \\n   35  \\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\app\\\\views\\\\works\\\\index.html:\\n   23                      <div class=\\\"col-xs-6 col-sm-4 col-md-3 slide-top c-my-works\\\" ng-repeat='list in allWorks | filter: currentFilter'>\\n   24                          <a href=\\\"javascript:void(0)\\\" ng-click=\\\"gotoList(list.id)\\\">\\n   25:                             <div class=\\\"c-my-works__img\\\" ng-style=\\\"{'background': getThumnail(list.id)}\\\"></div>\\n   26                              <div class=\\\"c-my-works__info\\\">\\n   27                                  <div class=\\\"c-my-works__info-title\\\">{{list.title}}</div>\\n   ..\\n   40                      <li ng-repeat='list in allWorks | filter: currentFilter' class=\\\"slide-top\\\">\\n   41                          <a href=\\\"javascript:void(0)\\\" ng-click=\\\"gotoList(list.id)\\\">\\n   42:                             <div class=\\\"c-my-works__img\\\" ng-style=\\\"{'background-image': getThumnailListing(list.id)}\\\"></div>\\n   43                              <div class=\\\"c-my-works__info\\\">\\n   44                                  <div class=\\\"c-my-works__info-title\\\">{{list.title}}</div>\\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\bower_components\\\\angular\\\\angular.js:\\n 25917            Currently selected: {{ {selected_color:myColor} }}\\n 25918            <div style=\\\"border:solid 1px black; height:20px\\\"\\n 25919:                ng-style=\\\"{'background-color':myColor.name}\\\">\\n 25920            </div>\\n 25921          </div>\\n .....\\n 27577          <input type=\\\"button\\\" value=\\\"clear\\\" ng-click=\\\"myStyle={}\\\">\\n 27578          <br/>\\n 27579:         <span ng-style=\\\"myStyle\\\">Sample Text</span>\\n 27580          <pre>myStyle={{myStyle}}</pre>\\n 27581       </file>\\n .....\\n 27588         var colorSpan = element(by.css('span'));\\n 27589  \\n 27590:        it('should check ng-style', function() {\\n 27591           expect(colorSpan.getCssValue('color')).toBe('rgba(0, 0, 0, 1)');\\n 27592           element(by.css('input[value=\\\\'set color\\\\']')).click();\\n\\n15 matches across 5 files\\n\\n\\nSearching 3527 files for \\\"ng-style\\\"\\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\app\\\\index.html:\\n   57  \\n   58                          <div class=\\\"m-preloader__graph\\\">\\n   59:                             <div class=\\\"m-preloader__graph-loaded\\\" ng-style=\\\"{'width': preloadLoaded }\\\"></div>\\n   60                          </div>\\n   61  \\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\app\\\\sass\\\\BP-JS.sublime-workspace:\\n  169  		},\\n  170  		{\\n  171: 			\\\"contents\\\": \\\"Searching 3 files for \\\\\\\"ng-style\\\\\\\"\\\\n\\\\n0 matches across 0 files\\\\n\\\\n\\\\nSearching 3527 files for \\\\\\\"ng-style\\\\\\\"\\\\n\\\\nC:\\\\\\\\project\\\\\\\\web\\\\\\\\wp\\\\\\\\_testJs\\\\\\\\advance\\\\\\\\BP\\\\\\\\app\\\\\\\\index.html:\\\\n   58  \\\\n   59                      <div class=\\\\\\\"m-preloader__graph\\\\\\\">\\\\n   60:                         <div class=\\\\\\\"m-preloader__graph-loaded\\\\\\\" ng-style=\\\\\\\"{   }\\\\\\\"></div>\\\\n   61                      </div>\\\\n   62  \\\\n\\\\nC:\\\\\\\\project\\\\\\\\web\\\\\\\\wp\\\\\\\\_testJs\\\\\\\\advance\\\\\\\\BP\\\\\\\\app\\\\\\\\sass\\\\\\\\vendor\\\\\\\\Boostrap\\\\\\\\bootstrap\\\\\\\\_theme.scss:\\\\n  267  \\\\n  268  // Mixin for generating new styles\\\\n  269: @mixin panel-heading-styles($color) {\\\\n  270    @include gradient-vertical($start-color: $color, $end-color: darken($color, 5%));\\\\n  271  }\\\\n  272  \\\\n  273  // Apply the mixin to the panel headings only\\\\n  274: .panel-default > .panel-heading   { @include panel-heading-styles($panel-default-heading-bg); }\\\\n  275: .panel-primary > .panel-heading   { @include panel-heading-styles($panel-primary-heading-bg); }\\\\n  276: .panel-success > .panel-heading   { @include panel-heading-styles($panel-success-heading-bg); }\\\\n  277: .panel-info > .panel-heading      { @include panel-heading-styles($panel-info-heading-bg); }\\\\n  278: .panel-warning > .panel-heading   { @include panel-heading-styles($panel-warning-heading-bg); }\\\\n  279: .panel-danger > .panel-heading    { @include panel-heading-styles($panel-danger-heading-bg); }\\\\n  280  \\\\n  281  \\\\n\\\\nC:\\\\\\\\project\\\\\\\\web\\\\\\\\wp\\\\\\\\_testJs\\\\\\\\advance\\\\\\\\BP\\\\\\\\app\\\\\\\\views\\\\\\\\works\\\\\\\\detail.html:\\\\n   23                  \\\\n   24                  <ul class=\\\\\\\"m-work-thumbnails\\\\\\\">\\\\n   25:                     <li ng-repeat=\\\\\\\"list in imageGallery\\\\\\\" ng-style=\\\\\\\"{'background': getThumnailDetail.background(list.thumbnail) }\\\\\\\" ng-click=\\\\\\\"toggleImageGallery($index)\\\\\\\">\\\\n   26  \\\\n   27                          <img isrc=\\\\\\\"list.thumbnail\\\\\\\" onloadimg=\\\\\\\"list.callback(list)\\\\\\\" loading>\\\\n   ..\\\\n   31                  </ul>\\\\n   32                  \\\\n   33:                 <!-- ng-style=\\\\\\\"{'background': getThumnailDetail.background(list.thumbnail) }\\\\\\\" -->\\\\n   34  \\\\n   35  \\\\n\\\\nC:\\\\\\\\project\\\\\\\\web\\\\\\\\wp\\\\\\\\_testJs\\\\\\\\advance\\\\\\\\BP\\\\\\\\app\\\\\\\\views\\\\\\\\works\\\\\\\\index.html:\\\\n   23                      <div class=\\\\\\\"col-xs-6 col-sm-4 col-md-3 slide-top c-my-works\\\\\\\" ng-repeat='list in allWorks | filter: currentFilter'>\\\\n   24                          <a href=\\\\\\\"javascript:void(0)\\\\\\\" ng-click=\\\\\\\"gotoList(list.id)\\\\\\\">\\\\n   25:                             <div class=\\\\\\\"c-my-works__img\\\\\\\" ng-style=\\\\\\\"{'background': getThumnail(list.id)}\\\\\\\"></div>\\\\n   26                              <div class=\\\\\\\"c-my-works__info\\\\\\\">\\\\n   27                                  <div class=\\\\\\\"c-my-works__info-title\\\\\\\">{{list.title}}</div>\\\\n   ..\\\\n   40                      <li ng-repeat='list in allWorks | filter: currentFilter' class=\\\\\\\"slide-top\\\\\\\">\\\\n   41                          <a href=\\\\\\\"javascript:void(0)\\\\\\\" ng-click=\\\\\\\"gotoList(list.id)\\\\\\\">\\\\n   42:                             <div class=\\\\\\\"c-my-works__img\\\\\\\" ng-style=\\\\\\\"{'background-image': getThumnailListing(list.id)}\\\\\\\"></div>\\\\n   43                              <div class=\\\\\\\"c-my-works__info\\\\\\\">\\\\n   44                                  <div class=\\\\\\\"c-my-works__info-title\\\\\\\">{{list.title}}</div>\\\\n\\\\nC:\\\\\\\\project\\\\\\\\web\\\\\\\\wp\\\\\\\\_testJs\\\\\\\\advance\\\\\\\\BP\\\\\\\\bower_components\\\\\\\\angular\\\\\\\\angular.js:\\\\n 25917            Currently selected: {{ {selected_color:myColor} }}\\\\n 25918            <div style=\\\\\\\"border:solid 1px black; height:20px\\\\\\\"\\\\n 25919:                ng-style=\\\\\\\"{'background-color':myColor.name}\\\\\\\">\\\\n 25920            </div>\\\\n 25921          </div>\\\\n .....\\\\n 27577          <input type=\\\\\\\"button\\\\\\\" value=\\\\\\\"clear\\\\\\\" ng-click=\\\\\\\"myStyle={}\\\\\\\">\\\\n 27578          <br/>\\\\n 27579:         <span ng-style=\\\\\\\"myStyle\\\\\\\">Sample Text</span>\\\\n 27580          <pre>myStyle={{myStyle}}</pre>\\\\n 27581       </file>\\\\n .....\\\\n 27588         var colorSpan = element(by.css('span'));\\\\n 27589  \\\\n 27590:        it('should check ng-style', function() {\\\\n 27591           expect(colorSpan.getCssValue('color')).toBe('rgba(0, 0, 0, 1)');\\\\n 27592           element(by.css('input[value=\\\\\\\\'set color\\\\\\\\']')).click();\\\\n\\\\n15 matches across 5 files\\\\n\\\",\\n  172  			\\\"settings\\\":\\n  173  			{\\n  ...\\n  436  			\\\"watch\\\",\\n  437  			\\\"preloadLoaded\\\",\\n  438: 			\\\"ng-style\\\",\\n  439  			\\\"image\\\",\\n  440  			\\\"$\\\",\\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\app\\\\sass\\\\vendor\\\\Boostrap\\\\bootstrap\\\\_theme.scss:\\n  267  \\n  268  // Mixin for generating new styles\\n  269: @mixin panel-heading-styles($color) {\\n  270    @include gradient-vertical($start-color: $color, $end-color: darken($color, 5%));\\n  271  }\\n  272  \\n  273  // Apply the mixin to the panel headings only\\n  274: .panel-default > .panel-heading   { @include panel-heading-styles($panel-default-heading-bg); }\\n  275: .panel-primary > .panel-heading   { @include panel-heading-styles($panel-primary-heading-bg); }\\n  276: .panel-success > .panel-heading   { @include panel-heading-styles($panel-success-heading-bg); }\\n  277: .panel-info > .panel-heading      { @include panel-heading-styles($panel-info-heading-bg); }\\n  278: .panel-warning > .panel-heading   { @include panel-heading-styles($panel-warning-heading-bg); }\\n  279: .panel-danger > .panel-heading    { @include panel-heading-styles($panel-danger-heading-bg); }\\n  280  \\n  281  \\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\app\\\\views\\\\works\\\\detail.html:\\n   23                  \\n   24                  <ul class=\\\"m-work-thumbnails\\\">\\n   25:                     <li ng-repeat=\\\"list in imageGallery\\\" ng-style=\\\"{'background': getThumnailDetail.background(list.thumbnail) }\\\" ng-click=\\\"toggleImageGallery($index)\\\">\\n   26  \\n   27                          <img isrc=\\\"list.thumbnail\\\" onloadimg=\\\"list.callback(list)\\\" loading>\\n   ..\\n   31                  </ul>\\n   32                  \\n   33:                 <!-- ng-style=\\\"{'background': getThumnailDetail.background(list.thumbnail) }\\\" -->\\n   34  \\n   35  \\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\app\\\\views\\\\works\\\\index.html:\\n   23                      <div class=\\\"col-xs-6 col-sm-4 col-md-3 slide-top c-my-works\\\" ng-repeat='list in allWorks | filter: currentFilter'>\\n   24                          <a href=\\\"javascript:void(0)\\\" ng-click=\\\"gotoList(list.id)\\\">\\n   25:                             <div class=\\\"c-my-works__img\\\" ng-style=\\\"{'background': getThumnail(list.id)}\\\"></div>\\n   26                              <div class=\\\"c-my-works__info\\\">\\n   27                                  <div class=\\\"c-my-works__info-title\\\">{{list.title}}</div>\\n   ..\\n   40                      <li ng-repeat='list in allWorks | filter: currentFilter' class=\\\"slide-top\\\">\\n   41                          <a href=\\\"javascript:void(0)\\\" ng-click=\\\"gotoList(list.id)\\\">\\n   42:                             <div class=\\\"c-my-works__img\\\" ng-style=\\\"{'background-image': getThumnailListing(list.id)}\\\"></div>\\n   43                              <div class=\\\"c-my-works__info\\\">\\n   44                                  <div class=\\\"c-my-works__info-title\\\">{{list.title}}</div>\\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\bower_components\\\\angular\\\\angular.js:\\n 25917            Currently selected: {{ {selected_color:myColor} }}\\n 25918            <div style=\\\"border:solid 1px black; height:20px\\\"\\n 25919:                ng-style=\\\"{'background-color':myColor.name}\\\">\\n 25920            </div>\\n 25921          </div>\\n .....\\n 27577          <input type=\\\"button\\\" value=\\\"clear\\\" ng-click=\\\"myStyle={}\\\">\\n 27578          <br/>\\n 27579:         <span ng-style=\\\"myStyle\\\">Sample Text</span>\\n 27580          <pre>myStyle={{myStyle}}</pre>\\n 27581       </file>\\n .....\\n 27588         var colorSpan = element(by.css('span'));\\n 27589  \\n 27590:        it('should check ng-style', function() {\\n 27591           expect(colorSpan.getCssValue('color')).toBe('rgba(0, 0, 0, 1)');\\n 27592           element(by.css('input[value=\\\\'set color\\\\']')).click();\\n\\n33 matches across 6 files\\n\\n\\nSearching 3527 files for \\\"ng-class\\\"\\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\app\\\\index.html:\\n   47   \\n   48  <!-- Load MainCtrl -->\\n   49: <body ng-app=\\\"BP\\\" ng-controller=\\\"mainCtrl\\\" ng-class = '{ stopScroll: headerMenu == \\\"active\\\", aboutMe: currentPage == \\\"/about-me\\\" }' ng-cloak >\\n   50      \\n   51          <div class=\\\"m-preloader toggle m-preloader__animation-delay\\\" ng-hide=\\\"!isPreloadLoading\\\">\\n   ..\\n   68          </div>\\n   69  \\n   70:         <div class=\\\"c-global-background\\\" ng-class = '{ aboutMe: currentPage == \\\"/about-me\\\" }'></div>\\n   71              \\n   72:         <header class=\\\"c-header\\\" ng-class = '{ menuOpened: headerMenu == \\\"active\\\" }'>\\n   73              <a href=\\\"#/\\\" ng-click=\\\"isHeaderMenuOpen()\\\"><div class=\\\"c-header__logo icon-logo_header\\\"></div></a>\\n   74              \\n   75              <a href=\\\"\\\" ng-click=\\\"showHeadrMenu()\\\" style=\\\"display:inline-block; width: 40px; height: 30px;\\\">\\n   76:                 <div class=\\\"c-header__icon\\\" ng-class=\\\"headerMenu\\\" >\\n   77                      <div class=\\\"c-header__icon-bar\\\"></div>\\n   78                      <div class=\\\"c-header__icon-bar\\\"></div>\\n   ..\\n   91                                  <ul class=\\\"c-header__menu-ul\\\">\\n   92                                      <li>\\n   93:                                         <a href=\\\"#/\\\" ng-class = '{ active: currentPage == \\\"/\\\" }' ng-click=\\\"showHeadrMenu()\\\">Home Page</a>\\n   94                                          <div class=\\\"c-header__menu-li-explain\\\">The Hero Section</div>\\n   95                                      </li>\\n   96  \\n   97                                      <li>\\n   98:                                         <a href=\\\"#/works\\\" ng-class = '{ active: currentPage == \\\"/works\\\" }' ng-click=\\\"showHeadrMenu()\\\">My Works</a>\\n   99                                          <div class=\\\"c-header__menu-li-explain\\\">Various Front-end Works</div>\\n  100                                      </li>\\n  101  \\n  102                                      <li>\\n  103:                                         <a href=\\\"#/about-me\\\" ng-class = '{ active: currentPage == \\\"/about-me\\\" }' ng-click=\\\"showHeadrMenu()\\\" ng-mouseover=\\\"explainMenu('about-me')\\\">About Me</a>\\n  104                                          <div class=\\\"c-header__menu-li-explain\\\">My Resume & Skills</div>\\n  105                                      </li>\\n  106  \\n  107                                      <li>\\n  108:                                         <a href=\\\"#/about-this-site\\\" ng-class = '{ active: currentPage == \\\"/about-this-site\\\" }' ng-click=\\\"showHeadrMenu()\\\" ng-mouseover=\\\"explainMenu('about-this-site')\\\">About This Site</a>\\n  109                                          <div class=\\\"c-header__menu-li-explain\\\">How This Site is Built</div>\\n  110                                      </li>\\n  111  \\n  112                                      <li>\\n  113:                                         <a href=\\\"#/contact\\\" ng-class = '{ active: currentPage == \\\"/contact\\\" }' ng-click=\\\"showHeadrMenu()\\\">Contact me</a>\\n  114                                          <div class=\\\"c-header__menu-li-explain\\\">Any Questions or Comments?</div>\\n  115                                      </li>\\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\app\\\\views\\\\about-me\\\\index.html:\\n    2  <div class=\\\"c-about-me_menu\\\">\\n    3      <ul>\\n    4:         <li><a href=\\\"\\\" ng-click=\\\"setCurrent(0)\\\" ng-class=\\\"\\\">Intro</a></li>\\n    5          <li><a href=\\\"\\\" ng-click=\\\"setCurrent(1)\\\">Summary</a></li>\\n    6          <li><a href=\\\"\\\" ng-click=\\\"setCurrent(2)\\\">Skills</a></li>\\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\app\\\\views\\\\contact\\\\index.html:\\n   38                      <div class=\\\"form-group\\\">\\n   39  \\n   40:                         <input type=\\\"text\\\" class=\\\"form-control input-lg\\\" ng-class=\\\"{ 'has-error': contactForm.name.$invalid && contactForm.name.$touched  }\\\" name=\\\"name\\\" placeholder=\\\"Your Name\\\" ng-model=\\\"contact.name\\\" ng-minlength=\\\"3\\\" ng-maxlength=\\\"15\\\" required>\\n   41                          \\n   42                          <div ng-messages=\\\"contactForm.name.$error\\\" ng-show=\\\"contactForm.name.$touched\\\">\\n   ..\\n   48                      <div class=\\\"form-group\\\">\\n   49                          \\n   50:                         <input type=\\\"email\\\" class=\\\"form-control input-lg\\\" ng-class=\\\"{ 'has-error': contactForm.email.$invalid && contactForm.email.$touched  }\\\" name=\\\"email\\\" placeholder=\\\"Your Email\\\" ng-model=\\\"contact.email\\\" required>\\n   51  \\n   52                          <div ng-messages=\\\"contactForm.email.$error\\\" ng-show=\\\"contactForm.email.$touched\\\">\\n   ..\\n   59                      <div class=\\\"form-group\\\">\\n   60                          \\n   61:                         <input type=\\\"number\\\" class=\\\"form-control input-lg\\\" ng-class=\\\"{ 'has-error': contactForm.phone.$invalid && contactForm.phone.$touched  }\\\" name=\\\"phone\\\" placeholder=\\\"Your Phone Number(Optional)\\\" ng-model=\\\"contact.phone\\\" ng-minlength=\\\"10\\\" ng-maxlength=\\\"10\\\">\\n   62  \\n   63                          <!-- <span class=\\\"help-block\\\" ng-show=\\\"contactForm.phone.$error.required || contactForm.phone.$error.number\\\">Valid phone number is required</span> -->\\n   ..\\n   78                      <div class=\\\"form-group\\\">\\n   79                          \\n   80:                         <textarea class=\\\"form-control\\\" ng-class=\\\"{ 'has-error': contactForm.comment.$invalid && contactForm.comment.$touched  }\\\"  rows=\\\"4\\\" name=\\\"comment\\\" placeholder=\\\"Commment\\\" ng-model=\\\"contact.comment\\\" ng-minlength=\\\"10\\\" required></textarea>\\n   81  \\n   82                          <div ng-messages=\\\"contactForm.comment.$error\\\" ng-show=\\\"contactForm.comment.$touched\\\">\\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\app\\\\views\\\\works\\\\detail.html:\\n   65              <div class=\\\"wrapper\\\">\\n   66                  <ul class=\\\"m-slider__nav-dots\\\">\\n   67:                     <li class=\\\"m-slider__nav-dot\\\" ng-repeat=\\\"list in imageGallery\\\" ng-class=\\\"{ 'active': isCurrentSlideIndex($index) }\\\" ng-click=\\\"setCurrentSlideIndex($index)\\\"></li>\\n   68                  </ul>\\n   69              </div>\\n\\nC:\\\\project\\\\web\\\\wp\\\\_testJs\\\\advance\\\\BP\\\\bower_components\\\\angular\\\\angular.js:\\n 19182               <th>\\n 19183                 <a href=\\\"\\\" ng-click=\\\"order('name')\\\">Name</a>\\n 19184:                <span class=\\\"sortorder\\\" ng-show=\\\"predicate === 'name'\\\" ng-class=\\\"{reverse:reverse}\\\"></span>\\n 19185               </th>\\n 19186               <th>\\n 19187                 <a href=\\\"\\\" ng-click=\\\"order('phone')\\\">Phone Number</a>\\n 19188:                <span class=\\\"sortorder\\\" ng-show=\\\"predicate === 'phone'\\\" ng-class=\\\"{reverse:reverse}\\\"></span>\\n 19189               </th>\\n 19190               <th>\\n 19191                 <a href=\\\"\\\" ng-click=\\\"order('age')\\\">Age</a>\\n 19192:                <span class=\\\"sortorder\\\" ng-show=\\\"predicate === 'age'\\\" ng-class=\\\"{reverse:reverse}\\\"></span>\\n 19193               </th>\\n 19194             </tr>\\n .....\\n 22535     <example>\\n 22536       <file name=\\\"index.html\\\">\\n 22537:        <p ng-class=\\\"{strike: deleted, bold: important, 'has-error': error}\\\">Map Syntax Example</p>\\n 22538         <label>\\n 22539            <input type=\\\"checkbox\\\" ng-model=\\\"deleted\\\">\\n .....\\n 22549         </label>\\n 22550         <hr>\\n 22551:        <p ng-class=\\\"style\\\">Using String Syntax</p>\\n 22552         <input type=\\\"text\\\" ng-model=\\\"style\\\"\\n 22553                placeholder=\\\"Type: bold strike red\\\" aria-label=\\\"Type: bold strike red\\\">\\n 22554         <hr>\\n 22555:        <p ng-class=\\\"[style1, style2, style3]\\\">Using Array Syntax</p>\\n 22556         <input ng-model=\\\"style1\\\"\\n 22557                placeholder=\\\"Type: bold, strike or red\\\" aria-label=\\\"Type: bold, strike or red\\\"><br>\\n .....\\n 22561                placeholder=\\\"Type: bold, strike or red\\\" aria-label=\\\"Type: bold, strike or red 3\\\"><br>\\n 22562         <hr>\\n 22563:        <p ng-class=\\\"[style4, {orange: warning}]\\\">Using Array and Map Syntax</p>\\n 22564         <input ng-model=\\\"style4\\\" placeholder=\\\"Type: bold, strike\\\" aria-label=\\\"Type: bold, strike\\\"><br>\\n 22565         <label><input type=\\\"checkbox\\\" ng-model=\\\"warning\\\"> warning (apply \\\"orange\\\" class)</label>\\n .....\\n 22631        <input id=\\\"clearbtn\\\" type=\\\"button\\\" value=\\\"clear\\\" ng-click=\\\"myVar=''\\\">\\n 22632        <br>\\n 22633:       <span class=\\\"base-class\\\" ng-class=\\\"myVar\\\">Sample Text</span>\\n 22634       </file>\\n 22635       <file name=\\\"style.css\\\">\\n .....\\n 22645       </file>\\n 22646       <file name=\\\"protractor.js\\\" type=\\\"protractor\\\">\\n 22647:        it('should check ng-class', function() {\\n 22648           expect(element(by.css('.base-class')).getAttribute('class')).not.\\n 22649             toMatch(/my-class/);\\n .....\\n 22694          <ol ng-init=\\\"names=['John', 'Mary', 'Cate', 'Suz']\\\">\\n 22695            <li ng-repeat=\\\"name in names\\\">\\n 22696:            <span ng-class-odd=\\\"'odd'\\\" ng-class-even=\\\"'even'\\\">\\n 22697               {{name}}\\n 22698             </span>\\n .....\\n 22709       </file>\\n 22710       <file name=\\\"protractor.js\\\" type=\\\"protractor\\\">\\n 22711:        it('should check ng-class-odd and ng-class-even', function() {\\n 22712           expect(element(by.repeater('name in names').row(0).column('name')).getAttribute('class')).\\n 22713             toMatch(/odd/);\\n .....\\n 22742          <ol ng-init=\\\"names=['John', 'Mary', 'Cate', 'Suz']\\\">\\n 22743            <li ng-repeat=\\\"name in names\\\">\\n 22744:            <span ng-class-odd=\\\"'odd'\\\" ng-class-even=\\\"'even'\\\">\\n 22745               {{name}} &nbsp; &nbsp; &nbsp;\\n 22746             </span>\\n .....\\n 22757       </file>\\n 22758       <file name=\\\"protractor.js\\\" type=\\\"protractor\\\">\\n 22759:        it('should check ng-class-odd and ng-class-even', function() {\\n 22760           expect(element(by.repeater('name in names').row(0).column('name')).getAttribute('class')).\\n 22761             toMatch(/odd/);\\n\\n32 matches across 5 files\\n\",\n  196  			\"settings\":\n  197  			{\n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\views\\about-me\\index.html:\n   97  \n   98  \n   99: <section class=\"c-about-me_hero\" ng-show=\"currentSection === 1\">\n  100  \n  101      <div class=\"container\">\n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\views\\about-me\\old-backup.html:\n  117  \n  118  \n  119:     <div class=\"c-about-me_sec2__detail c-about-me_sec2__detail--1 slide-top\" ng-show=\"currentDetail == 'summary'\">\n  120          \n  121          <div class=\"c-about-me_sec2__detail-UI-exit\" ng-click=\"showDetail('')\">X</div>\n  ...\n  141  \n  142  \n  143:     <div class=\"c-about-me_sec2__detail c-about-me_sec2__detail--2 slide-top\" ng-show=\"currentDetail == 'skills'\">\n  144          \n  145          <div class=\"c-about-me_sec2__detail-UI-exit\" ng-click=\"showDetail('')\">X</div>\n  ...\n  168  \n  169  \n  170:     <div class=\"c-about-me_sec2__detail c-about-me_sec2__detail--3 slide-top\" ng-show=\"currentDetail == 'experience'\">\n  171          \n  172          <div class=\"c-about-me_sec2__detail-UI-exit\" ng-click=\"showDetail('')\">X</div>\n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\views\\contact\\index.html:\n   40                          <input type=\"text\" class=\"form-control input-lg\" ng-class=\"{ 'has-error': contactForm.name.$invalid && contactForm.name.$touched  }\" name=\"name\" placeholder=\"Your Name\" ng-model=\"contact.name\" ng-minlength=\"3\" ng-maxlength=\"15\" required>\n   41                          \n   42:                         <div ng-messages=\"contactForm.name.$error\" ng-show=\"contactForm.name.$touched\">\n   43                              <div ng-messages-include=\"/views/contact/messages.html\"></div>\n   44                          </div>\n   ..\n   50                          <input type=\"email\" class=\"form-control input-lg\" ng-class=\"{ 'has-error': contactForm.email.$invalid && contactForm.email.$touched  }\" name=\"email\" placeholder=\"Your Email\" ng-model=\"contact.email\" required>\n   51  \n   52:                         <div ng-messages=\"contactForm.email.$error\" ng-show=\"contactForm.email.$touched\">\n   53                              <div ng-messages-include=\"/views/contact/messages.html\"></div>\n   54                              <p ng-message=\"email\">This needs to be a valid email</p>\n   ..\n   61                          <input type=\"number\" class=\"form-control input-lg\" ng-class=\"{ 'has-error': contactForm.phone.$invalid && contactForm.phone.$touched  }\" name=\"phone\" placeholder=\"Your Phone Number(Optional)\" ng-model=\"contact.phone\" ng-minlength=\"10\" ng-maxlength=\"10\">\n   62  \n   63:                         <!-- <span class=\"help-block\" ng-show=\"contactForm.phone.$error.required || contactForm.phone.$error.number\">Valid phone number is required</span> -->\n   64  \n   65:                         <div ng-messages=\"contactForm.phone.$error\" ng-show=\"contactForm.phone.$touched\">\n   66                              \n   67                              <p ng-message=\"number\">Valid phone number is required</p>\n   ..\n   71  \n   72           <!--                <input type=\"number\" class=\"form-control\" ng-minlength=\"10\" ng-maxlength=\"10\"  id=\"inputPhone\" name=\"phone\" placeholder=\"Phone\" ng-model=\"user.phone\" ng-required=\"true\">\n   73:                         <span class=\"help-block\" ng-show=\"registration.phone.$error.required || registration.phone.$error.number\">Valid phone number is required</span>\n   74:                         <span class=\"help-block\" ng-show=\"((registration.phone.$error.minlength || registration.phone.$error.maxlength) && registration.phone.$dirty) \">phone number should be 10 digits</span> -->\n   75                       \n   76                      </div>\n   ..\n   80                          <textarea class=\"form-control\" ng-class=\"{ 'has-error': contactForm.comment.$invalid && contactForm.comment.$touched  }\"  rows=\"4\" name=\"comment\" placeholder=\"Commment\" ng-model=\"contact.comment\" ng-minlength=\"10\" required></textarea>\n   81  \n   82:                         <div ng-messages=\"contactForm.comment.$error\" ng-show=\"contactForm.comment.$touched\">\n   83                              <p ng-message=\"required\">This field is required.</p>\n   84                              <p ng-message=\"minlength\">This field must contain more than 10 keywords.</p>\n   ..\n   90  \n   91  \n   92:                     <div class=\"margin-bottom-10 slide-top\" ng-show='contactForm.$valid'>Everything looks good to send.</div> \n   93:                     <div class=\"font-red margin-bottom-10 slide-top\" ng-show='showMessageHelper' ng-hide='contactForm.$valid'>{{ messageHelper }}</div>\n   94  \n   95                      <button type='submit' ng-click='submitForm()' class=\"button-3nd button__xxl button__wide\">Send</button>\n   ..\n   97                  </form>\n   98  \n   99:                 <div class=\"m-message-box m-message-box--black slide-top\" ng-show=\"isFormSent\"><span class=\"font-title-s\">Your message has been sent successfully.</br>Thank you.</span></div>\n  100                  \n  101                  \n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\views\\works\\detail.html:\n   17                  <div class=\"font-title-xl font-white font-sub margin-bottom-20\">{{ currentWork.category }}</div> \n   18  \n   19:                 <div class=\"m-message-box\" ng-show='currentWork.websiteUrl'>\n   20                      Live Site(or Demo) is <span class=\"font-green\">available</span>. <a href=\"{{ currentWork.websiteUrl }}\" target=\"_blank\" class=\"m-message-box__link\">Visit the site</a>\n   21  \n   ..\n   26  \n   27                          <img isrc=\"list.thumbnail\" onloadimg=\"list.callback(list)\" loading>\n   28:                         <div class=\"m-work-thumbnails__loading spin-toggle\" ng-show=\"list.showLoading\"></div> \n   29                                               \n   30                      </li>\n   ..\n   43  \n   44  \n   45: <div class=\"m-slider-modal\" ng-show=\"showImageGallery == 'active'\" >\n   46  \n   47      <div class=\"m-slider\">\n\nC:\\project\\web\\wp\\_testJs\\advance\\BP\\bower_components\\angular\\angular.js:\n 19182               <th>\n 19183                 <a href=\"\" ng-click=\"order('name')\">Name</a>\n 19184:                <span class=\"sortorder\" ng-show=\"predicate === 'name'\" ng-class=\"{reverse:reverse}\"></span>\n 19185               </th>\n 19186               <th>\n 19187                 <a href=\"\" ng-click=\"order('phone')\">Phone Number</a>\n 19188:                <span class=\"sortorder\" ng-show=\"predicate === 'phone'\" ng-class=\"{reverse:reverse}\"></span>\n 19189               </th>\n 19190               <th>\n 19191                 <a href=\"\" ng-click=\"order('age')\">Age</a>\n 19192:                <span class=\"sortorder\" ng-show=\"predicate === 'age'\" ng-class=\"{reverse:reverse}\"></span>\n 19193               </th>\n 19194             </tr>\n .....\n 20268         <form name=\"myForm\" ng-controller=\"FormController\" class=\"my-form\">\n 20269           userType: <input name=\"input\" ng-model=\"userType\" required>\n 20270:          <span class=\"error\" ng-show=\"myForm.input.$error.required\">Required!</span><br>\n 20271           <code>userType = {{userType}}</code><br>\n 20272           <code>myForm.input.$valid = {{myForm.input.$valid}}</code><br>\n .....\n 20451             </label>\n 20452             <div role=\"alert\">\n 20453:              <span class=\"error\" ng-show=\"myForm.input.$error.required\">\n 20454                 Required!</span>\n 20455:              <span class=\"error\" ng-show=\"myForm.input.$error.pattern\">\n 20456                 Single word only!</span>\n 20457             </div>\n .....\n 20538                placeholder=\"yyyy-MM-dd\" min=\"2013-01-01\" max=\"2013-12-31\" required />\n 20539            <div role=\"alert\">\n 20540:             <span class=\"error\" ng-show=\"myForm.input.$error.required\">\n 20541                  Required!</span>\n 20542:             <span class=\"error\" ng-show=\"myForm.input.$error.date\">\n 20543                  Not a valid date!</span>\n 20544             </div>\n .....\n 20633              placeholder=\"yyyy-MM-ddTHH:mm:ss\" min=\"2001-01-01T00:00:00\" max=\"2013-12-31T00:00:00\" required />\n 20634          <div role=\"alert\">\n 20635:           <span class=\"error\" ng-show=\"myForm.input.$error.required\">\n 20636                Required!</span>\n 20637:           <span class=\"error\" ng-show=\"myForm.input.$error.datetimelocal\">\n 20638                Not a valid date!</span>\n 20639          </div>\n .....\n 20729              placeholder=\"HH:mm:ss\" min=\"08:00:00\" max=\"17:00:00\" required />\n 20730          <div role=\"alert\">\n 20731:           <span class=\"error\" ng-show=\"myForm.input.$error.required\">\n 20732                Required!</span>\n 20733:           <span class=\"error\" ng-show=\"myForm.input.$error.time\">\n 20734                Not a valid date!</span>\n 20735          </div>\n .....\n 20826          </label>\n 20827          <div role=\"alert\">\n 20828:           <span class=\"error\" ng-show=\"myForm.input.$error.required\">\n 20829                Required!</span>\n 20830:           <span class=\"error\" ng-show=\"myForm.input.$error.week\">\n 20831                Not a valid date!</span>\n 20832          </div>\n .....\n 20921            placeholder=\"yyyy-MM\" min=\"2013-01\" max=\"2013-12\" required />\n 20922         <div role=\"alert\">\n 20923:          <span class=\"error\" ng-show=\"myForm.input.$error.required\">\n 20924              Required!</span>\n 20925:          <span class=\"error\" ng-show=\"myForm.input.$error.month\">\n 20926              Not a valid month!</span>\n 20927         </div>\n .....\n 21041            </label>\n 21042             <div role=\"alert\">\n 21043:              <span class=\"error\" ng-show=\"myForm.input.$error.required\">\n 21044                 Required!</span>\n 21045:              <span class=\"error\" ng-show=\"myForm.input.$error.number\">\n 21046                 Not valid number!</span>\n 21047             </div>\n .....\n 21138             <label>\n 21139             <div role=\"alert\">\n 21140:              <span class=\"error\" ng-show=\"myForm.input.$error.required\">\n 21141                 Required!</span>\n 21142:              <span class=\"error\" ng-show=\"myForm.input.$error.url\">\n 21143                 Not valid url!</span>\n 21144             </div>\n .....\n 21237               </label>\n 21238               <div role=\"alert\">\n 21239:                <span class=\"error\" ng-show=\"myForm.input.$error.required\">\n 21240                   Required!</span>\n 21241:                <span class=\"error\" ng-show=\"myForm.input.$error.email\">\n 21242                   Not valid email!</span>\n 21243               </div>\n .....\n 21912             </label>\n 21913             <div role=\"alert\">\n 21914:              <span class=\"error\" ng-show=\"myForm.userName.$error.required\">\n 21915                Required!</span>\n 21916             </div>\n .....\n 21921             </label>\n 21922             <div role=\"alert\">\n 21923:              <span class=\"error\" ng-show=\"myForm.lastName.$error.minlength\">\n 21924                 Too short!</span>\n 21925:              <span class=\"error\" ng-show=\"myForm.lastName.$error.maxlength\">\n 21926                 Too long!</span>\n 21927             </div>\n .....\n 24236   *      <label>List: <input name=\"namesInput\" ng-model=\"names\" ng-list required></label>\n 24237   *      <span role=\"alert\">\n 24238:  *        <span class=\"error\" ng-show=\"myForm.namesInput.$error.required\">\n 24239   *        Required!</span>\n 24240   *      </span>\n .....\n 24523              strip-br=\"true\"\n 24524              required>Change me!</div>\n 24525:         <span ng-show=\"myForm.myWidget.$error.required\">Required!</span>\n 24526         <hr>\n 24527         <textarea ng-model=\"userContent\" aria-label=\"Dynamic textarea\"></textarea>\n .....\n 27231   * ```html\n 27232   * <!-- when $scope.myValue is truthy (element is visible) -->\n 27233:  * <div ng-show=\"myValue\"></div>\n 27234   *\n 27235   * <!-- when $scope.myValue is falsy (element is hidden) -->\n 27236:  * <div ng-show=\"myValue\" class=\"ng-hide\"></div>\n 27237   * ```\n 27238   *\n .....\n 27317        <div>\n 27318          Show:\n 27319:         <div class=\"check-element animate-show\" ng-show=\"checked\">\n 27320            <span class=\"glyphicon glyphicon-thumbs-up\"></span> I show up when your checkbox is checked.\n 27321          </div>\n .....\n 27362        var thumbsDown = element(by.css('span.glyphicon-thumbs-down'));\n 27363  \n 27364:       it('should check ng-show / ng-hide', function() {\n 27365          expect(thumbsUp.isDisplayed()).toBeFalsy();\n 27366          expect(thumbsDown.isDisplayed()).toBeTruthy();\n .....\n 27483        <div>\n 27484          Show:\n 27485:         <div class=\"check-element animate-hide\" ng-show=\"checked\">\n 27486            <span class=\"glyphicon glyphicon-thumbs-up\"></span> I show up when your checkbox is checked.\n 27487          </div>\n .....\n 27524        var thumbsDown = element(by.css('span.glyphicon-thumbs-down'));\n 27525  \n 27526:       it('should check ng-show / ng-hide', function() {\n 27527          expect(thumbsUp.isDisplayed()).toBeFalsy();\n 27528          expect(thumbsDown.isDisplayed()).toBeTruthy();\n\n60 matches across 7 files\n",
+			"settings":
+			{
+				"buffer_size": 58645,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/project/web/wp/_testJs/advance/BP/app/ajax/works.json",
+			"settings":
+			{
+				"buffer_size": 2136,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/project/web/wp/_testJs/advance/BP/app/send-email.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 53.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/project/web/wp/_testJs/advance/BP/package.json",
+		"/C/project/web/wp/_testJs/advance/BP/Gruntfile.js",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/haemin.html",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/test.html",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/js-basics.html",
+		"/C/project/web/wp/_testJs/advance/BP/app/js/services/f_preloader.js",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/isPrime.html",
+		"/C/project/web/wp/_testJs/advance/BP/app/config.rb",
+		"/C/project/web/wp/_testJs/advance/BP/app/views/contact/index.html",
+		"/C/project/web/wp/_testJs/advance/test-weather/app/js/app.js",
+		"/C/project/web/wp/_testJs/advance/BP/app/build/js/app.min.js",
+		"/C/project/web/wp/_testJs/advance/BP/app/views/about-me/backup-10152015.html",
+		"/C/project/web/wp/_testJs/advance/BP/app/build/css/app.css",
+		"/C/project/web/wp/_testJs/advance/BP/app/views/about-this-site/index.html",
+		"/C/project/web/wp/_testJs/advance/BP/app/views/works/index.html",
+		"/C/project/web/wp/_testJs/advance/BP/app/views/contact/messages.html",
+		"/C/project/web/wp/_testJs/advance/BP/app/views/about-me/old-backup.html",
+		"/C/project/web/wp/_testJs/advance/BP/app/js/services/s_aboutMeDetailModal.js",
+		"/C/Users/Ban park/Google Drive/temp/s_aboutMeDetailModal.js",
+		"/C/project/web/wp/_testJs/advance/BP/app/js/services/aboutMeDetailModal - Copy.js",
+		"/C/project/web/wp/_testJs/advance/BP/app/js/services/aboutMeDetailModal.js",
+		"/C/project/web/wp/_testJs/advance/BP/app/js/services/myWorks.js",
+		"/C/Users/Ban park/Downloads/send-email.php",
+		"/C/project/web/wp/_testJs/advance/test-weather/app/js/services/weatherService.js",
+		"/C/project/web/wp/_testJs/advance/test-weather/app/js/services/watchlist-service.js",
+		"/C/project/web/wp/_begreat/www.begreat.co/box.html",
+		"/C/project/web/wp/_begreat/www.begreat.co/assets/css/public/box.css",
+		"/C/project/web/wp/_begreat/index.html",
+		"/C/Users/Ban park/Desktop/Downtown Los Angeles on Vimeo.html",
+		"/C/Users/Ban park/Google Drive/0. Projects/0. HTML Static/Kively Static-new/home-feature.html",
+		"/C/project/web/wp/_irin2/inc/wedding_submenu.php",
+		"/C/project/web/wp/_irin2/index.php",
+		"/C/project/web/wp/_irin/inc/menu.php",
+		"/C/project/web/wp/_irin/inc/footer.php",
+		"/C/project/web/wp/_irin/index.php",
+		"/C/project/web/wp/_irin/css/common.css",
+		"/C/Users/Ban park/Desktop/$Work/Z0. hdd backup/0. Web/1.PSD & HTML Before 2011/0. Web design work all/irinstudio/HTML/012510/public_html/inc/menu.php",
+		"/C/project/web/wp/_testJs/advance/BP/app/sass/vendor/AngularMotion/_angular-motion.scss",
+		"/C/Users/Ban park/Desktop/collapse.js",
+		"/C/project/web/wp/_testJs/advance/BP/app/ajax/companies.json",
+		"/C/project/web/wp/_testJs/advance/BP/app/ajax/customers.json",
+		"/C/Users/Ban park/Desktop/slider/index.html",
+		"/C/project/web/wp/_testJs/advance/BP/app/views/about-me/index.html",
+		"/C/project/web/wp/_testJs/advance/BP/app/views/about/index.html",
+		"/C/project/web/wp/_testJs/advance/BP/app/views/about/asdasd.html",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/views/home/index.html",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/index.html",
+		"/C/Users/Ban park/Desktop/slider/js/app.js",
+		"/C/Users/Ban park/Desktop/chapter 1/step-5/app/scripts/directives/stk-watchlist-panel.js",
+		"/C/Users/Ban park/Desktop/chapter 1/step-5/app/views/watchlist.html",
+		"/C/Users/Ban park/Desktop/chapter 1/step-5/app/scripts/controllers/main.js",
+		"/C/Users/Ban park/Desktop/chapter 1/step-5/app/scripts/controllers/dashboard.js",
+		"/C/Users/Ban park/Desktop/chapter 1/step-5/app/scripts/services/watchlist-service.js",
+		"/C/Users/Ban park/Desktop/chapter 1/step-5/app/scripts/services/company-service.js",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/js/services/company.js",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/ajax/customers.json",
+		"/C/Users/Ban park/Desktop/chapter 1/step-5/app/views/templates/watchlist-panel.html",
+		"/C/Users/Ban park/Desktop/chapter 1/step-5/app/views/templates/addlist-modal.html",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/js/directives/front.js",
+		"/C/Users/Ban park/Desktop/chapter 1/step-2/app/scripts/services/watchlist-service.js",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/Gruntfile.js",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/views/orders/index.html",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/views/customers/index.html",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/build/css/app.css",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/partials/_base.scss",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/partials/_animation.scss",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/app.scss",
+		"/C/Users/Ban park/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/project/web/wp/_testJs/advance/test-weather/app/views/weather/index.html",
+		"/C/project/web/wp/_testJs/advance/test-weather/app/js/directives/front.js",
+		"/C/project/web/wp/_testJs/advance/test-weather/app/directives/search-result.html",
+		"/C/project/web/wp/_testJs/advance/test-weather/app/directives/weather-result.html",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/vendor/AngularMotion/_angular-motion.scss",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/vendor/AngularMotion/angular-motion.min.css",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/js/_directives/front.js",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/vendor/bootstrap/_variables.scss",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/partials/_mixins.scss",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/vendor/_bootstrap.scss",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/partials/_variables.scss",
+		"/C/Users/Ban park/Desktop/assets/javascripts/bootstrap.js",
+		"/C/project/web/wp/_testJs/advance/test-StockDog/app/sass/style.scss",
+		"/C/Users/Ban park/Desktop/stylesheets/_bootstrap-compass.scss",
+		"/C/Users/Ban park/Desktop/stylesheets/_bootstrap-mincer.scss",
+		"/C/Users/Ban park/Desktop/stylesheets/_bootstrap-sprockets.scss",
+		"/C/Users/Ban park/Desktop/stylesheets/_bootstrap.scss",
+		"/C/Users/Ban park/Desktop/stylesheets/bootstrap/mixins/_panels.scss",
+		"/C/Users/Ban park/Desktop/stylesheets/bootstrap/mixins/_grid.scss",
+		"/C/Users/Ban park/Desktop/stylesheets/bootstrap/mixins/_alerts.scss",
+		"/C/project/web/wp/_testJs/advance/scss/style.scss",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch08/js/utilities.js",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch08/membership - Copy.html",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch07/words - Copy.html",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch07/random - Copy.html",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch06/employee - Copy.html",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch08/events - Copy.html",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch09/advance-js-test.html",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch10/js/register.js",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch10/js/utilities.js",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/0. book/modern_javascript_scripts/ch10/register.html",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/advance/js_prototype4.html",
+		"/C/project/web/wp/_testJs/advance/test2/app/js/controllers/front.js",
+		"/C/project/web/wp/_begreat/www.begreat.co/about.html",
+		"/C/project/web/wp/_testJs/advance/test1/app/ajax/customers.js",
+		"/C/Users/Ban park/Desktop/.htaccess",
+		"/C/project/web/wp/_testJs/advance/js_prototype4.html",
+		"/C/project/web/wp/_testJs/advance/js/custom/module.js",
+		"/C/Users/Ban park/Desktop/repos/git-basics/index.html",
+		"/C/Users/Ban park/Documents/나루토 (NARUTO) 640화/d.smi",
+		"/C/Users/Ban park/Documents/나루토 (NARUTO) 640화/1.smi",
+		"/C/Users/Ban park/Documents/나루토 639화/[SOFCJ-Raws] NARUTO - 639 (TX 1280x720 x264 AAC).smi",
+		"/C/project/web/wp/_testJs/advance/js/custom/module2.js",
+		"/C/project/web/wp/_testJs/advance/js/custom.min.js",
+		"/C/Users/Ban park/Desktop/$Work/Z. js study/advance/js/custom.min.js",
+		"/C/Users/Ban park/.gitconfig",
+		"/C/Users/Ban park/Desktop/refer.php",
+		"/C/project/web/wp/_begreat/www.begreat.co/index.html",
+		"/C/project/web/bgp/trunk/begreat.co/app/application_www/views/pop/index.php",
+		"/C/project/web/wp/_testJs/advance/test1/app/js/controllers/front.js",
+		"/C/project/web/wp/_testJs/advance/test1/app/ajax/customers.json",
+		"/C/project/web/wp/_testJs/advance/test1/app/views/home/index.html",
+		"/C/project/web/wp/_testJs/advance/test1/app/ajax/customers.jason",
+		"/C/project/web/wp/_testJs/advance/test2/app/js/services/weatherService.js",
+		"/C/project/web/wp/_testJs/advance/test1/app/js/_services/customerOrderFactory.js",
+		"/C/project/web/wp/_testJs/advance/test2/app/js/services/watchlist-service.js",
+		"/C/project/web/wp/_testJs/advance/test1/app/js/_services/order.js",
+		"/C/project/web/wp/_testJs/advance/test1/app/js/_services/dddd.js",
+		"/C/project/web/wp/_testJs/advance/test1/app/js/_directives/front.js",
+		"/C/project/web/wp/_testJs/advance/test1/app/js/directives/front.js"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			" ",
+			"C:\\project\\web\\wp\\_testJs\\advance\\BP\\app\\js\\services",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"html",
+			"html3",
+			"html",
+			"css",
+			"updateBtnVisibility",
+			"s_myWork",
+			"isMobile()",
+			"about me",
+			"f_carousel",
+			"f_aboutCarousel",
+			"f_preloader",
+			"bold",
+			"carousel",
+			"directive",
+			"callback",
+			"getThumnailDetail",
+			"loading",
+			"directive",
+			"promise",
+			"deferred",
+			"promise",
+			"deferred",
+			"promise",
+			"onloadimg",
+			"apply",
+			"local",
+			"html",
+			"freela",
+			"f_aboutExperience",
+			"$rootScope",
+			"about",
+			"about me",
+			"about-me",
+			"c-about-me_hero__btn",
+			"c-about-me_sec2__part--1",
+			"c-about-me_sec2__part--1.",
+			"-webkit-user-select:none;",
+			"c-about-me_sec2__part-wrapper",
+			"detail",
+			"goPre",
+			"summary",
+			"Working experience",
+			"m-slider__img",
+			"absolute",
+			"about-me",
+			"c-about-me_hero__title-3",
+			"Infinite Research New Things and Exte",
+			"Design Strong and Bold Yet Passionate To Web Things",
+			"skills",
+			"currentSection",
+			"ng-show",
+			"ng-class",
+			"intro",
+			"carousel",
+			"totalSections",
+			"carousel",
+			"handleImageError",
+			"updateBtnVisibility",
+			"currentSection",
+			"factory",
+			"loadImageLocation",
+			"updateBtnVisibility",
+			"\n        ",
+			"f_carousel",
+			"carousel.goNext()",
+			"$scope.$apply();",
+			"f_carousel",
+			"//",
+			"s_aboutMeDetailModal",
+			"m-slider-modal",
+			"arrow",
+			"for",
+			"home",
+			"ng-style",
+			"this.state",
+			"handleResolve",
+			"f_preloader",
+			"watch",
+			"preloadLoaded",
+			"ng-style",
+			"image",
+			"$",
+			"preloa",
+			"homectrl",
+			"$rootScope.testing",
+			"home",
+			"$rootScope.testing",
+			"testing",
+			"$rootScope",
+			"directive",
+			"imageGalleryPromises",
+			"onsole",
+			"$scope.$apply();",
+			"imageGalleryPromises0.0",
+			"imageGalleryPromises0.",
+			"imageGalleryPromises",
+			"onloadimg",
+			"imageGallery",
+			"isrc",
+			"imageGalleryPromises",
+			"getImages",
+			"currentId",
+			"promise",
+			"contactForm",
+			"required",
+			"contactform",
+			"l-main-container",
+			"scrollStop",
+			"s_aboutMeDetailModal",
+			"weatherService",
+			"s_aboutMeDetailModal.stopScroll",
+			"apply",
+			"stopScroll",
+			"stopScroll3",
+			"stopScroll",
+			"menuOpened",
+			"void",
+			">\n",
+			"c-about-me_hero__text-wrapper",
+			"developing and implementing interactive websites.",
+			"img",
+			"c-header ",
+			"kively",
+			"/assets/img/public/box/",
+			"css",
+			"dashboard",
+			"thumbnail",
+			"300"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"c-about-me_hero__toggle-btn",
+			"m-slider",
+			"../../img/public/box/",
+			"assets/img/public/box/",
+			"s_Watchlist",
+			"appConfig.app",
+			"settings2",
+			"$.hoho",
+			"OffsetTimeStamp",
+			"1285 Muscle",
+			"http://iluv.clickbooth.com/?E=rN%2fkVRYyVI90q9VU0HHtk2%2bBcOFZ49Be&s1=ff33",
+			"http://iluv.clickbooth.com/?E=UBnNn9gjUAqrtVDhJlHi2G%2bBcOFZ49Be&s1=4ff3",
+			"$this",
+			"Neuro Max",
+			"button-2nd",
+			"button-primary",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=ZDlbcpYXEsvjO6cpjRQ6s2%2bBcOFZ49Be&s1=834df')?>",
+			"",
+			"$primary-color",
+			"src=\"../images/",
+			"../../../../",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=ZDlbcpYXEssr9McLg5aZvW%2bBcOFZ49Be&s1=onw3')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=ZDlbcpYXEsvjO6cpjRQ6s2%2bBcOFZ49Be&s1=834df')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=UBnNn9gjUArh601K2vKWQ2%2bBcOFZ49Be&s1=8f3')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://affiliate.mediaclicktrker.com/rd/r.php?sid=1164&pub=380775&c1=&c2=&c3=')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=Dlaw30S4VLvB1Cc5jMelA2%2bBcOFZ49Be&s1=934jdf')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=%2bzClYuTMukMUyKnGpBI4t2%2bBcOFZ49Be&s1=834jdf')?>",
+			"p5",
+			"p4",
+			"multi-links",
+			"p1-1",
+			"p4",
+			"p1-1",
+			"ddddddddddddd",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=834hefd')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=Dlaw30S4VLsQHT8zkrbV5G%2bBcOFZ49Be&s1=efhe3')?>",
+			"Pro-Long",
+			"http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=834hefd",
+			"http://iluv.clickbooth.com/?E=Dlaw30S4VLsQHT8zkrbV5G%2bBcOFZ49Be&s1=efhe3",
+			"Meta Boost",
+			"No2 Blast",
+			"http://iluv.clickbooth.com/?E=rN%2fkVRYyVI%2fvDHmAYRs6rm%2bBcOFZ49Be&s1=8rug",
+			"http://iluv.clickbooth.com/?E=Dlaw30S4VLsQHT8zkrbV5G%2bBcOFZ49Be&s1=8ju",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=ZYtHBsWkaLhyrjCr08F5D2%2bBcOFZ49Be&s1=b9eu')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=b8cj')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=b8cj')?>\n",
+			"XMR ProSeries",
+			"http://iluv.clickbooth.com/?E=rN%2fkVRYyVI9qi3kySQK%2fy2%2bBcOFZ49Be&s1=n6",
+			"http://iluv.clickbooth.com/?E=9mwYjmaEnqIxCy5GcaGDzm%2bBcOFZ49Be&s1=0j",
+			"1285 Muscle",
+			"bbbb",
+			"1285 Muscle",
+			"http://iluv.clickbooth.com/?E=ZYtHBsWkaLhyrjCr08F5D2%2bBcOFZ49Be&s1=b9eu",
+			"http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=b8cj",
+			"",
+			"item2",
+			"item1",
+			"<a href=\"##2\" target=\"_blank\" class=\"link2\">Item-2</a>",
+			"<a href=\"##1\" target=\"_blank\" class=\"link2\">Item-2</a>",
+			"Item-2",
+			"<a href=\"##1\" target=\"_blank\" class=\"link1\">Item-1</a>",
+			"<a href=\"##1\" target=\"_blank\" class=\"link1\"> Item-1</a>",
+			"<a href=\"##\" target=\"_blank\" class=\"link1\"> Item-1</a>",
+			"Item-1",
+			"Item 1",
+			"'",
+			"submit-btn2",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=IrPxVRbcGD6mL1nBdBlgvW%2bBcOFZ49Be&s1=84x')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=b88')?>",
+			"http://iluv.clickbooth.com/?E=CbFbmmHrxqq6A7cOVhmjCG%2bBcOFZ49Be&s1=nqe3",
+			"XMR Pro Series",
+			"http://iluv.clickbooth.com/?E=CbFbmmHrxqqn5nfaqxodp2%2bBcOFZ49Be&s1=",
+			"Pro-Long",
+			"bbbb",
+			"Testo XTRM",
+			"http://iluv.clickbooth.com/?E=IrPxVRbcGD6mL1nBdBlgvW%2bBcOFZ49Be&s1=84x",
+			"http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=b88",
+			"Pro-Long",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://affiliate.mediaclicktrker.com/rd/r.php?sid=1164&pub=380775&c1=gga&c2=&c3=')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=8dh3')?>",
+			"1285 Muscle",
+			"Pro-Long",
+			"product2",
+			"link2",
+			"link11",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=8dh3')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://affiliate.mediaclicktrker.com/rd/r.php?sid=1164&pub=380775&c1=gga&c2=&c3=')?>",
+			"http://affiliate.mediaclicktrker.com/rd/r.php?sid=1164&pub=380775&c1=gga&c2=&c3=",
+			"1285 Muscle",
+			"http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=8dh3",
+			"Pro-Long",
+			"dddddddddd",
+			"aaaa",
+			"http://iluv.clickbooth.com/?E=UBnNn9gjUApY3b%2fTXiU7Mm%2bBcOFZ49Be&s1=b88",
+			"http://iluv.clickbooth.com/?E=IrPxVRbcGD6mL1nBdBlgvW%2bBcOFZ49Be&s1=84x",
+			"Testo XTRM",
+			"Pro-Long",
+			"April",
+			"http://iluv.clickbooth.com/?E=ZDlbcpYXEsub0Q5BlNozSm%2bBcOFZ49Be&s1=42f",
+			"Xanogen",
+			"http://iluv.clickbooth.com/?E=CbFbmmHrxqphKVORDwIMNm%2bBcOFZ49Be&s1=5cv2",
+			"Nitro XL",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=%2bzClYuTMukMWz8VSRWPy9m%2bBcOFZ49Be&s1=4x99')?>",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode('http://affiliate.phreshclickinit.com/rd/r.php?sid=1567&pub=180320&c1=&c2=&c3=')?>",
+			"http://iluv.clickbooth.com/?E=%2bzClYuTMukMWz8VSRWPy9m%2bBcOFZ49Be&s1=4x99",
+			"Enduros",
+			"http://affiliate.phreshclickinit.com/rd/r.php?sid=1567&pub=180320&c1=&c2=&c3=",
+			"Xtreme NO",
+			"http://iluv.clickbooth.com/?E=UBnNn9gjUArqnRh2Cw6dFG%2bBcOFZ49Be&s1=",
+			"Xtreme NO",
+			"http://affiliate.phreshclickinit.com/rd/r.php?sid=1567&pub=180320&c1=&c2=&c3=",
+			"",
+			"pay",
+			"pay-mobile1.php",
+			"pay-mobile1",
+			"http://affiliate.mediaclicktrker.com/rd/r.php?sid=1158&pub=380775&c1=&c2=&c3=",
+			"http://affiliate.mediaclicktrker.com/rd/r.php?sid=1159&pub=380775&c1=&c2=&c3=",
+			"Extreme Antler",
+			"Maximum Shred",
+			"http://menshealthviews.com/refer?to=<?php echo base64_encode(\"",
+			"http://www.menshealthviews.com/refer.php?to=<?php echo base64_encode(\"http://iluv.clickbooth.com/?E=UBnNn9gjUApwVuWy9MJHHW%2bBcOFZ49Be&s1=ca\")?>",
+			"Testo Force",
+			"Xength X1",
+			"http://www.menshealthviews.com/refer.php?to=<?php echo base64_encode(\"http://iluv.clickbooth.com/?E=UBnNn9gjUApwVuWy9MJHHW%2bBcOFZ49Be&s1=ca\")?>",
+			"http://www.menshealthviews.com/refer.php?to=<?php echo base64_encode(\"http://iluv.clickbooth.com/?E=as7OnM0pCrbP5hAx%2bRZqZW%2bBcOFZ49Be&s1=ca\")?>",
+			"http://www.menshealthviews.com/refer.php?to=<?php echo base64_encode('http://iluv.clickbooth.com/?E=UBnNn9gjUApwVuWy9MJHHW%2bBcOFZ49Be&s1=ca')?>",
+			"http://www.menshealthviews.com/refer.php?to=<?php echo base64_encode(\"http://iluv.clickbooth.com/?E=as7OnM0pCrbP5hAx%2bRZqZW%2bBcOFZ49Be&s1=ca\")?>",
+			"http://www.menshealthviews.com/refer.php?to=<?php echo base64_encode(\"http://iluv.clickbooth.com/?E=%2bzClYuTMukNX5RCJvP37VW%2bBcOFZ49Be&s1=gr\")?>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/project/web/wp/_testJs/advance/BP/app/js/controllers/front.js",
+					"settings":
+					{
+						"buffer_size": 16169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14231,
+								14231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5659.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/project/web/wp/_testJs/advance/BP/app/js/services/f_carousel.js",
+					"settings":
+					{
+						"buffer_size": 3713,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								279,
+								279
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/project/web/wp/_testJs/advance/BP/app/js/services/f_isMobile.js",
+					"settings":
+					{
+						"buffer_size": 1069,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								665,
+								665
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/project/web/wp/_testJs/advance/BP/app/views/about-me/index.html",
+					"settings":
+					{
+						"buffer_size": 22652,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9955,
+								9958
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1201.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/project/web/wp/_testJs/advance/BP/app/js/services/f_aboutExperience.js",
+					"settings":
+					{
+						"buffer_size": 991,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								597,
+								597
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/project/web/wp/_testJs/advance/BP/app/views/works/detail.html",
+					"settings":
+					{
+						"buffer_size": 3342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/project/web/wp/_testJs/advance/BP/app/index.html",
+					"settings":
+					{
+						"buffer_size": 9590,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9554,
+								9554
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2222.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/project/web/wp/_testJs/advance/BP/app/views/contact/send-email.php",
+					"settings":
+					{
+						"buffer_size": 772,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								641,
+								641
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/project/web/wp/_testJs/advance/BP/app/views/about-me/old-backup.html",
+					"settings":
+					{
+						"buffer_size": 10656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6138,
+								10611
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 224.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/project/web/wp/_testJs/advance/BP/app/views/home/index.html",
+					"settings":
+					{
+						"buffer_size": 994,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								816,
+								816
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"settings":
+					{
+						"buffer_size": 58645,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										289,
+										297
+									],
+									[
+										516,
+										524
+									],
+									[
+										760,
+										768
+									],
+									[
+										863,
+										871
+									],
+									[
+										966,
+										974
+									],
+									[
+										1069,
+										1077
+									],
+									[
+										1169,
+										1177
+									],
+									[
+										1272,
+										1280
+									],
+									[
+										1536,
+										1544
+									],
+									[
+										1842,
+										1850
+									],
+									[
+										2297,
+										2305
+									],
+									[
+										2777,
+										2785
+									],
+									[
+										3241,
+										3249
+									],
+									[
+										3460,
+										3468
+									],
+									[
+										3670,
+										3678
+									],
+									[
+										4113,
+										4121
+									],
+									[
+										4345,
+										4353
+									],
+									[
+										4416,
+										4424
+									],
+									[
+										4636,
+										4644
+									],
+									[
+										4884,
+										4892
+									],
+									[
+										5133,
+										5141
+									],
+									[
+										5237,
+										5245
+									],
+									[
+										5341,
+										5349
+									],
+									[
+										5445,
+										5453
+									],
+									[
+										5546,
+										5554
+									],
+									[
+										5650,
+										5658
+									],
+									[
+										5935,
+										5943
+									],
+									[
+										6255,
+										6263
+									],
+									[
+										6737,
+										6745
+									],
+									[
+										7237,
+										7245
+									],
+									[
+										7725,
+										7733
+									],
+									[
+										7958,
+										7966
+									],
+									[
+										8176,
+										8184
+									],
+									[
+										8488,
+										8496
+									],
+									[
+										8694,
+										8702
+									],
+									[
+										8938,
+										8946
+									],
+									[
+										9041,
+										9049
+									],
+									[
+										9144,
+										9152
+									],
+									[
+										9247,
+										9255
+									],
+									[
+										9347,
+										9355
+									],
+									[
+										9450,
+										9458
+									],
+									[
+										9714,
+										9722
+									],
+									[
+										10020,
+										10028
+									],
+									[
+										10475,
+										10483
+									],
+									[
+										10955,
+										10963
+									],
+									[
+										11419,
+										11427
+									],
+									[
+										11638,
+										11646
+									],
+									[
+										11848,
+										11856
+									],
+									[
+										12234,
+										12242
+									],
+									[
+										12535,
+										12543
+									],
+									[
+										12655,
+										12663
+									],
+									[
+										13012,
+										13020
+									],
+									[
+										13352,
+										13360
+									],
+									[
+										13716,
+										13724
+									],
+									[
+										14094,
+										14102
+									],
+									[
+										14516,
+										14524
+									],
+									[
+										14955,
+										14963
+									],
+									[
+										15393,
+										15401
+									],
+									[
+										15771,
+										15779
+									],
+									[
+										16274,
+										16282
+									],
+									[
+										16726,
+										16734
+									],
+									[
+										17271,
+										17279
+									],
+									[
+										17853,
+										17861
+									],
+									[
+										18254,
+										18262
+									],
+									[
+										18500,
+										18508
+									],
+									[
+										18733,
+										18741
+									],
+									[
+										18906,
+										18914
+									],
+									[
+										19148,
+										19156
+									],
+									[
+										19372,
+										19380
+									],
+									[
+										19730,
+										19738
+									],
+									[
+										20163,
+										20171
+									],
+									[
+										20376,
+										20384
+									],
+									[
+										20673,
+										20681
+									],
+									[
+										20694,
+										20702
+									],
+									[
+										20894,
+										20902
+									],
+									[
+										20911,
+										20919
+									],
+									[
+										21233,
+										21241
+									],
+									[
+										21254,
+										21262
+									],
+									[
+										21475,
+										21483
+									],
+									[
+										21492,
+										21500
+									],
+									[
+										21898,
+										21905
+									],
+									[
+										22129,
+										22136
+									],
+									[
+										22436,
+										22443
+									],
+									[
+										39694,
+										39701
+									],
+									[
+										40168,
+										40175
+									],
+									[
+										40678,
+										40685
+									],
+									[
+										41266,
+										41273
+									],
+									[
+										41980,
+										41987
+									],
+									[
+										42239,
+										42246
+									],
+									[
+										42488,
+										42495
+									],
+									[
+										45791,
+										45798
+									],
+									[
+										46041,
+										46048
+									],
+									[
+										46296,
+										46303
+									],
+									[
+										46550,
+										46557
+									],
+									[
+										47144,
+										47151
+									],
+									[
+										47646,
+										47653
+									],
+									[
+										48234,
+										48241
+									],
+									[
+										48438,
+										48445
+									],
+									[
+										48881,
+										48888
+									],
+									[
+										49056,
+										49063
+									],
+									[
+										49639,
+										49646
+									],
+									[
+										49968,
+										49975
+									],
+									[
+										50111,
+										50118
+									],
+									[
+										50459,
+										50466
+									],
+									[
+										50870,
+										50877
+									],
+									[
+										51302,
+										51309
+									],
+									[
+										51480,
+										51487
+									],
+									[
+										51779,
+										51786
+									],
+									[
+										52024,
+										52031
+									],
+									[
+										52259,
+										52266
+									],
+									[
+										52582,
+										52589
+									],
+									[
+										52894,
+										52901
+									],
+									[
+										53015,
+										53022
+									],
+									[
+										53305,
+										53312
+									],
+									[
+										53426,
+										53433
+									],
+									[
+										53735,
+										53742
+									],
+									[
+										53852,
+										53859
+									],
+									[
+										54132,
+										54139
+									],
+									[
+										54249,
+										54256
+									],
+									[
+										54460,
+										54467
+									],
+									[
+										54577,
+										54584
+									],
+									[
+										54841,
+										54848
+									],
+									[
+										54955,
+										54962
+									],
+									[
+										55173,
+										55180
+									],
+									[
+										55294,
+										55301
+									],
+									[
+										55519,
+										55526
+									],
+									[
+										55640,
+										55647
+									],
+									[
+										55866,
+										55873
+									],
+									[
+										55991,
+										55998
+									],
+									[
+										56219,
+										56226
+									],
+									[
+										56441,
+										56448
+									],
+									[
+										56567,
+										56574
+									],
+									[
+										56855,
+										56862
+									],
+									[
+										57070,
+										57077
+									],
+									[
+										57352,
+										57359
+									],
+									[
+										57473,
+										57480
+									],
+									[
+										57645,
+										57652
+									],
+									[
+										57923,
+										57930
+									],
+									[
+										58184,
+										58191
+									],
+									[
+										58462,
+										58469
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								21693,
+								21693
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 5,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4886.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/project/web/wp/_testJs/advance/BP/app/ajax/works.json",
+					"settings":
+					{
+						"buffer_size": 2136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2124,
+								2124
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 630.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/project/web/wp/_testJs/advance/BP/app/send-email.php",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"begreat.co/app/application_www/views/static/about.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/project/begreatco1-events.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true
+}

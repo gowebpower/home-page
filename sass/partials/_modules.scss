@@ -1,0 +1,666 @@
+/* ---------------------- Header  ----------------------*/
+
+.c-header { @include absolute(top 0px left 0); width: 100%; padding: 20px 15px 0; z-index: z("header"); @include transition( all 0s ease);
+	&.menuOpened { position: fixed; height: 100%; background: rgba(0,0,0,0.85); overflow: scroll;
+		@include breakpoint-s(800px) { overflow: scroll;}
+	}
+}
+
+.c-header__logo { z-index: z("header")+1; position: relative; }
+
+.c-header__icon { display: inline-block; width: 40px; padding: 12px 6px; @include absolute(right 25px top 32px); cursor: pointer; z-index: z("header")+1; }
+
+.c-header__icon-bar { width: 32px; height: 2px; background: #fff; }
+.c-header__icon-bar:nth-of-type(2) { margin-top: -10px;; }
+.c-header__icon-bar:nth-of-type(3) { margin-top: 14px; }
+
+.c-header__icon {  
+	&.inactive {
+
+		.c-header__icon-bar:nth-of-type(1) { 
+			@include animation('menu-icon_dissappearRev .5s ease');
+			@include animation-fill-mode(forwards);
+		}
+
+		@include keyframes(menu-icon_dissappearRev) {
+		    0% { opacity: 0; }
+
+			50% { opacity: 0; }
+
+			100% { opacity: 1; }
+		}
+		
+		.c-header__icon-bar:nth-of-type(2) { 
+			@include animation('menu-icon_tilt-topRev .5s ease');
+			@include animation-fill-mode(forwards);
+		}
+
+		@include keyframes(menu-icon_tilt-topRev) {
+		  0% { margin-top: -3px; @include transform(rotate(45deg)); }
+
+		  50% {	margin-top: -3px; @include transform(rotate(0deg)); }
+
+		  75% { @include transform(rotate(0deg)); }
+
+		  100% { margin-top: -10px; @include transform(rotate(0deg)); }
+		}
+
+		.c-header__icon-bar:nth-of-type(3) { @include animation('menu-icon_tilt-bottomRev .5s ease'); @include animation-fill-mode(forwards); }
+
+		@include keyframes(menu-icon_tilt-bottomRev) {
+		  0% { margin-top: -2px; @include transform(rotate(135deg)); }
+
+		  50% {	margin-top: -2px; @include transform(rotate(0deg)); }
+
+		  75% { @include transform(rotate(0deg)); }
+
+		  100% { margin-top: 14px; @include transform(rotate(0deg)); }
+		}
+	}
+	&.active { 
+		
+		.c-header__icon-bar:nth-of-type(1) { @include animation('menu-icon_dissappear .5s ease'); @include animation-fill-mode(forwards); }
+
+		@include keyframes(menu-icon_dissappear) {
+		    from { opacity: 1; }
+		    to { opacity: 0; }
+		}
+
+		.c-header__icon-bar:nth-of-type(2) { @include animation('menu-icon_tilt-top .5s ease'); @include animation-fill-mode(forwards); }
+
+		@include keyframes(menu-icon_tilt-top) {
+		  0% { margin-top: -10px; }
+
+		  50% {	margin-top: -3px; }
+
+		  75% { @include transform(rotate(0deg)); }
+
+		  100% { margin-top: -3px; @include transform(rotate(45deg)); }
+		}
+
+		.c-header__icon-bar:nth-of-type(3) { @include animation('menu-icon_tilt-bottom .5s ease'); @include animation-fill-mode(forwards); }
+
+		@include keyframes(menu-icon_tilt-bottom) {
+		  0% { margin-top: 14px; }
+
+		  50% {	margin-top: -2px; }
+
+		  75% { @include transform(rotate(0deg)); }
+
+		  100% { margin-top: -2px; @include transform(rotate(135deg)); }
+		}
+	} 
+}
+
+
+.c-header__menu { display:block; padding: 0; margin: 0;
+	&.ng-hide { 
+		.c-header__menu-ul { height: 0; padding: 0; overflow: hidden; @include transition( all 0s ease); border-bottom: 0px; }
+	}
+}
+
+.c-header__menu-ul { height: auto; margin-top: 16px; margin-bottom: 10px; padding: 55px 0 60px; list-style-type: none; @include transition( all 0.3s ease); border-top: 1px solid white; border-bottom: 1px solid white;
+	li { width: 100%; margin-bottom: 40px; text-align: center; 
+		&:last-child { margin-bottom: 0; }
+		@include breakpoint-s(900px) { margin-bottom: 20px; }
+	}
+	a { color: white; font-size: 50px; line-height: 1em; margin-bottom: 9px; display: inline-block;
+		&:hover { color: $link-color-hover; }
+		&.active { color: $primary-color; }
+		@include breakpoint-s(900px) { font-size: 35px; }
+		@include breakpoint-s(600px) { font-size: 30px; margin-bottom: 7px; }
+	}
+	@include breakpoint-s(650px) { padding: 30px 0 33px; }
+}
+
+.c-header__menu-li-explain { color: white; font-size: 25px; opacity: 0.65; 
+	@include breakpoint-s(900px) { font-size: 20px; }
+	@include breakpoint-s(600px) { font-size: 18px; }
+}
+
+.c-header__menu-wrapper { padding-bottom: 20px; }
+
+.c-header__quote {
+	&.hide { display:none; }
+}
+
+
+
+/* Header NG Show Animation */
+.c-header__menu-animation {
+    opacity: 1;
+}
+
+.c-header__menu-animation.ng-hide-add, .c-header__menu-animation.ng-hide-remove {
+    @include transition( all 0.4s ease);
+}
+
+.c-header__menu-animation.ng-hide {
+    opacity: 0; 
+}
+
+.c-header__sign { margin-left: 46px; }
+
+
+/* ---------------------- Footer  ----------------------*/
+/*.c-footer { @include absolute(bottom 0px left 0); width: 100%; color: rgba(255,255,255,0.50); text-align: center; 
+	a { color:inherit; 
+		&:hover { color: $primary-color; opacity: 1;}
+	} 
+}*/
+
+
+/* ---------------------- Video Background  ----------------------*/
+
+.m-video-bg { width: 100%; height: 100%; @include fixed(bottom 0px left 0); overflow: hidden; 
+	@include breakpoint-s(830px) { display:none; }
+}
+.m-video-bg__video { min-width: 100%; min-height: 100%; width: auto; z-index: -2;  }
+.m-video-bg__overay { @include absolute(bottom 0px left 0); background: rgba(0,0,0,0.68); height: 100%; width: 100%;  z-index: 0; }
+
+
+/* ---------------------- Home Page Hero  ----------------------*/
+
+.c-main-hero { padding-top: 215px; padding-bottom: 100px;  text-align: center; 
+	@include breakpoint-s(600px) { padding-top: 120px; }
+}
+.c-main-hero__logo {  width: 170px; height: auto;
+	@include breakpoint-s(600px) { width: 160px; }
+	@include breakpoint-s(500px) { width: 140px; margin-bottom: 10px; }
+}
+
+.c-main-hero__title { font-size: 60px; line-height: 1em; color:white; margin-bottom: 10px;
+	@include breakpoint-s(600px) { font-size: 52px; }
+	@include breakpoint-s(400px) { font-size: 40px; }
+}
+.c-main-hero__quote { margin-bottom: 20px; font-size: 40px; line-height: 1.2em; color:white; 
+	@include breakpoint-s(400px) { font-size: 28px; }
+}
+
+ 
+
+/* ---------------------- Filter for My Work : overiding angularstrap----------------------*/
+
+.c-work-filter { padding: 10px 15px; background: #ffffff; @include border-radius(0px); @include box-shadow(none); @include transition( all 0.3s ease );
+	&:hover { background: #eee; }
+	&.active { background: #323232; color: white; @include box-shadow(none); }
+	@include breakpoint-s(360px) { padding: 8px 11px;  }
+}
+
+
+/* ---------------------- My Work  ----------------------*/
+
+.c-my-works { padding-left: 0;
+	a { display: block; color: inherit; } 
+	li { margin: 0 4px 12px; @include inline-block; vertical-align: top; width: 22%; background: #eee; text-align: center; @include transition( all 0.3s ease );
+		&:hover { @include single-box-shadow( 0px, 0px, 2px ,3px, $primary-color ); }
+		@include breakpoint(medium) { width: 31.5%; }
+		@include breakpoint-s(600px) { width: 47%; }
+	}
+}
+
+.c-my-works__info { background: white; padding: 6px 9px 9px; }
+.c-my-works__img { background-color: #242424; height: 190px; background-position: center center;
+	@include breakpoint-s(600px) { height: 160px; }
+}
+.c-my-works__info-title { font-size: 20px; 
+	@include breakpoint-s(600px) { font-size: 18px; }
+}
+.c-my-works__info-category { opacity: 0.6; 
+	@include breakpoint-s(600px) { font-size: 16px; }
+}
+
+
+/*.c-my-works { 
+    a { display: block; color: inherit; background: #eee; text-align: center; margin-bottom: 12px; @include transition( all 0.3s ease );  
+        &:hover { @include single-box-shadow( 0px, 0px, 2px ,3px, $primary-color ); }
+    }
+}
+
+.c-my-works__info { background: white; padding: 10px 10px 12px; }
+.c-my-works__img { background: #eee; height: 250px; }
+.c-my-works__info-title { font-size: 24px; }
+.c-my-works__info-category { opacity: 0.6; }
+*/
+
+
+
+/* ---------------------- Back to previous Page  ----------------------*/
+.m-back-to-previous { margin-bottom: 0px; padding: 10px 0 0px;  
+	@include breakpoint-s(800px) { border-top: 1px solid rgba(255,255,255,0.2); }
+}
+.m-back-to-previous__icon { opacity: 0.7; @include transition( all 0.3s ease );
+	&:hover { opacity: 1; }
+
+}
+
+/* ---------------------- Messages  ----------------------*/
+.m-message-box { margin-bottom: 20px; font-size: 18px; padding: 10px 10px 12px; color: white; text-align: center; border: 1px solid white; @include border-radius(5px); }
+.m-message-box__link { text-decoration: underline; color: inherit; }
+.m-message-box--black { background: rgba(0,0,0,0.65); color: white; border: none; }
+
+
+/* ---------------------- thumbnails in detail page  ----------------------*/
+.m-work-thumbnails { padding: 0; 
+	li { margin: 0 4px 12px; @include inline-block; width: 22%; height: 200px; @include transition( all 0.3s ease ); cursor: pointer; @include background-size(cover !important); overflow:hidden;
+		&:hover { @include single-box-shadow( 0px, 0px, 2px ,3px, $primary-color ); }
+
+		@include breakpoint(small) { width: 31%; }
+		@include breakpoint-s(500px) { width: 30%; height: 160px; }
+	}
+}
+
+.m-work-thumbnails__loading { background: image-url("page-loader.gif") #fff center center no-repeat; @include background-size(60px auto); width: 102%; height: 100%; }
+
+
+/* ---------------------- Slider  ----------------------*/
+
+
+.m-slider-modal { width: 100%; height: 100%; @include fixed(top 0px left 0); background: rgba(0,0,0,0.85); z-index: z("modal"); padding: 20px 0 20px; @include transition( all 0.3s ease ); opacity: 1; 
+	&.ng-hide { opacity: 0; }
+}
+
+.m-slider-modal__UI-exit { display: inline-block; padding: 10px; @include absolute(top 0px left 0); background: rgba(0,0,0,0.40); color: white; font-size: 40px; cursor: pointer; z-index: z("modal")+2; opacity: 0.7; @include transition( all 0.3s ease );
+	&:hover { opacity: 1; }
+	@include breakpoint(small) { left: 5px; }
+}
+
+.m-slider-modal__UI-arrow { width: auto; height: 100%; /*border: 1px solid red;*/ @include absolute(top 0px left 0); z-index: z("modal")+1; 
+	@include breakpoint(small) { left: 5px; }
+}
+.m-slider-modal__UI-arrow--right { left: auto; right: 0; 
+	@include breakpoint(small) { right: 5px; }
+}
+
+.m-slider-modal__UI-arrow__icon-helper, .m-slider-modal__UI-arrow__icon { @include inline-block; vertical-align: middle; height: 100%;   }
+.m-slider-modal__UI-arrow__icon { max-height: 35px; max-width: 160px; background: rgba(0,0,0,0.4); color: white; font-size: 70px; cursor: pointer; @include transition( all 0.3s ease );
+	&:hover { background: rgba(0,0,0,0.6); }
+}
+
+.m-slider { position: relative; max-width: 1200px; height: 100%; margin: 0 auto; text-align: center; }
+
+
+
+.m-slider__img-wrapper { overflow:hidden; width: 99%; height: 100%; max-height: 100%; } 
+ 
+.m-slider__img-wrapper-inner { height: 100%;  }
+
+.m-slider__img-helper { @include inline-block; vertical-align: middle; height: 100%; }
+.m-slider__img { @include inline-block; max-width: 99%; max-height: 100%; }
+
+.m-slider__nav { @include absolute(bottom 20px left 0); width: 100%; }
+.m-slider__nav-dots { padding: 0; }
+.m-slider__nav-dot { width: 10px; height: 10px; margin: 0 3px; @include border-radius(10px); @include inline-block; background: rgba(255,255,255,0.3); 
+	&.active { background: white; }
+}
+
+.m-slider__animation { @include animation('m-slider_animation 0.6s ease'); @include animation-fill-mode(forwards); position: relative;
+
+	@include keyframes(m-slider_animation) {
+	  0% {  opacity: 0; }
+	  10% {  opacity: 0; }
+	  100% {   opacity: 1; }
+	}
+
+	&.ng-hide { @include animation('0s ease'); opacity: 0; }
+	/* Somehow keyframes animation duration inherits. So putting empty animation will reset the duration.*/
+}
+
+
+
+/* ---------------------- Preloader ----------------------*/
+.m-preloader { width: 100%; height: 100%; background-color: #111111; @include fixed(left 0 top 0); z-index: z("modal"); }
+.m-preloader__logo {  margin-bottom: 20px;  }
+.m-preloader__content-wrapper { width: 100%; height: 100%; padding: 0 30px 0; display: table; color: white; @include absolute(left 0 top 0); 
+/*	@include breakpoint-s(800px) { position: relative; margin: 120px 0 40px; }*/
+}
+.m-preloader__content-wrapper-inner { text-align: center; display: table-cell; vertical-align: middle; }
+.m-preloader__content-wrapper-inner2 { margin-top: -60px; 
+	@include breakpoint-s(800px) { margin-top: 0; }
+}
+.m-preloader__graph { background: #818181; height: 1px; max-width: 430px; margin: 0 auto 20px; }
+.m-preloader__graph-loaded { background: white; width: 0; height: 1px; }
+
+.m-preloader__animation-delay {  
+    
+    &.ng-leave {
+        @include transitionDuration(500ms);
+    }
+
+    &.ng-hide-add.ng-hide-add-active {
+         @include transition-delay(0.30s);
+    }
+}
+
+
+/* ---------------------- Animated Logo ----------------------*/
+/*.m-animated-logo { background: image-url("logo-spritesheet-html.png"); width: 175px; height: 126px;  display: inline-block; }
+
+*/
+
+
+
+/* ---------------------- About Me Menu ----------------------*/
+
+.c-about-me_menu { width: 100%;  @include transform(translate(0, 100%)); @include fixed(left 0 bottom -100px); padding: 5px 0; z-index: z("content")+10; text-align: center; background: rgba(0,0,0,0.72); @include animation('c-about-me_menu .6s ease'); @include animation-delay(0.90s); @include animation-fill-mode(forwards);
+ 	ul { margin: 0; padding: 0; }
+	li { list-style-type: none ; @include inline-block; padding: 8px 20px; }
+	a { color: white; 
+		&:hover { color: #9f9f9f; }
+		&.active { color: $primary-color; }
+	}
+	@include breakpoint-s(580px) { display: none; }
+}
+
+
+@include keyframes(c-about-me_menu) {
+	0% { @include transform(translate(0, 100%)); bottom: -100px; /* added bottom -100px to fix ipad not showing initially*/ }
+	35% { @include transform(translate(0, 100%));  bottom: -100px;  }
+	100% { @include transform(translate(0, 0));  bottom: 0px; }
+}
+
+
+/* ---------------------- About Me UI Arrow----------------------*/
+
+
+ 
+
+.m-slider__UI-arrow { width: auto; height: 100%; /*border: 1px solid red;*/ @include absolute(top 0px left 0); z-index: z("content")+1;  @include transform(translate(-100%));  @include animation('m-slider__UI-arrow .6s ease'); @include animation-delay(0.65s); @include animation-fill-mode(forwards);
+	@include breakpoint(small) { left: 5px; }
+	&.ng-hide { @include animation-delay(0s); @include animation('.0s');}
+}
+
+@include keyframes(m-slider__UI-arrow) {
+	0% { @include transform(translate(-100%)); }
+	35% { @include transform(translate(-100%));  }
+	100% { @include transform(translate(0)); }
+}
+
+
+.m-slider__UI-arrow--right { left: auto; right: 0; @include transform(translate(100%));  @include animation('m-slider__UI-arrow--right .6s ease'); @include animation-delay(0.65s); @include animation-fill-mode(forwards);
+	@include breakpoint(small) { right: 5px; }
+	&.ng-hide { @include animation-delay(0s); @include animation('.0s');}
+}
+
+@include keyframes(m-slider__UI-arrow--right) {
+	0% { @include transform(translate(100%)); }
+	35% { @include transform(translate(100%));  }
+	100% { @include transform(translate(0)); }
+}
+
+
+.m-slider__UI-arrow__icon-helper, .m-slider__UI-arrow__icon { @include inline-block; vertical-align: middle; height: 100%;   }
+.m-slider__UI-arrow__icon { max-height: 35px; max-width: 160px; color: white; font-size: 83px; cursor: pointer; @include transition( all 0.3s ease );
+	&:hover { opacity: 0.7; }
+	@include breakpoint-s(650px) { font-size: 60px; }
+	@include breakpoint-s(450px) { font-size: 50px; }
+}
+
+
+
+/* ---------------------- About Me Hero  ----------------------*/
+
+.c-about-me_hero-wrapper { width: 100%; height: 100vh; min-height: 600px; position: relative; overflow:hidden; }
+
+.c-about-me_hero { background: image-url("bg_about-me.jpg") no-repeat center center; @include background-size(cover !important); height: 100%; position: relative; 
+	&.blur { @include filter(blur(15px)); }
+}
+.c-about-me_hero--2 { background-image: image-url("bg_about-me2.jpg"); }
+.c-about-me_hero--3 { background-image: image-url("bg_about-me3.jpg"); }
+.c-about-me_hero--4 { background-image: image-url("bg_about-me4.jpg"); }
+
+.c-about-me_hero__text-wrapper { width: 100%; height: 100%; padding: 0 5px 0; display: table; color: white; @include absolute(left 0 top 0); 
+	@include breakpoint-s(800px) { position: relative; margin: 120px 0 40px; padding: 0 11px 0; }
+}
+.c-about-me_hero__text-wrapper-inner { text-align: center; display: table-cell; vertical-align: middle; }
+.c-about-me_hero__text-wrapper-inner2 { margin-top: -120px; 
+	@include breakpoint-s(800px) { margin-top: 0; }
+}
+
+.c-about-me_hero__static-img { display: none;  
+	@include breakpoint-s(580px) { display: inline-block; width: 100%; max-width: 447px; height: auto; }
+}
+
+.c-about-me_hero__animated-imgs { width: 500px; height: 195px;  margin: 0 auto 0; position: relative; 
+	@include breakpoint-s(580px) { display: none; }
+}
+
+.c-about-me_hero__animated-img { @include absolute(left 0 right 0); margin-left: auto; margin-right: auto;  }
+
+.c-about-me_hero__animated-img--1 { z-index: z("content")+12; @include animation('c-about-me_hero__animated-img--1 .6s ease'); @include animation-delay(0.55s); @include animation-fill-mode(forwards); }
+.c-about-me_hero__animated-img--2 { z-index: z("content")+11; @include animation('c-about-me_hero__animated-img--2 .6s ease'); @include animation-delay(0.55s); @include animation-fill-mode(forwards); }
+.c-about-me_hero__animated-img--white-border { z-index: z("content")+10; top: 10px; 
+}
+.c-about-me_hero__animated-img--white-border-s { z-index: z("content")+10; top: 54px; @include transform(scale(0,0));
+	&.left-1 { left: -70px;  @include animation('c-about-me_hero__animated-img--white-border-left-1 .6s ease'); @include animation-delay(0.65s); @include animation-fill-mode(forwards); }
+	&.left-2 { left: -70px;  @include animation('c-about-me_hero__animated-img--white-border-left-2 .6s ease'); @include animation-delay(0.75s); @include animation-fill-mode(forwards); }
+	&.right-1 { left: 70px;  @include animation('c-about-me_hero__animated-img--white-border-right-1 .6s ease'); @include animation-delay(0.65s); @include animation-fill-mode(forwards); }
+	&.right-2 { left: 70px;  @include animation('c-about-me_hero__animated-img--white-border-right-2 .6s ease'); @include animation-delay(0.75s); @include animation-fill-mode(forwards); }
+}
+
+ 
+.c-about-me_hero__animated-img--logo { z-index: z("content")+13; top: 83px; opacity: 0; @include animation('c-about-me_hero__animated-img--logo .6s ease'); @include animation-fill-mode(forwards); @include animation-delay(1.2s); }
+
+@include keyframes(c-about-me_hero__animated-img--1) {
+	0% { left: 0; }
+	35% { left: 0; }
+	100% { left: -194px; }
+}
+
+@include keyframes(c-about-me_hero__animated-img--2) {
+	0% { left: 0; }
+	35% { left: 0; }
+	100% { left: 194px; }
+}
+
+@include keyframes(c-about-me_hero__animated-img--white-border-left-1) {
+	0% { left: -70px;  }
+	35% { left: -70px; @include transform(scale(0,0));  }
+	100% { left: -320px; @include transform(scale(1,1)); }
+}
+
+@include keyframes(c-about-me_hero__animated-img--white-border-left-2) {
+	0% { left: -70px; }
+	35% { left: -70px; @include transform(scale(0,0)); }
+	100% { left: -366px;  @include transform(scale(1,1));}
+}
+
+@include keyframes(c-about-me_hero__animated-img--white-border-right-1) {
+	0% { left: 70px;  }
+	35% { left: 70px; @include transform(scale(0,0));  }
+	100% { left: 320px; @include transform(scale(1,1)); }
+}
+
+@include keyframes(c-about-me_hero__animated-img--white-border-right-2) {
+	0% { left: 70px; }
+	35% { left: 70px; @include transform(scale(0,0)); }
+	100% { left: 366px;  @include transform(scale(1,1));}
+}
+
+@include keyframes(c-about-me_hero__animated-img--logo) {
+	0% { opacity: 0; }
+	35% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+
+
+
+.c-about-me_hero__a-fadeIn { opacity: 0; @include animation('c-about-me_hero__title-fadeIn .6s ease'); @include animation-fill-mode(forwards); @include animation-delay(0.2s); }
+@include keyframes(c-about-me_hero__title-fadeIn) {
+	0% { opacity: 0; @include transform(translate(50px)); }
+	25% { opacity: 0; @include transform(translate(50px)); }
+	100% { opacity: 1; @include transform(translate(0px)); }
+}
+.c-about-me_hero__title { @extend .font-title-xxxl; margin: 0px 0 8px; color: $primary-color; @include animation-delay(0.3s);
+	@include breakpoint-s(500px) { font-size: 30px; }
+}	
+
+.c-about-me_hero__title-2 { @extend .font-title-xxxl; margin: 0px 0 8px; color: $primary-color; @include animation-delay(0.3s); 
+	@include breakpoint-s(500px) { font-size: 28px; }
+}
+
+
+.c-about-me_hero__title-3 { @extend .font-title-xxxl; font-size: 110px; margin: 0px 0 8px; color: $primary-color; @include animation-delay(0.3s);
+	@include breakpoint-s(700px) { font-size: 80px; }
+	@include breakpoint-s(500px) { font-size: 30px; }
+}
+
+.c-about-me_hero__toggle-btn { @include animation-delay(0.5s); @include transition( all 0.3s ease ); cursor: pointer; display: inline-block; margin: 0 auto;
+	span { width: 40px; height: 40px; padding: 6px; margin-top: -7px; margin-right: 7px; font-size: 40px;  @include inline-block; vertical-align: middle;  border: 1px solid white; @include border-radius(70px); @include transition( all 0.3s ease );}
+	&:hover { 
+		span { border-color: $primary-color; background: $primary-color; color: white; }
+	}
+}
+
+.c-about-me_hero__icon { margin-bottom: 10px; 
+ 
+}
+
+
+.c-about-me_hero__quote1 { @extend .font-title-l; margin-bottom: 5px; 
+	@include breakpoint-s(500px) { font-size: 24px; }
+}
+.c-about-me_hero__quote2 { @extend .font-title-m; margin-bottom: 30px; @include animation-delay(0.4s);
+	@include breakpoint-s(500px) { font-size: 18px; line-height: 1.3em; }
+}
+.c-about-me_hero__logo { margin-bottom: 6px; 
+	@include breakpoint-s(500px) { width: 100px; }
+}
+
+.c-about-me_hero__scroll-down { width: 100%; @include absolute(left 0 bottom 40px); text-align: center; 
+	@include breakpoint-s(800px) { position: relative; bottom: auto; margin-bottom: 30px; }
+
+}
+.c-about-me_hero__scroll-down__text { font-size: 16px; margin-bottom: 10px; 
+	@include breakpoint-s(800px) { display:none; }
+}
+.c-about-me_hero__scroll-down__icon { opacity: 0; @include animation('c-about-me_hero__scroll-down__icon 1.5s infinite ease'); @include animation-delay(0s);  }
+.c-about-me_hero__scroll-down__icon--2 { margin-top: -25px; @include animation-delay(0.25s); }
+.c-about-me_hero__scroll-down__icon--3 { margin-top: -50px; @include animation-delay(0.50s); }
+
+@include keyframes(c-about-me_hero__scroll-down__icon) {
+  0% { opacity: 0; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.c-about-me_hero__detail { position: relative; max-width: 1000px; width: 100%;  margin: 0 auto; padding: 10px; }
+
+
+
+/* ---------------------- About Me Detail ----------------------*/
+
+ 
+.c-about-me_sec2__part-title { @extend .font-title-m; color: white; margin-bottom: 20px;
+	@include breakpoint-s(460px) { font-size: 20px; }
+}
+
+.c-about-me_sec2__part-wrapper { text-align: center; display: table-cell; vertical-align: middle; padding: 0 5px 0; }
+
+.c-about-me_sec2__detail { @include fixed(left 0 top 75px); width: 100%; height: 100%; padding: 0 20px; @include transition( all 0.3s ease ); @include background-size(cover !important);
+	@include breakpoint-s(900px) { display: block; padding-top: 60px; overflow-y:scroll; }
+
+}
+
+.c-about-me_sec2__detail--exp { overflow-y:scroll; 
+	@include breakpoint-s(900px) { display: block; padding-top: 30px; overflow-y:scroll; }
+}
+
+.c-about-me_sec2__detail-wrapper { display: table; color: white; max-width: 1000px; width: 100%;  margin: -75px auto 75px; height: 100%; }
+.c-about-me_sec2__detail-wrapper-inner { text-align: center; display: table-cell; vertical-align: middle; max-width: 1000px;  position: relative;   
+	@include breakpoint-s(800px) { display: block; padding-top: 40px; }
+}
+
+.c-about-me_sec2__detail-wrapper-inner--exp {  padding-top: 120px; padding-bottom: 120px;  height: 100%;
+	@include breakpoint-s(900px) { padding-top: 60px; padding-bottom: 60px;}
+}
+
+.c-about-me_sec2__detail-title { @extend .font-title-xxl; margin-top: 8px;
+	@include breakpoint-s(600px) { font-size: 26px; }
+}
+
+.c-about-me_sec2__detail-title--resume { @extend .font-title-xxl; margin-top: 8px;
+	@include breakpoint-s(600px) { font-size: 26px; }
+}
+
+.c-about-me_sec2__detail-text { @extend .font-xxl; 
+	@include breakpoint-s(600px) { font-size: 16px; }
+}
+
+.c-about-me_sec2__detail-resume-company { @extend .font-title-m; font-size: 24px; margin-bottom: 0px;  
+	@include breakpoint-s(600px) { font-size: 20px; }
+}
+.c-about-me_sec2__detail-resume-title { font-size: 19px; opacity: 0.6;
+	@include breakpoint-s(600px) { font-size: 18px; }
+}
+.c-about-me_sec2__detail-resume-date { font-size: 19px; opacity: 0.6; margin-bottom: 10px;
+	@include breakpoint-s(600px) { font-size: 18px; }
+}
+.c-about-me_sec2__detail-resume-text { @extend .font-xl; margin-bottom: 20px;
+	@include breakpoint-s(600px) { font-size: 16px; }
+}
+
+.c-about-me_sec2__detail-UI-exit { display: inline-block; padding: 10px; color: white; font-size: 55px; cursor: pointer; opacity: 0.4; @include transition( all 0.3s ease ); float:left; margin-left: 20px;
+	&:hover { opacity: 1; }
+	@include breakpoint(small) { font-size: 35px; }
+}
+
+/* ---------------------- About Me Detail ----------------------*/
+
+.c-about-me_exp { list-style-type: none; margin: 30px 0 20px; padding: 0;
+	li { border-top: 1px solid rgba(255,255,255,0); border-bottom: 1px solid rgba(255,255,255,0); padding: 5px 10px; margin-bottom: 15px; color: white; cursor: pointer; max-height: 64px; position: relative; 
+		@include breakpoint-s(400px) { max-height: 71px; } 
+
+		@include transition( all 0.6s ease ); overflow:hidden;
+		&.active { border-color: rgba(255,255,255,0.8);  max-height: 1000px; overflow: visible; padding: 12px 10px 25px; cursor: auto;/* @include background-image(linear-gradient(top,  rgba(0,0,0,0.15) 0%,rgba(255,255,255,0) 40%,rgba(255,255,255,0) 100%));*/
+
+			.c-about-me_exp__company-name { top: 10px; left: 10px; @include transform(translate(0px)); @include transition( all 0.5s ease ); @include transition-delay(0.7s); }
+
+			.c-about-me_exp__fadeIn { @include animation('c-about-me_exp__fadeIn .5s ease'); @include animation-fill-mode(forwards); }
+			@include keyframes(c-about-me_exp__fadeIn) {
+				0% { opacity: 0; @include transform(translate(50px)); }
+				25% { opacity: 0; @include transform(translate(50px)); }
+				100% { opacity: 1; @include transform(translate(0px)); }
+			}
+			.c-about-me_exp__fadeIn-less-opacity { @include animation('c-about-me_exp__fadeIn-less-opacity .5s ease'); @include animation-fill-mode(forwards);}
+			@include keyframes(c-about-me_exp__fadeIn-less-opacity) {
+				0% { opacity: 0; @include transform(translate(50px)); }
+				25% { opacity: 0; @include transform(translate(50px)); }
+				100% { opacity: 0.5; @include transform(translate(0px)); }
+			}
+			.c-about-me_exp__date { @extend .c-about-me_exp__fadeIn-less-opacity; @include animation-delay(0.3s); }
+			.c-about-me_exp__logo { @extend .c-about-me_exp__fadeIn; @include animation-delay(0.45s); }
+			/*.c-about-me_exp__title {  @extend .c-about-me_exp__fadeIn-less-opacity; @include animation-delay(0.54s); }*/
+			.c-about-me_exp__title {  top: 35px; left: 10px; @include transform(translate(0px)); @include transition( all 0.5s ease ); @include transition-delay(0.9s); opacity: 0.6; 
+				@include breakpoint-s(400px) { top: 34px; }
+			}
+			.c-about-me_exp__summary { @extend .c-about-me_exp__fadeIn; @include animation-delay(0.6s); }
+
+			&:hover { 
+				.c-about-me_exp__company-name { color: white; }
+			}
+
+		}
+		&:hover { 
+			.c-about-me_exp__company-name { color: $primary-color; }
+		}
+	}
+}
+
+.c-about-me_exp__logo { margin: 22px 0 20px; opacity: 0; }
+
+.c-about-me_exp__empty-space { height: 40px; }
+.c-about-me_exp__company-name { @include absolute(top 8px left 50% ); @include transform(translate(-50%)); font-size: 22px; @include transition( all 0.4s ease );
+	@include breakpoint-s(600px) { font-size: 20px; }
+	@include breakpoint-s(400px) { font-size: 18px; letter-spacing: -1px; }
+}
+.c-about-me_exp__summary { opacity: 0; }
+.c-about-me_exp__date { font-size: 20px; opacity: 0; float: right; 
+	@include breakpoint-s(600px) { font-size: 18px; }
+	@include breakpoint-s(400px) { font-size: 16px; letter-spacing: -1px; }
+}
+.c-about-me_exp__title { font-size: 18px; margin-bottom: 15px; @include absolute(top 35px left 50% ); @include transform(translate(-50%)); opacity: 0.6; @include transition( all 0.4s ease );  @include transition-delay(0.25s);
+	@include breakpoint-s(600px) { line-height: 1em;  letter-spacing: -1px; }
+	@include breakpoint-s(360px) { font-size: 16px;  letter-spacing: -1px; top: 34px; }
+}

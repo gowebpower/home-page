@@ -1,0 +1,218 @@
+
+<section class="c-about-me_hero">
+    <div class="container">
+        
+        <div class="center">
+
+            <div class="c-about-me_hero__text-wrapper">
+                <div class="c-about-me_hero__text-wrapper-inner">
+                    <div class="c-about-me_hero__text-wrapper-inner2">
+                        <img src="images/logo_small.png" alt="" class="c-about-me_hero__logo">
+                        <!-- <div class="font-title-l c-about-me_hero__quote1">About Ban Park</div> -->
+                        <h1 class="font-title-xxxl c-about-me_hero__title">My Front-end Path</h1>
+                        <div class="font-title-m c-about-me_hero__quote2">“Design Strong and Bold Yet Passionate To Web Things”</div>
+                    </div> <!-- c-about-me_hero__text-wrapper-inner2 -->
+                </div> <!-- c-about-me_hero__text-wrapper-inner -->
+            </div> <!-- c-about-me_hero__text-wrapper -->
+
+            
+                <div class="c-about-me_hero__scroll-down font-white center">
+                    
+                    
+                    <div class="c-about-me_hero__scroll-down__text">Scroll To Learn More</div>
+                    <span class="icon-arrow-down c-about-me_hero__scroll-down__icon"></span>
+                    <div class="clearfix"></div>
+                    <span class="icon-arrow-down c-about-me_hero__scroll-down__icon c-about-me_hero__scroll-down__icon--2"></span>
+                    <div class="clearfix"></div>
+                    <span class="icon-arrow-down c-about-me_hero__scroll-down__icon c-about-me_hero__scroll-down__icon--3"></span>
+                    
+                </div> <!-- c-about-me_hero__scroll-down -->
+            
+
+            <!-- <h1 class="font-title-xxxl margin-top-0 margin-bottom-30">About Me</h1>
+            
+            
+            <h3 class="font-title-l">Professional Summary</h3>
+
+            <p>
+                7+ Years of industry experience in structuring, developing and implementing interactive websites. Transitioning through trends from table layouts to none-table layouts and responsive layouts. Creating professional and industry leading visualized web sites with up-to-date web standard coding.
+            </p>
+
+            <h3 class="font-title-l">Education</h3>
+
+            <p>
+                ITT Technical Institute Graduate (Sept 2010)
+                </br>-Majoring Visual Communication ( Web Design / Motion Graphic Design )
+                </br>LA High School Graduate (June 2004)
+
+            </p>
+
+            <h3 class="font-title-l">Skills</h3>
+
+            <p>
+                Photoshop, Illustrator, InDesign, 
+                </br>UI & UX, 
+                </br>HTML & CSS3
+                </br>CSS Preprocessor: SASS and Compass
+                </br>Scalable and Modular Architecture for CSS (SMACSS)
+                </br>Block, Element, Modifier (BEM) CSS
+                </br>CSS & JS Framework ( Foundation5 and Boostrap3 )
+                </br>Pure Javascript & jQuery
+                </br>Grunt for live reloading, minifying & concantating for SASS and JS.
+                </br>AngularJS
+
+
+            </p>
+
+            <h3 class="font-title-l">Working Experience</h3>
+            
+            <p>
+                Please <a href="#/contact">contact me</a> for my full resume file
+
+            </p> -->
+        
+        </div>
+    
+             
+
+    </div><!-- container -->
+</section> <!-- c-about-me_hero -->
+
+<section class="c-about-me_sec2">
+     
+    <div class="c-about-me_sec2__col">
+
+        <div class="c-about-me_sec2__part c-about-me_sec2__part--1">
+            <div class="c-about-me_sec2__part-wrapper">
+                <div class="c-about-me_sec2__part-title">Professional Summary & Education</div>
+                <a href="javascript:void()" class="button-3nd button__l" ng-click="showDetail('summary')">View More</a>
+
+            </div>
+            
+
+        </div><!-- c-about-me_sec2__col--part3 -->
+
+        <div class="c-about-me_sec2__part c-about-me_sec2__part--2">
+            <div class="c-about-me_sec2__part-wrapper">
+                <div class="c-about-me_sec2__part-title">Skills</div>
+                <a href="javascript:void()" class="button-3nd button__l" ng-click="showDetail('skills')">View More</a>
+
+            </div>
+
+        </div><!-- c-about-me_sec2__col--part3 -->
+        
+
+    </div><div class="c-about-me_sec2__col">
+        <div class="c-about-me_sec2__part c-about-me_sec2__part--3">
+            <div class="c-about-me_sec2__part-wrapper">
+                <div class="c-about-me_sec2__part-title">Working Experience</div>
+                <a href="javascript:void()" class="button-3nd button__l" ng-click="showDetail('experience')">View More</a>
+
+            </div>
+            
+
+        </div><!-- c-about-me_sec2__col--part3 -->
+    </div> <!-- c-about-me_sec2__col -->
+
+
+
+    <div class="c-about-me_sec2__detail c-about-me_sec2__detail--1 slide-top" ng-show="currentDetail == 'summary'">
+        
+        <div class="c-about-me_sec2__detail-UI-exit" ng-click="showDetail('')">X</div>
+
+        <div class="c-about-me_sec2__detail-wrapper">
+            <div class="c-about-me_sec2__detail-wrapper-inner">
+         
+                <h3 class="c-about-me_sec2__detail-title">Professional Summary</h3>
+                <p>
+                    7+ Years of industry experience in structuring, developing and implementing interactive websites. Transitioning through trends from table layouts to none-table layouts and responsive layouts. Creating professional and industry leading visualized web sites with up-to-date web standard coding.
+                </p>
+
+                <h3 class="c-about-me_sec2__detail-title">Education</h3>
+                <p>
+                    ITT Technical Institute Graduate (Sept 2010) 
+                    -Majoring Visual Communication ( Web Design / Motion Graphic Design ) 
+                    </br>LA High School Graduate (June 2004)
+                </p>
+
+            </div> <!-- c-about-me_sec2__detail-wrapper-inner -->
+        </div> <!-- c-about-me_sec2__detail-wrapper -->
+    </div> <!-- c-about-me_sec2__detail -->
+
+
+    <div class="c-about-me_sec2__detail c-about-me_sec2__detail--2 slide-top" ng-show="currentDetail == 'skills'">
+        
+        <div class="c-about-me_sec2__detail-UI-exit" ng-click="showDetail('')">X</div>
+
+        <div class="c-about-me_sec2__detail-wrapper">
+            <div class="c-about-me_sec2__detail-wrapper-inner">
+         
+                <h3 class="c-about-me_sec2__detail-title">Skills</h3>
+                <p class="c-about-me_sec2__detail-text">
+                    Photoshop, Illustrator, InDesign, 
+                    </br>UI & UX, 
+                    </br>HTML & CSS3
+                    </br>CSS Preprocessor: SASS and Compass
+                    </br>Scalable and Modular Architecture for CSS (SMACSS)
+                    </br>Block, Element, Modifier (BEM) CSS
+                    </br>CSS & JS Framework ( Foundation5 and Boostrap3 )
+                    </br>Pure Javascript & jQuery
+                    </br>AngularJS
+                    </br>Grunt for live reloading, minifying & concantating for SASS and JS.
+
+                </p>
+
+            </div> <!-- c-about-me_sec2__detail-wrapper-inner -->
+        </div> <!-- c-about-me_sec2__detail-wrapper -->
+    </div> <!-- c-about-me_sec2__detail -->
+
+
+    <div class="c-about-me_sec2__detail c-about-me_sec2__detail--3 slide-top" ng-show="currentDetail == 'experience'">
+        
+        <div class="c-about-me_sec2__detail-UI-exit" ng-click="showDetail('')">X</div>
+
+        <div class="c-about-me_sec2__detail-wrapper">
+            <div class="c-about-me_sec2__detail-wrapper-inner">
+         
+                <h3 class="c-about-me_sec2__detail-title--resume">Working Experience</h3>
+
+                <div class="c-about-me_sec2__detail-resume-company">Be Great Partners</div>
+                <div class="c-about-me_sec2__detail-resume-title">Lead Front-end Developer</div>
+                <div class="c-about-me_sec2__detail-resume-date">July 2012 ~ November 2014</div>
+                <p class="c-about-me_sec2__detail-resume-text">
+                    Created & designed wireframe, dirty mockups, desktop and mobile UI UX, based on the traffic analytics and design concept. Finalized or refined the prototypes from mockups. Developed lots of various pages with web standards for the cross browser compatibility using SASS & Compass(CSS Preprocessor), modular coding methods, HTML5, JS and Foundation5 (or Boostrap) while maintaining all the front-end standards organized, maintainable and scalable.
+
+                    </br></br>- Lead Designer on Kively(Banking management web platform), one of inner project in BeGreat.
+                    Worked on UI UX, designing, developed the front and dashboard pages.
+                    </br>- Lead Front-end Developer on BeGreat. 
+                    Worked on UI UX, designing, developed for all the front, event and dashboard pages.
+
+
+                </p>
+
+                <div class="c-about-me_sec2__detail-resume-company">EveryBodyJewelry</div>
+                <div class="c-about-me_sec2__detail-resume-title">Lead Front-end Developer</div>
+                <div class="c-about-me_sec2__detail-resume-date">September 2010 ~ June 2012 </div>
+                <p class="c-about-me_sec2__detail-resume-text">
+                    Lead Front-end Developer. Developed e-commerce site for CocobulBodyJewelry.com using 3dcart e-commerce solution, Wholesale body jewelry site, Everybodyjewelry.com using Magento e-commerce solution. Created and optimized both sites to provide unique experiences based on business role using CSS3 & jQuery. Supervised all the company design assets, marketing strategies and SEO work which achieved number one page in google.com by targeted keyword.
+                </p>
+
+                <div class="c-about-me_sec2__detail-resume-company">CNC Nail</div>
+                <div class="c-about-me_sec2__detail-resume-title">Web Designer</div>
+                <div class="c-about-me_sec2__detail-resume-date">May 2009 ~ July 2010 </div>
+                <p class="c-about-me_sec2__detail-resume-text">
+                    Web designer and web master position at CNC Nail Supplier Company to build up e-commerce site.
+                    Created Newsletters, various design assets, flash & marketing images, managed design and layouts.
+
+                </p>
+
+            </div> <!-- c-about-me_sec2__detail-wrapper-inner -->
+        </div> <!-- c-about-me_sec2__detail-wrapper -->
+    </div> <!-- c-about-me_sec2__detail -->
+
+ 
+</section> <!-- c-about-me_hero -->
+
+ 
+
+ 

@@ -1,0 +1,86 @@
+<div class="container">
+
+    <div class="row">
+         
+        <div class="col-md-12">
+             <div class="l-main-container center">
+                
+                <div class="m-back-to-previous">
+                     <a href="/#/works" class="left"><span class="icon-arrow-back m-back-to-previous__icon"></span></a>
+                     <div class="clearfix"></div>
+                </div>
+                
+
+                <h1 class="font-title-xxxl font-white margin-top-0 margin-bottom-5">{{ currentWork.title }}</h1>
+
+
+                <div class="font-title-xl font-white font-sub margin-bottom-20">{{ currentWork.category }}</div> 
+
+                <div class="m-message-box" ng-show='currentWork.websiteUrl'>
+                    Live Site(or Demo) is <span class="font-green">available</span>. <a href="{{ currentWork.websiteUrl }}" target="_blank" class="m-message-box__link">Visit the site</a>
+
+                </div> <!-- m-message-box --> 
+                
+                <ul class="m-work-thumbnails">
+                    <li ng-repeat="list in imageGallery" ng-style="{'background': getThumnailDetail.background(list.thumbnail) }" ng-click="toggleImageGallery($index)">
+
+                        <img isrc="list.thumbnail" onloadimg="list.callback(list)" loading>
+                        <div class="m-work-thumbnails__loading spin-toggle" ng-show="list.showLoading"></div> 
+                                             
+                    </li>
+                </ul>
+                
+                <!-- ng-style="{'background': getThumnailDetail.background(list.thumbnail) }" -->
+
+
+             </div> <!-- l-main-container -->
+        </div> <!-- col -->
+
+    </div> <!-- row -->
+
+</div><!-- container -->
+
+
+
+<div class="m-slider-modal" ng-show="showImageGallery == 'active'" hm-swipeleft="nextSlide()" hm-swiperight="prevSlide()">
+
+    <div class="m-slider" >
+
+        <div class="m-slider-modal__UI-exit" ng-click="toggleImageGallery()">X</div>
+
+        <div class="m-slider-modal__UI-arrow">
+            <span class="m-slider-modal__UI-arrow__icon-helper"></span>
+            <div class="m-slider-modal__UI-arrow__icon" ng-click="prevSlide()"><</div>
+        </div> <!-- m-slider-modal__UI -->
+
+        <div class="m-slider-modal__UI-arrow m-slider-modal__UI-arrow--right">
+            <div class="m-slider-modal__UI-arrow__icon-helper"></div>
+            <div class="m-slider-modal__UI-arrow__icon" ng-click="nextSlide()">></div>
+        </div> <!-- m-slider-modal__UI -->
+        
+        
+
+        <div class="m-slider__img-wrapper">
+            <div class="m-slider__img-wrapper-inner slide-left" ng-repeat="list in imageGallery" ng-show="isCurrentSlideIndex($index)">
+               
+                <span class="m-slider__img-helper"></span>
+                <img ng-src="{{ list.image }}"  class="m-slider__img " alt="{{ $index }}">
+              
+            </div>
+        </div>
+        
+        <nav class="m-slider__nav">
+            <div class="wrapper">
+                <ul class="m-slider__nav-dots">
+                    <li class="m-slider__nav-dot" ng-repeat="list in imageGallery" ng-class="{ 'active': isCurrentSlideIndex($index) }" ng-click="setCurrentSlideIndex($index)"></li>
+                </ul>
+            </div>
+        </nav>
+
+    </div> <!-- m-slider -->
+</div> <!-- m-slider -->
+
+
+
+
+ 

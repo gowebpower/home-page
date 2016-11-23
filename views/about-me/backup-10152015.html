@@ -1,0 +1,298 @@
+
+
+<figure class="c-about-me_menu">
+    <ul>
+        <li><a href="javascript:void(0)" ng-click="setCurrent(1)" ng-class="{ active: currentSection() == 1 }">Intro</a></li>
+        <li><a href="javascript:void(0)" ng-click="setCurrent(2)" ng-class="{ active: currentSection() == 2 }">Summary</a></li>
+        <li><a href="javascript:void(0)" ng-click="setCurrent(3)" ng-class="{ active: currentSection() == 3 }">Skills</a></li>
+        <li><a href="javascript:void(0)" ng-click="setCurrent(4)" ng-class="{ active: currentSection() == 4 }">Experience</a></li>
+
+    </ul>
+</figure>
+ 
+
+
+
+
+<div class="c-about-me_hero-wrapper" hm-swipeleft="goNext()" hm-swiperight="goPre()">
+    
+    <figure class="m-slider__UI-arrow" ng-hide="!btnPre() || currentDetail.length > 1">
+        <span class="m-slider__UI-arrow__icon-helper"></span>
+        <div class="m-slider__UI-arrow__icon" ng-click="goPre()"><</div>
+    </figure> <!-- m-slider__UI -->
+
+    <figure class="m-slider__UI-arrow m-slider__UI-arrow--right" ng-hide="!btnNext() || currentDetail.length > 1">
+        <div class="m-slider__UI-arrow__icon-helper"></div>
+        <div class="m-slider__UI-arrow__icon" ng-click="goNext()">></div>
+    </figure> <!-- m-slider__UI -->
+
+    
+
+
+
+
+    <section class="c-about-me_hero slide-left" ng-show="currentSection() == 1">
+
+
+        <div class="container">
+            
+            <div class="center">
+
+                <div class="c-about-me_hero__text-wrapper">
+                    <div class="c-about-me_hero__text-wrapper-inner">
+                        <div class="c-about-me_hero__text-wrapper-inner2">
+                            
+                            <div class="c-about-me_hero__animated-imgs">
+                                <div class="c-about-me_hero__a-fadeIn">
+                                    <div class="c-about-me_hero__animated-img c-about-me_hero__animated-img--1 icon-about-me_hero-img_part1"></div>
+                                    <div class="c-about-me_hero__animated-img c-about-me_hero__animated-img--2 icon-about-me_hero-img_part2"></div>
+                                    <div class="c-about-me_hero__animated-img c-about-me_hero__animated-img--white-border icon-about-me_hero-img_part3"></div>
+                                    <div class="c-about-me_hero__animated-img c-about-me_hero__animated-img--white-border-s left-1 icon-about-me_hero-img_part5"></div>
+                                    <div class="c-about-me_hero__animated-img c-about-me_hero__animated-img--white-border-s left-2 icon-about-me_hero-img_part5"></div>
+                                    <div class="c-about-me_hero__animated-img c-about-me_hero__animated-img--white-border-s right-1 icon-about-me_hero-img_part5"></div>
+                                    <div class="c-about-me_hero__animated-img c-about-me_hero__animated-img--white-border-s right-2 icon-about-me_hero-img_part5"></div>
+                                    <div class="c-about-me_hero__animated-img c-about-me_hero__animated-img--logo icon-about-me_hero-img_part4"></div>
+                                </div>
+                            </div>
+
+                            <img src="images/about-me_hero-img.png" alt="" class="c-about-me_hero__a-fadeIn c-about-me_hero__static-img img-responsive margin-bottom-10">
+                    
+                            <h1 class="c-about-me_hero__a-fadeIn c-about-me_hero__title">My Front-end Path</h1>
+                            <div class="c-about-me_hero__a-fadeIn c-about-me_hero__quote2">About Ban Park</div>
+                            <a href="javascript:void(0)" class="c-about-me_hero__a-fadeIn c-about-me_hero__btn button-3nd button__xl " ng-click="setCurrent(2)">Learn More</a>
+                            
+
+
+                        </div> <!-- c-about-me_hero__text-wrapper-inner2 -->
+                    </div> <!-- c-about-me_hero__text-wrapper-inner -->
+                </div> <!-- c-about-me_hero__text-wrapper -->
+
+                
+                     
+
+                <!-- <h1 class="font-title-xxxl margin-top-0 margin-bottom-30">About Me</h1>
+                
+                
+                <h3 class="font-title-l">Professional Summary</h3>
+
+                <p>
+                    7+ Years of industry experience in structuring, developing and implementing interactive websites. Transitioning through trends from table layouts to none-table layouts and responsive layouts. Creating professional and industry leading visualized web sites with up-to-date web standard coding.
+                </p>
+
+                <h3 class="font-title-l">Education</h3>
+
+                <p>
+                    ITT Technical Institute Graduate (Sept 2010)
+                    </br>-Majoring Visual Communication ( Web Design / Motion Graphic Design )
+                    </br>LA High School Graduate (June 2004)
+
+                </p>
+
+                <h3 class="font-title-l">Skills</h3>
+
+                <p>
+                    Photoshop, Illustrator, InDesign, 
+                    </br>UI & UX, 
+                    </br>HTML & CSS3
+                    </br>CSS Preprocessor: SASS and Compass
+                    </br>Scalable and Modular Architecture for CSS (SMACSS)
+                    </br>Block, Element, Modifier (BEM) CSS
+                    </br>CSS & JS Framework ( Foundation5 and Boostrap3 )
+                    </br>Pure Javascript & jQuery
+                    </br>Grunt for live reloading, minifying & concantating for SASS and JS.
+                    </br>AngularJS
+
+
+                </p>
+
+                <h3 class="font-title-l">Working Experience</h3>
+                
+                <p>
+                    Please <a href="#/contact">contact me</a> for my full resume file
+
+                </p> -->
+            
+            </div>
+
+        </div><!-- container -->
+    </section> <!-- c-about-me_hero -->
+
+
+
+    <section class="c-about-me_hero c-about-me_hero--2 slide-left" ng-show="currentSection() == 2" ng-class="{ blur: currentDetail.length > 1 }">
+
+        <div class="container">
+            
+            <div class="center">
+
+                <div class="c-about-me_hero__text-wrapper">
+                    <div class="c-about-me_hero__text-wrapper-inner">
+                        <div class="c-about-me_hero__text-wrapper-inner2">
+
+                            
+                            <div class="c-about-me_hero__a-fadeIn icon-about-me_summary c-about-me_hero__icon"></div>
+                            <h1 class="c-about-me_hero__a-fadeIn c-about-me_hero__title-2">Professional Summary </br>& Education</h1>
+                            <div class="c-about-me_hero__a-fadeIn c-about-me_hero__quote2">“Design Strong and Bold Yet Passionate To Web Things”</div>
+                            <div class="c-about-me_hero__a-fadeIn c-about-me_hero__btn " ng-click="showDetail('summary')"><span>+</span> View More Detail</div>
+
+
+                        </div> <!-- c-about-me_hero__text-wrapper-inner2 -->
+                    </div> <!-- c-about-me_hero__text-wrapper-inner -->
+                </div> <!-- c-about-me_hero__text-wrapper -->
+
+            </div>
+
+        </div><!-- container -->
+    </section> <!-- c-about-me_hero -->
+
+
+    <section class="c-about-me_hero c-about-me_hero--3 slide-left" ng-show="currentSection() == 3" ng-class="{ blur: currentDetail.length > 1 }">
+
+        <div class="container">
+            
+            <div class="center">
+
+                <div class="c-about-me_hero__text-wrapper">
+                    <div class="c-about-me_hero__text-wrapper-inner">
+                        <div class="c-about-me_hero__text-wrapper-inner2">
+                            
+                            <div class="c-about-me_hero__a-fadeIn icon-about-me_skills c-about-me_hero__icon"></div>
+                            <h1 class="c-about-me_hero__a-fadeIn c-about-me_hero__title-3">Skills</h1>
+                            <div class="c-about-me_hero__a-fadeIn c-about-me_hero__quote2">“Front-end Engineer With Stunning Aesthetics Sense”</div>
+                            <div class="c-about-me_hero__a-fadeIn c-about-me_hero__btn " ng-click="showDetail('skills')"><span>+</span> View More Detail</div>
+
+
+                        </div> <!-- c-about-me_hero__text-wrapper-inner2 -->
+                    </div> <!-- c-about-me_hero__text-wrapper-inner -->
+                </div> <!-- c-about-me_hero__text-wrapper -->
+            
+            </div>
+
+        </div><!-- container -->
+    </section> <!-- c-about-me_hero -->
+
+    <section class="c-about-me_hero c-about-me_hero--4 slide-left" ng-show="currentSection() == 4" ng-class="{ blur: currentDetail.length > 1 }">
+
+        <div class="container">
+            
+            <div class="center">
+
+                <div class="c-about-me_hero__text-wrapper">
+                    <div class="c-about-me_hero__text-wrapper-inner">
+                        <div class="c-about-me_hero__text-wrapper-inner2">
+
+                            <div class="c-about-me_hero__a-fadeIn icon-about-me_exp c-about-me_hero__icon"></div>
+                            <h1 class="c-about-me_hero__a-fadeIn c-about-me_hero__title-3">Expereince</h1>
+                            <div class="c-about-me_hero__a-fadeIn c-about-me_hero__quote2">"Infinite Research and Extend The Possibility With Front-end”</div>
+                            <div class="c-about-me_hero__a-fadeIn c-about-me_hero__btn " ng-click="showDetail('experience')"><span>+</span> View More Detail</div>
+                           
+
+                        </div> <!-- c-about-me_hero__text-wrapper-inner2 -->
+                    </div> <!-- c-about-me_hero__text-wrapper-inner -->
+                </div> <!-- c-about-me_hero__text-wrapper -->
+            
+            </div>
+
+        </div><!-- container -->
+    </section> <!-- c-about-me_hero -->
+
+</div>
+
+
+<div class="c-about-me_sec2__detail c-about-me_sec2__detail--1 slide-top" ng-show="currentDetail == 'summary'">
+        
+    <div class="c-about-me_sec2__detail-UI-exit" ng-click="showDetail('')">X</div>
+
+    <div class="c-about-me_sec2__detail-wrapper">
+        <div class="c-about-me_sec2__detail-wrapper-inner">
+     
+            <h3 class="c-about-me_sec2__detail-title">Professional Summary</h3>
+            <p>
+                7+ Years of industry experience in structuring, developing and implementing interactive websites. Transitioning through trends from table layouts to none-table layouts and responsive layouts. Creating professional and industry leading visualized web sites with up-to-date web standard coding.
+            </p>
+
+            <h3 class="c-about-me_sec2__detail-title">Education</h3>
+            <p>
+                ITT Technical Institute Graduate (Sept 2010) 
+                -Majoring Visual Communication ( Web Design / Motion Graphic Design ) 
+                </br>LA High School Graduate (June 2004)
+            </p>
+
+        </div> <!-- c-about-me_sec2__detail-wrapper-inner -->
+    </div> <!-- c-about-me_sec2__detail-wrapper -->
+</div> <!-- c-about-me_sec2__detail -->
+
+
+<div class="c-about-me_sec2__detail c-about-me_sec2__detail--2 slide-top" ng-show="currentDetail == 'skills'">
+        
+    <div class="c-about-me_sec2__detail-UI-exit" ng-click="showDetail('')">X</div>
+
+    <div class="c-about-me_sec2__detail-wrapper">
+        <div class="c-about-me_sec2__detail-wrapper-inner">
+     
+            <h3 class="c-about-me_sec2__detail-title">Skills</h3>
+            <p class="c-about-me_sec2__detail-text">
+                Photoshop, Illustrator, InDesign, 
+                </br>UI & UX, 
+                </br>HTML & CSS3
+                </br>CSS Preprocessor: SASS and Compass
+                </br>Scalable and Modular Architecture for CSS (SMACSS)
+                </br>Block, Element, Modifier (BEM) CSS
+                </br>CSS & JS Framework ( Foundation5 and Boostrap3 )
+                </br>Pure Javascript & jQuery
+                </br>AngularJS
+                </br>Grunt for live reloading, minifying & concantating for SASS and JS.
+
+            </p>
+
+        </div> <!-- c-about-me_sec2__detail-wrapper-inner -->
+    </div> <!-- c-about-me_sec2__detail-wrapper -->
+</div> <!-- c-about-me_sec2__detail -->
+
+
+<div class="c-about-me_sec2__detail c-about-me_sec2__detail--3 slide-top" ng-show="currentDetail == 'experience'">
+    
+    <div class="c-about-me_sec2__detail-UI-exit" ng-click="showDetail('')">X</div>
+
+    <div class="c-about-me_sec2__detail-wrapper">
+        <div class="c-about-me_sec2__detail-wrapper-inner">
+     
+            <h3 class="c-about-me_sec2__detail-title--resume">Working Experience</h3>
+
+            <div class="c-about-me_sec2__detail-resume-company">Be Great Partners</div>
+            <div class="c-about-me_sec2__detail-resume-title">Lead Front-end Developer</div>
+            <div class="c-about-me_sec2__detail-resume-date">July 2012 ~ November 2014</div>
+            <p class="c-about-me_sec2__detail-resume-text">
+                Created & designed wireframe, dirty mockups, desktop and mobile UI UX, based on the traffic analytics and design concept. Finalized or refined the prototypes from mockups. Developed lots of various pages with web standards for the cross browser compatibility using SASS & Compass(CSS Preprocessor), modular coding methods, HTML5, JS and Foundation5 (or Boostrap) while maintaining all the front-end standards organized, maintainable and scalable.
+
+                </br></br>- Lead Designer on Kively(Banking management web platform), one of inner project in BeGreat.
+                Worked on UI UX, designing, developed the front and dashboard pages.
+                </br>- Lead Front-end Developer on BeGreat. 
+                Worked on UI UX, designing, developed for all the front, event and dashboard pages.
+
+
+            </p>
+
+            <div class="c-about-me_sec2__detail-resume-company">EveryBodyJewelry</div>
+            <div class="c-about-me_sec2__detail-resume-title">Lead Front-end Developer</div>
+            <div class="c-about-me_sec2__detail-resume-date">September 2010 ~ June 2012 </div>
+            <p class="c-about-me_sec2__detail-resume-text">
+                Lead Front-end Developer. Developed e-commerce site for CocobulBodyJewelry.com using 3dcart e-commerce solution, Wholesale body jewelry site, Everybodyjewelry.com using Magento e-commerce solution. Created and optimized both sites to provide unique experiences based on business role using CSS3 & jQuery. Supervised all the company design assets, marketing strategies and SEO work which achieved number one page in google.com by targeted keyword.
+            </p>
+
+            <div class="c-about-me_sec2__detail-resume-company">CNC Nail</div>
+            <div class="c-about-me_sec2__detail-resume-title">Web Designer</div>
+            <div class="c-about-me_sec2__detail-resume-date">May 2009 ~ July 2010 </div>
+            <p class="c-about-me_sec2__detail-resume-text">
+                Web designer and web master position at CNC Nail Supplier Company to build up e-commerce site.
+                Created Newsletters, various design assets, flash & marketing images, managed design and layouts.
+
+            </p>
+
+        </div> <!-- c-about-me_sec2__detail-wrapper-inner -->
+    </div> <!-- c-about-me_sec2__detail-wrapper -->
+</div> <!-- c-about-me_sec2__detail -->
+
+
+
+ 

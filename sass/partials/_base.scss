@@ -1,0 +1,232 @@
+
+body { position: relative; 
+	&.stopScroll { overflow: hidden; width: 100%; }
+}
+
+.c-global-background { width: 100%; min-height: 100%; position: fixed; top: 0; left: 0; background: image-url("bg_global.jpg") no-repeat center top; @include background-size(cover); 
+	@include breakpoint(small) { background: image-url("bg_global.jpg") center center fixed; min-height: 110%; }
+	&.aboutMe { background: #000; }
+}
+
+html { height: 100%; }
+html, body, p  { @extend %font-body;
+	@include breakpoint(small) { font-size:16px; }
+}
+
+*, *:before, *:after { @include box-sizing(box-sizing); }
+*:focus, *:active { outline: none; }
+
+a { color: $link-color; text-decoration: none; outline: none; } //202076 3a74c1 original link color
+a:active, a:focus { outline: none; text-decoration: none; }
+a:hover { color: $link-color-hover;  @include transition( all 0.4s ); text-decoration: none;}      //3f3f9f
+.link-color { color: $link-color !important; }
+
+
+// other standalone
+
+strong { font-weight: bold; }
+.bold { font-weight: bold; }
+.center { margin: 0 auto; text-align: center; }
+.element-center { margin: 0 auto; display:block; }
+.empty { text-align: center; padding: 20px 0; }
+.no-float { float: none !important; }
+.no-border { border-color: transparent !important; border-radius: 0 !important; }
+.left { float: left; }
+.right { float: right; }
+.display-none { display: none; }
+.no-padding { padding: 0 !important; }
+.no-border { border: none; }
+.inline { @include inline-block; }
+.underline { text-decoration: underline; }
+.box-shadow { @include single-box-shadow( 1px, 1px, 2px ,3px, #919191 );}
+.general-list { list-style-type: disc; 
+	li { margin-bottom: 20px; line-height: 20px; }
+}
+.clearfix {
+	display: inline-block; height: 1%; display: block; clear:both;
+	&:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+}
+
+
+// font h
+
+/*h1, h2, h3, h4, h5, h6 {  }
+h1 { font-size: 36px; line-height: 1.1em; }
+h2 { font-size: 30px; line-height: 1.1em; }
+h3 { font-size: 24px; line-height: 1.1em; }
+h4 { font-size: 18px; line-height: 1.1em; }
+h5, h6 { font-size: 16px; line-height: 1.1em; }*/
+
+
+$font-header: (h1, 36px), (h2, 30px), (h3, 24px), (h4, 18px), (h5, 16px), (h6, 16px);
+
+@each $class, $size in $font-header {
+	#{$class} {
+	  font-size: $size;
+	  line-height: 1.1em;
+	}
+}
+
+
+
+// font p
+
+$font-general: (font-xs, 10px), (font-s, 12px), (font-m, 14px), (font-l, 16px), (font-xl, 18px), (font-xxl, 20px);
+
+@each $class, $size in $font-general {
+	.#{$class} {
+	  font-size: $size;
+	  line-height: 1.4em;
+	}
+}
+
+.font-weight-none { font-weight: normal; }
+.font-italic { font-style: italic; }
+.font-uppercase { text-transform: uppercase; }
+.font-white { color: #fff; }
+.font-green { color: #8cee00; }
+.font-blue { color: #1067de; }
+.font-red{ color: red; }
+.font-sub, a.font-sub { opacity: 0.45 !important; } // less visible color then regular font.
+.font-shadow-light-grey { text-shadow: 1px 1px 0px rgba(255,255,255,0.3); }
+.font-left { text-align: left; }
+.font-right { text-align: right; }
+
+
+
+// font marketing title
+
+$font-title: (font-title-s, 20px), (font-title-m, 26px), (font-title-ml, 30px, 28px), (font-title-l, 34px, 32px), (font-title-xl, 38px, 36px), (font-title-xxl, 48px, 38px), (font-title-xxxl, 58px, 38px);
+
+@each $class, $size, $size-small in $font-title {
+	.#{$class} {
+	 
+	  font-size: $size;
+	  line-height: 1.1em;
+	  margin-bottom: 0.4em;
+	  @extend %font-header;
+	  @include breakpoint(small) { font-size: $size-small; }
+	  
+	}
+}
+
+
+// buttons
+
+%button  { padding: 9px 16px; line-height: normal !important; vertical-align: middle; cursor: pointer; margin-bottom:10px; font-weight: normal !important; text-shadow: none !important; @include border-radius(2px); border: none;  min-height: 0px !important; min-width: 110px; display:inline-block; 
+	&:hover { @include transition(all 0.4s); }
+}
+
+.button-primary { @extend %button; background: $link-color; color: #fff !important;
+	&:hover { background: $link-color-hover !important; color: #fff; }
+}
+
+.button-2nd, a.button-2nd { @extend %button; background: rgba(0,0,0,0.8); color: #fff;
+	&:hover { background: $primary-color;  color: #fff; } 
+} 
+
+
+.button-3nd { @extend %button; color: #fff; background: none; border: 1px solid white;
+	&:hover {  background: $primary-color; border: 1px solid $primary-color; color:#fff; } 
+} // transparent button
+
+.button-sub, a.button-sub { @extend %button; background: #b6b6b6; color: #fff;
+	&:hover { background: #8c8c8c; color: #fff; } 
+} 
+
+.button__s { padding: 8px 16px; font-size: 14px;}
+.button__m { padding: 9px 18px !important;  font-size: 15px; }
+.button__l { padding: 11px 22px !important; font-size: 18px; }
+.button__xl { padding: 13px 24px !important; font-size: 21px; }
+.button__xxl { padding: 13px 24px !important; font-size: 24px; }
+.button__wide { min-width: 250px; }
+
+
+.button__l-special { padding: 11px 22px !important; font-size: 18px; 
+	@include breakpoint-s(800px) { padding: 11px 16px !important; font-size: 16px; min-width: 120px;  }
+}
+
+
+// input
+
+input { box-shadow: none; }
+input[type="button"]:focus, button[type="button"]:focus { outline: none; }
+ 
+#{$all-inputs-list}, textarea.form-control { border:none; background: rgba(0,0,0,0.46); font-size: 20px; @include transition( all 0.3s ease-in-out ); @include border-radius(0px); box-shadow: none; color: white;
+	&:hover { background: rgba(0,0,0,0.30); }
+	&:focus { background: rgba(255,255,255,0.95); color: #404040; border-color: $primary-color; outline: none; @include box-shadow(none); }
+	
+	&.has-error { border: 1px solid #eb0000; }
+
+}
+
+/*
+#{$all-inputs-list}, textarea.form-control { border:none; background: rgba(0,0,0,0.16); font-size: 20px; @include transition( all 0.3s ease-in-out ); @include border-radius(0px); box-shadow: none; color: white;
+	&:hover { background: rgba(0,0,0,0.25); }
+	&:focus { background: rgba(0,0,0,0.35); border-color: $primary-color; outline: none; @include box-shadow(none); }
+	
+	&.has-error { border: 1px solid #eb0000; }
+
+}*/
+
+.c-form-label { margin-bottom: 10px; opacity: 0.8; font-size: 20px; } 
+
+
+// margins
+.no-margin { margin: 0 !important; }
+.margin-top-0 { margin-top: 0px !important; }
+.margin-top-5 { margin-top: 5px !important; }
+.margin-top-10 { margin-top: 10px !important; }
+.margin-top-20 { margin-top: 20px !important; }
+.margin-top-30 { margin-top: 30px !important; }
+.margin-right-10 { margin-right: 10px !important; }
+.margin-right-20 { margin-right: 20px !important; }
+.margin-bottom-0 { margin-bottom: 0px !important; }
+.margin-bottom-5 { margin-bottom: 5px !important; }
+.margin-bottom-10 { margin-bottom: 10px !important; }
+.margin-bottom-20 { margin-bottom: 20px !important; }
+.margin-bottom-30 { margin-bottom: 30px !important; }
+.margin-bottom-40 { margin-bottom: 40px !important; }
+.margin-bottom-60 { margin-bottom: 60px !important; }
+.margin-left-5 { margin-left: 5px !important; }
+.margin-left-10 { margin-left: 10px !important; }
+.margin-left-20 { margin-left: 20px !important; }
+.margin-left-30 { margin-left: 30px !important; }
+
+
+
+// Layouts
+
+.l-full-width { width: 100%; }
+.l-general-container { margin:0 auto; padding: 0 0px; position: relative; } 
+.l-marketing-container {  max-width: 1980px; min-height: 100px; padding: 40px 0px 40px; margin:0 auto; position:relative; } 
+.l-marketing-container--s { padding: 30px 0 30px; }
+.l-marketing-container--xs { padding: 20px 0 20px; }
+.l-main-container { padding: 80px 0 40px; min-height: 570px; } // padding between header and top on all pages except homepage.
+.l-main-container--home-page { padding-top: 0px; }
+
+.l-row-container-m { max-width: 1000px; }
+.l-row-container-ml { max-width: 1200px; }
+.l-row-container-l { max-width: 1400px; }
+.l-row-container-xl { max-width: 1600px; }
+.l-row-container-max { width: 100%; max-width: none; }
+.l-row-container-padding { padding: 25px 15px; 
+	 @include breakpoint(small) { padding: 25px 0px; }
+
+}  /*being used when there is only retangle shaped container.*/
+
+
+.l-limited-shell-l{ max-width: 700px;}
+.l-limited-shell-ml{ max-width: 600px;}
+.l-limited-shell-m{ max-width: 500px;}
+@media (max-width: 750px) {
+	.bg--cover {
+	    background-size: cover !important;
+	}
+}
+
+.bg--white { background: white; }
+.bg--lightgrey { background: $lightgrey; }
+
+
+

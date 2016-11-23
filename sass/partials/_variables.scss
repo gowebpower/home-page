@@ -1,0 +1,94 @@
+// primary-color is in setting.scss of foundation.
+
+
+// lato font from google font.  
+//@import url(http://fonts.googleapis.com/css?family=Roboto:300,100);
+//@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,100);
+
+// colors
+$text-color: $gray-dark;
+
+$primary-color: $brand-primary; /* $brand-primary from bs */
+$primary-color-light: lighten($primary-color, 13%);
+
+
+$link-color: $primary-color;   /* there are also same link-color variable in bs */
+$link-color-hover: darken($primary-color, 13%);
+
+
+
+// extends
+
+%font-body { font-family: 'Lato', Open Sans, sans-serif; font-weight: 300; line-height: 1.4em; font-size: 18px; }
+%font-header { font-family:  'Lato', Open Sans, "Helvetica", Helvetica, Arial, sans-serif; font-weight: 300; }
+
+//General colors
+$lightgrey: #F3F3F3;
+$grey: #e2e2e2;
+
+
+
+//all input 
+
+$all-inputs-list: 'input[type="email"]',
+	              'input[type="number"]',
+	              'input[type="password"]',
+	              'input[type="search"]',
+	              'input[type="tel"]',
+	              'input[type="text"]',
+	              'input[type="url"]',
+
+	              // Webkit & Gecko may change the display of these in the future
+	              'input[type="color"]',
+	              'input[type="date"]',
+	              'input[type="datetime"]',
+	              'input[type="datetime-local"]',
+	              'input[type="month"]',
+	              'input[type="time"]',
+	              'input[type="week"]';
+
+$all-inputs-list-hover: ();
+@each $input-type in $all-inputs-list {
+	$all-inputs-list-hover: append($all-inputs-list-hover, unquote('#{$input-type}:hover'), comma);
+}
+
+/*usage
+	 
+#{$all-inputs-list}, 
+textarea,
+select { ... }
+
+#{$all-inputs-list-hover}, 
+textarea:hover, 
+textarea:focus,
+select:hover,
+select:focus { ... }
+
+ */
+
+
+
+// z-index Control ---------------------------------------------------------------
+
+// z-index values
+/* example z-index: z("modal");  z-index: z("modal") - 1; */
+
+@function z($layer) {
+  @return map-get($z-layers, $layer);
+}
+
+/* mapping ( array ) */
+
+$z-layers: (
+  modal     : 9000, 
+  overlay   : 8000,
+  dropdown  : 6000,
+  header    : 4000,
+  footer    : 2000,
+  content   : 1000
+);
+
+
+ 
+ 
